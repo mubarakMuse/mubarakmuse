@@ -41,8 +41,8 @@ export async function POST(req) {
   try {
     switch (eventType) {
       case "checkout.session.completed": {
-        // First payment is successful and the subscription is created | or the subscription was canceled so create new one
-
+        // First payment is successful and a subscription is created (if mode was set to "subscription" in ButtonCheckout)
+        // ✅ Grant access to the product
         const session = await findCheckoutSession(data.object.id);
 
         const customerId = session?.customer;
@@ -52,33 +52,15 @@ export async function POST(req) {
 
         if (!plan) break;
 
-        const customer = await stripe.customers.retrieve(customerId);
-
-        let user;
-
-        // Get or create the user. userId is normally pass in the checkout session (clientReferenceID) to identify the user when we get the webhook event
-        if (userId) {
-          user = await User.findById(userId);
-        } else if (customer.email) {
-          user = await User.findOne({ email: customer.email });
-
-          if (!user) {
-            user = await User.create({
-              email: customer.email,
-              name: customer.name,
-            });
-
-            await user.save();
-          }
-        } else {
-          console.error("No user found");
-          throw new Error("No user found");
-        }
-
-        // update user data (for instance add credits)
-        user.priceId = priceId;
-        user.customerId = customerId;
-        await user.save();
+        // Update the profile where id equals the userId (in table called 'profiles') and update the customer_id, price_id, and has_access (provisioning)
+        await supabase
+          .from("profiles")
+          .update({
+            customer_id: customerId,
+            price_id: priceId,
+            has_access: true,
+          })
+          .eq("id", userId);
 
         // Extra: send email with user link, product page, etc...
         // try {
@@ -106,26 +88,40 @@ export async function POST(req) {
       case "customer.subscription.deleted": {
         // The customer subscription stopped
         // ❌ Revoke access to the product
-        // The customer might have changed the plan (higher or lower plan, cancel soon etc...)
-        // You don't need to do anything here, because Stripe will let us know when the subscription is canceled for good (at the end of the billing cycle) in the "customer.subscription.deleted" event
-        // You can update the user data to show a "Cancel soon" badge for instance
-        break;
-      }
-
-      case "customer.subscription.deleted": {
-        // The customer subscription stopped
-        // ❌ Revoke access to the product
         const subscription = await stripe.subscriptions.retrieve(
           data.object.id
         );
-        const planId = subscription?.items?.data[0]?.price?.id;
-        // Do any operation here
+
+        await supabase
+          .from("profiles")
+          .update({ has_access: false })
+          .eq("customer_id", subscription.customer);
+
         break;
       }
 
-      case "customer.subscription.deleted": {
-        // The customer stopped the subscription.
-        // Do any operation here
+      case "invoice.paid": {
+        // Customer just paid an invoice (for instance, a recurring payment for a subscription)
+        // ✅ Grant access to the product
+        const priceId = data.object.lines.data[0].price.id;
+        const customerId = data.object.customer;
+
+        // Find profile where customer_id equals the customerId (in table called 'profiles')
+        const { data: profile } = await supabase
+          .from("profiles")
+          .select("*")
+          .eq("customer_id", customerId)
+          .single();
+
+        // Make sure the invoice is for the same plan (priceId) the user subscribed to
+        if (profile.price_id !== priceId) break;
+
+        // Grant the profile access to your product. It's a boolean in the database, but could be a number of credits, etc...
+        await supabase
+          .from("profiles")
+          .update({ has_access: true })
+          .eq("customer_id", customerId);
+
         break;
       }
 
@@ -142,7 +138,7 @@ export async function POST(req) {
       // Unhandled event type
     }
   } catch (e) {
-    console.error("stripe error: ", e.message);
+    console.error("stripe error: " + e.message + "EVENT TYPE: " + eventType);
   }
 
   return NextResponse.json({});

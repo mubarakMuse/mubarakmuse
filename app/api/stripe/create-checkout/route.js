@@ -2,8 +2,6 @@ import { NextResponse } from "next/server";
 import { createRouteHandlerClient } from "@supabase/auth-helpers-nextjs";
 import { cookies } from "next/headers";
 import { createCheckout } from "@/libs/stripe";
-import connectMongo from "@/libs/mongoose";
-import User from "@/models/User";
 
 // This function is used to create a Stripe Checkout Session (one-time payment or subscription)
 // It's called by the <ButtonCheckout /> component
