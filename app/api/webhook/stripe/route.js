@@ -1,9 +1,8 @@
 import { NextResponse } from "next/server";
 import { headers } from "next/headers";
 import Stripe from "stripe";
-import connectMongo from "@/libs/mongoose";
+import { SupabaseClient } from "@supabase/supabase-js";
 import configFile from "@/config";
-import User from "@/models/User";
 import { findCheckoutSession } from "@/libs/stripe";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
@@ -14,8 +13,6 @@ const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
 // By default, it'll store the user in the database
 // See more: https://shipfa.st/docs/features/payments
 export async function POST(req) {
-  await connectMongo();
-
   const body = await req.text();
 
   const signature = headers().get("stripe-signature");
@@ -35,11 +32,16 @@ export async function POST(req) {
   data = event.data;
   eventType = event.type;
 
+  // Create a private supabase client using the secret service_role API key
+  const supabase = new SupabaseClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL,
+    process.env.SUPABASE_SERVICE_ROLE_KEY
+  );
+
   try {
     switch (eventType) {
       case "checkout.session.completed": {
-        // First payment is successful and a subscription is created (if mode was set to "subscription" in ButtonCheckout)
-        // ✅ Grant access to the product
+        // First payment is successful and the subscription is created | or the subscription was canceled so create new one
 
         const session = await findCheckoutSession(data.object.id);
 
@@ -73,10 +75,9 @@ export async function POST(req) {
           throw new Error("No user found");
         }
 
-        // Update user data + Grant user access to your product. It's a boolean in the database, but could be a number of credits, etc...
+        // update user data (for instance add credits)
         user.priceId = priceId;
         user.customerId = customerId;
-        user.hasAccess = true;
         await user.save();
 
         // Extra: send email with user link, product page, etc...
@@ -106,33 +107,25 @@ export async function POST(req) {
         // The customer subscription stopped
         // ❌ Revoke access to the product
         // The customer might have changed the plan (higher or lower plan, cancel soon etc...)
-        const subscription = await stripe.subscriptions.retrieve(
-          data.object.id
-        );
-        const user = await User.findOne({ customerId: subscription.customer });
-
-        // Revoke access to your product
-        user.hasAccess = false;
-        await user.save();
-
+        // You don't need to do anything here, because Stripe will let us know when the subscription is canceled for good (at the end of the billing cycle) in the "customer.subscription.deleted" event
+        // You can update the user data to show a "Cancel soon" badge for instance
         break;
       }
 
-      case "invoice.paid": {
-        // Customer just paid an invoice (for instance, a recurring payment for a subscription)
-        // ✅ Grant access to the product
-        const priceId = data.object.lines.data[0].price.id;
-        const customerId = data.object.customer;
+      case "customer.subscription.deleted": {
+        // The customer subscription stopped
+        // ❌ Revoke access to the product
+        const subscription = await stripe.subscriptions.retrieve(
+          data.object.id
+        );
+        const planId = subscription?.items?.data[0]?.price?.id;
+        // Do any operation here
+        break;
+      }
 
-        const user = await User.findOne({ customerId });
-
-        // Make sure the invoice is for the same plan (priceId) the user subscribed to
-        if (user.priceId !== priceId) break;
-
-        // Grant user access to your product. It's a boolean in the database, but could be a number of credits, etc...
-        user.hasAccess = true;
-        await user.save();
-
+      case "customer.subscription.deleted": {
+        // The customer stopped the subscription.
+        // Do any operation here
         break;
       }
 
@@ -149,7 +142,7 @@ export async function POST(req) {
       // Unhandled event type
     }
   } catch (e) {
-    console.error("stripe error: " + e.message + " | EVENT TYPE: " + eventType);
+    console.error("stripe error: ", e.message);
   }
 
   return NextResponse.json({});

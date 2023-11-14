@@ -1,7 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-import { useSession, signIn } from "next-auth/react";
+import { useState, useEffect } from "react";
+import { createClientComponentClient } from "@supabase/auth-helpers-nextjs";
 import { useRouter } from "next/navigation";
 import config from "@/config";
 
@@ -10,13 +11,24 @@ import config from "@/config";
 // If the user is already logged in, it will show their profile picture & redirect them to callbackUrl immediately.
 const ButtonSignin = ({ text = "Get started", extraStyle }) => {
   const router = useRouter();
-  const { data: session, status } = useSession();
+  const supabase = createClientComponentClient();
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    const getUser = async () => {
+      const { data } = await supabase.auth.getUser();
+
+      setUser(data.user);
+    };
+
+    getUser();
+  }, [supabase]);
 
   const handleClick = () => {
-    if (status === "authenticated") {
+    if (user) {
       router.push(config.auth.callbackUrl);
     } else {
-      signIn(undefined, { callbackUrl: config.auth.callbackUrl });
+      router.push(config.auth.loginUrl);
     }
   };
 
@@ -25,12 +37,12 @@ const ButtonSignin = ({ text = "Get started", extraStyle }) => {
       className={`btn ${extraStyle ? extraStyle : ""}`}
       onClick={handleClick}
     >
-      {status === "authenticated" ? (
+      {user ? (
         <>
-          {session.user?.image ? (
+          {user?.user_metadata?.avatar_url ? (
             <img
-              src={session.user?.image}
-              alt={session.user?.name || "Account"}
+              src={user?.user_metadata?.avatar_url}
+              alt={user?.user_metadata?.name || "Account"}
               className="w-6 h-6 rounded-full shrink-0"
               referrerPolicy="no-referrer"
               width={24}
@@ -38,10 +50,10 @@ const ButtonSignin = ({ text = "Get started", extraStyle }) => {
             />
           ) : (
             <span className="w-6 h-6 bg-base-300 flex justify-center items-center rounded-full shrink-0">
-              {session.user?.name?.charAt(0) || session.user?.email?.charAt(0)}
+              {user?.user_metadata?.name?.charAt(0) || user?.email?.charAt(0)}
             </span>
           )}
-          {session.user?.name || session.user?.email || "Account"}
+          {user?.user_metadata?.name || user?.email || "Account"}
         </>
       ) : (
         text
