@@ -29,7 +29,7 @@ const CrispChat = () => {
       }
     };
     getUser();
-  }, []);
+  },);
 
   useEffect(() => {
     if (config?.crisp?.id) {
