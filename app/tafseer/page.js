@@ -22,8 +22,11 @@ const LandingPage = () => {
         </Link>
     <div className="bg-gray-100 min-h-screen text-center flex items-center justify-center">
       <div className="bg-gray-100 w-full sm:w-4/5 md:w-3/5 lg:w-2/5 xl:w-1/3 p-6 rounded-lg shadow-lg">
-        <h1 className="text-3xl font-semibold mb-4">Ibn-Abbas Tafseer Institute</h1>
-        <p className="text-xl font-semibold mb-4"> Sign-Up form below</p>
+        <h1 className="text-3xl font-semibold mb-4">Mubarak&apos;s Tafseer Class</h1>
+        <p className="text-xl font-semibold mb-4"> Sign-Up form (Details Below)</p>
+        <div className="mt-4 mb-8">
+          <TafseerSignUpForm />
+        </div>
 
         <div className="space-y-4">
           <div className="border   bg-blue-200 rounded-lg p-4">
@@ -134,24 +137,7 @@ const LandingPage = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                Online (Zoom)
-              </li>
-              <li className="flex items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 text-blue-500 mr-2"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
-                Monthly In-Person Meeting
+                In-Person Class + Online (Zoom)
               </li>
             </ul>
           </div>
@@ -169,20 +155,20 @@ const LandingPage = () => {
           </div>
           <div className="border bg-blue-200 rounded-lg p-4">
             <h2 className="text-xl font-semibold">Class Size</h2>
-            <p className="mt-2">Limited to 20 Students</p>
+            <p className="mt-2">Limited to 20 Students only</p>
           </div>
           <div className="border  bg-blue-200 rounded-lg p-4">
             <h2 className="text-xl font-semibold">Price</h2>
-            <p className="mt-2">$50/Month</p>
+            <p className="mt-2">Startting at $50/Month (Free scholorships avaialble) </p>
           </div>
           <div className="border  bg-blue-200 rounded-lg p-4">
             <h2 className="text-xl font-semibold">Contact Information</h2>
             <p className="mt-2">Macalin Mubarak: 612-814-9554</p>
+            <p className="mt-2">Mubarak014@gmail.com</p>
+
           </div>
         </div>
-        <div className="mt-4">
-          <TafseerSignUpForm />
-        </div>
+        
       </div>
     </div>
     </>

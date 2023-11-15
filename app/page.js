@@ -29,8 +29,8 @@ const page = () => {
     ],
     socialLinks: [
       {
-        title: 'Instagram',
-        url: 'https://www.instagram.com/mubarakmuse',
+        title: 'LinkedIn',
+        url: 'hhttps://www.linkedin.com/in/mubarak-muse/',
       },
       {
         title: 'Twitter',
