@@ -41,7 +41,7 @@ const Resume = () => {
               <p className="text-gray-700">Software Engineer</p>
               <p className="text-gray-600">08/2022 - 03/2023</p>
               <ul className="list-disc ml-8">
-                <li>Developed a full-stack logistics dashboard to provide real-time insights into Amazon's freight operations.</li>
+                <li>{`Developed a full-stack logistics dashboard to provide real-time insights into Amazon's freight operations`}.</li>
                 <li>Designed and implemented a system for bulk updating Amazon truck routes during national emergencies.</li>
               </ul>
             </div>
