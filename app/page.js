@@ -1,7 +1,7 @@
 // pages/profile.js
 import React from 'react';
 
-const page = () => {
+const Profile = () => {
   const profileInfo = {
     name: 'Mubarak Muse',
     location: 'Minneapolis, Minnesota, USA',
@@ -17,8 +17,8 @@ const page = () => {
         url: 'https://BrighterTunnel.com',
       },
       {
-        title: `Ibn Abaas Tafseer Institute`,
-        description: 'An Institute that teaches young Muslims the meaning of the Quran from cover to cover.',
+        title: `Childrens' Tafseer Class`,
+        description: 'An class that teaches young Muslims children the meaning of the Quran from cover to cover.',
         url: '/tafseer',
       },
       {
@@ -26,11 +26,16 @@ const page = () => {
         description: 'The #1 Marketplace for Modest Fashion',
         url: 'https://bakaaro.netlify.app',
       },
+      {
+        title: `Resume`,
+        description: 'A Digital Copy Of My Resume',
+        url: '/resume',
+      },
     ],
     socialLinks: [
       {
         title: 'LinkedIn',
-        url: 'hhttps://www.linkedin.com/in/mubarak-muse/',
+        url: 'https://www.linkedin.com/in/mubarak-muse/',
       },
       {
         title: 'Twitter',
@@ -92,4 +97,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Profile;
