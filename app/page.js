@@ -17,6 +17,11 @@ const Profile = () => {
         url: 'https://BrighterTunnel.com',
       },
       {
+        title: `eisenhower-matrix`,
+        description: 'a unique way to orginze your task eisenhower matrix',
+        url: '/taskflow',
+      },
+      {
         title: `Childrens' Tafseer Class`,
         description: 'An class that teaches young Muslims children the meaning of the Quran from cover to cover.',
         url: '/tafseer',
