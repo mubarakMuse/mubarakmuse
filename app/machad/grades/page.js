@@ -129,12 +129,16 @@ const Grades = () => {
           <h3 className="text-xl font-bold mb-4 text-center">
             Student: {studentRecords.name}
           </h3>
+          <div className="assessments-details">
+            <h4 className="font-semibold text-blue-700 mb-2">Assessments:</h4>
+            {renderRecordDetails(studentRecords.assessments)}
+          </div>
           <div className="attendance-details mb-6">
             <h4 className="font-semibold text-blue-700 mb-2">Attendance:</h4>
             {renderRecordDetails(studentRecords.attendance)}
           </div>
           <div className="homework-details mb-6">
-            <h4 className="font-semibold text-blue-700 mb-2">Quran </h4>
+            <h4 className="font-semibold text-blue-700 mb-2">Quran</h4>
             <p className="font-semibold text-sm mb-2">
               {"Passed Quran " +
                 (Object.entries(studentRecords.homework).length - 2) +
@@ -144,10 +148,7 @@ const Grades = () => {
             </p>
             {renderRecordDetails(studentRecords.homework)}
           </div>
-          <div className="assessments-details">
-            <h4 className="font-semibold text-blue-700 mb-2">Assessments:</h4>
-            {renderRecordDetails(studentRecords.assessments)}
-          </div>
+         
         </div>
       )}
     </div>

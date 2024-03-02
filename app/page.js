@@ -6,11 +6,11 @@ const Profile = () => {
     name: 'Mubarak Muse',
     location: 'Minneapolis, Minnesota, USA',
     bioCards: [
-      {
-        title: `Muse's List`,
-        description: 'A service that finds the best apartment for you based on your preferences in less than 24 hours',
-        url: 'https://museslist.com',
-      },
+      // {
+      //   title: `Muse's List`,
+      //   description: 'A service that finds the best apartment for you based on your preferences in less than 24 hours',
+      //   url: 'https://museslist.com',
+      // },
       {
         title: `Brighter Tunnel`,
         description: 'A Software engineering mock interviewing Service.',
@@ -26,11 +26,11 @@ const Profile = () => {
         description: 'An class that teaches young Muslims children the meaning of the Quran from cover to cover.',
         url: '/tafseer',
       },
-      {
-        title: `Bakaaro`,
-        description: 'The #1 Marketplace for Modest Fashion',
-        url: 'https://bakaaro.netlify.app',
-      },
+      // {
+      //   title: `Bakaaro`,
+      //   description: 'The #1 Marketplace for Modest Fashion',
+      //   url: 'https://bakaaro.netlify.app',
+      // },
       {
         title: `Resume`,
         description: 'A Digital Copy Of My Resume',
@@ -42,10 +42,10 @@ const Profile = () => {
         title: 'LinkedIn',
         url: 'https://www.linkedin.com/in/mubarak-muse/',
       },
-      {
-        title: 'Twitter',
-        url: 'https://twitter.com/mubarakmuse_',
-      },
+      // {
+      //   title: 'Twitter',
+      //   url: 'https://twitter.com/mubarakmuse_',
+      // },
       {
         title: 'Email',
         url: 'mailto:Mubarak014@gmail.com',
