@@ -1,10 +1,12 @@
-// pages/profile.js
-import React from 'react';
+import React from "react";
+import Image from "next/image";
+import img from "@/app/picofme.png";
 
 const Profile = () => {
   const profileInfo = {
-    name: 'Mubarak Muse',
-    location: 'Minneapolis, Minnesota, USA',
+    name: "Mubarak Muse",
+    location: "Minneapolis, Minnesota, USA",
+    bio: "Software Engineers, entrepreneur and Islamic Educator.",
     bioCards: [
       // {
       //   title: `Muse's List`,
@@ -13,18 +15,19 @@ const Profile = () => {
       // },
       {
         title: `Brighter Tunnel`,
-        description: 'A Software engineering mock interviewing Service.',
-        url: 'https://BrighterTunnel.com',
+        description: "Technical Interviewing as Service for tech companies ",
+        url: "https://BrighterTunnel.com",
       },
       {
-        title: `eisenhower-matrix`,
-        description: 'a unique way to orginze your task eisenhower matrix',
-        url: '/taskflow',
+        title: `TaskFlow: Task Managment`,
+        description: "a unique way to orginze your tasks using the eisenhower matrix",
+        url: "/taskflow",
       },
       {
-        title: `Childrens' Tafseer Class`,
-        description: 'An class that teaches young Muslims children the meaning of the Quran from cover to cover.',
-        url: '/tafseer',
+        title: `Tafseer Course`,
+        description:
+          "Tafseer classes for High School and Middle School Students",
+        url: "/tafseer",
       },
       // {
       //   title: `Bakaaro`,
@@ -33,70 +36,81 @@ const Profile = () => {
       // },
       {
         title: `Resume`,
-        description: 'A Digital Copy Of My Resume',
-        url: '/resume',
+        description: "A Digital Copy Of My Resume",
+        url: "/resume",
       },
     ],
     socialLinks: [
       {
-        title: 'LinkedIn',
-        url: 'https://www.linkedin.com/in/mubarak-muse/',
-      },
-      // {
-      //   title: 'Twitter',
-      //   url: 'https://twitter.com/mubarakmuse_',
-      // },
-      {
-        title: 'Email',
-        url: 'mailto:Mubarak014@gmail.com',
+        title: "LinkedIn",
+        url: "https://www.linkedin.com/in/mubarak-muse/",
       },
       {
-        title: 'GitHub',
-        url: 'https://github.com/mubarakmuse',
+        title: "Twitter",
+        url: "https://twitter.com/mubarakmuse_",
+      },
+      {
+        title: "Email",
+        url: "mailto:Mubarak014@gmail.com",
+      },
+      {
+        title: "GitHub",
+        url: "https://github.com/mubarakmuse",
       },
     ],
   };
 
   return (
-    <div className="bg-gray-100 min-h-screen flex flex-col items-center justify-center p-8 text-center">
-      <img
-        src="https://avatars.githubusercontent.com/u/26447565?v=4"
-        alt="Profile Picture"
-        className="w-40 h-40 rounded-full mx-auto mb-4"
-      />
-      <h1 className="text-3xl font-semibold">{profileInfo.name}</h1>
-      <p className="text-gray-500">{profileInfo.location}</p>
-      <div className="flex justify-center mt-4 space-x-4">
-        {profileInfo.socialLinks.map((socialLink, index) => (
-          <a
-            key={index}
-            href={socialLink.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
-            {socialLink.title}
-          </a>
-        ))}
-      </div>
-      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
-        {profileInfo.bioCards.map((card, index) => (
-          <div
-            key={index}
-            className="bg-white p-4 rounded shadow-md hover:shadow-lg transition duration-300"
-          >
-            <h2 className="text-xl font-semibold">{card.title}</h2>
-            <p className="text-gray-600">{card.description}</p>
-            <a
-              href={card.url}
-              className="mt-2 btn bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-full"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn More
-            </a>
+    <div className="bg-gray-100 min-h-screen p-8">
+      <div className="max-w-4xl mx-auto bg-white rounded-lg overflow-hidden shadow-lg">
+        <div className="text-center p-8 border-b">
+          <Image
+            src={img}
+            alt="Profile Picture"
+            width={160} // specify width
+            height={160} // and height
+            className="rounded-full mx-auto"
+          />
+          <h1 className="text-3xl font-semibold mt-4">{profileInfo.name}</h1>
+          <p className="text-gray-500">{profileInfo.location}</p>
+          <p className="text-gray-600 mt-2">{profileInfo.bio}</p>
+        </div>
+        <div className="p-4">
+          <div className="flex text-center justify-center space-x-4 mb-4">
+            {profileInfo.socialLinks.map((socialLink, index) => (
+              <a
+                key={index}
+                href={socialLink.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:text-blue-700 transition duration-200"
+              >
+                {socialLink.title}
+              </a>
+            ))}
           </div>
-        ))}
+          <div className="grid text-center grid-cols-1 md:grid-cols-2 gap-6">
+            {profileInfo.bioCards.map((card, index) => (
+              <div
+                key={index}
+                className="bg-blue-100 p-6 rounded-lg shadow hover:shadow-md transition duration-300"
+              >
+                <h2 className="text-xl font-semibold text-blue-800">
+                  {card.title}
+                </h2>
+                <p className="text-gray-700 mt-3">{card.description}</p>
+                <a
+                  href={card.url}
+                  className="inline-block mt-4 bg-blue-600 text-white py-2 px-6 rounded-full hover:bg-blue-700 transition duration-200"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Explore
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
