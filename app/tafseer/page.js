@@ -51,7 +51,7 @@ const TafseerCourses = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-800">Tafseer Classes Enrollment</h2>
-          <p className="mt-4 text-xl text-gray-600">Select the class that best fits your child's age group.</p>
+          <p className="mt-4 text-xl text-gray-600">{"Select the class that best fits your child's age group."}</p>
         </div>
 
 
