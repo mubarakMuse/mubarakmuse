@@ -9,7 +9,7 @@ const TafseerCourses = () => {
       id: 'high-school',
       title: 'High School Tafseer (online available)',
       day: 'Sundays',
-      time: '12:30 PM - 2:30 PM Minnesota (6:30 PM - 8:30 PM London)',
+      time: '12:30 PM - 2:30 PM Minnesota (5:30 PM - 7:30 PM UK Time)',
       location: 'Minneapolis, MN [in-person or Online via Zoom]',
       ages: '13-18 years old',
       cost: '$50/Month',
