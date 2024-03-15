@@ -59,7 +59,7 @@ const TafseerCourses = () => {
           {courses.map((course) => (
             <div key={course.id} className="bg-blue-100 rounded-xl p-8 shadow-lg transform transition duration-500 hover:scale-105">
               <h3 className="text-2xl font-bold text-blue-800 mb-3">{course.title}</h3>
-              <div className="text-gray-700 mb-4">
+              <div className="text-black mb-4">
                 <p>Day: {course.day}</p>
                 <p>Time: {course.time}</p>
                 <p>Location: {course.location}</p>
