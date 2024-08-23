@@ -212,7 +212,7 @@ const CodingGuide = () => {
           </a>
           .
         </li>
-        <li>Build personal projects to apply what you've learned and showcase your skills.</li>
+        <li>Build personal projects to apply what you have learned and showcase your skills.</li>
         <li>Contribute to open-source projects to gain practical experience.</li>
       </ul>
       
