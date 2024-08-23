@@ -6,34 +6,29 @@ const Profile = () => {
   const profileInfo = {
     name: "Mubarak Muse",
     location: "Minneapolis, Minnesota, USA",
-    bio: "Software Engineers, entrepreneur and Islamic Educator.",
     bioCards: [
-      // {
-      //   title: `Muse's List`,
-      //   description: 'A service that finds the best apartment for you based on your preferences in less than 24 hours',
-      //   url: 'https://museslist.com',
-      // },
       {
         title: `Brighter Tunnel`,
-        description: "Technical Interviewing as Service for tech companies ",
+        description: "Technical Interviewing as a Service for tech companies",
         url: "https://BrighterTunnel.com",
       },
       {
-        title: `TaskFlow: Task Managment`,
-        description: "a unique way to orginze your tasks using the eisenhower matrix",
+        title: `TaskFlow: Task Management`,
+        description:
+          "A unique way to organize your tasks using the Eisenhower matrix",
         url: "/taskflow",
       },
-      {
-        title: `Tafseer Course`,
-        description:
-          "Tafseer classes for High School and Middle School Students",
-        url: "/tafseer",
-      },
       // {
-      //   title: `Bakaaro`,
-      //   description: 'The #1 Marketplace for Modest Fashion',
-      //   url: 'https://bakaaro.netlify.app',
+      //   title: `Tafseer Course`,
+      //   description:
+      //     "Tafseer classes for High School and Middle School Students",
+      //   url: "/tafseer",
       // },
+      {
+        title: `Learn to Code in 55 Hours`,
+        description: "A comprehensive guide to learning how to code in just 55 hours.",
+        url: "/coding", // Assuming this is the route for the guide
+      },
       {
         title: `Resume`,
         description: "A Digital Copy Of My Resume",
@@ -67,8 +62,8 @@ const Profile = () => {
           <Image
             src={img}
             alt="Profile Picture"
-            width={160} // specify width
-            height={160} // and height
+            width={160}
+            height={160}
             className="rounded-full mx-auto"
           />
           <h1 className="text-3xl font-semibold mt-4">{profileInfo.name}</h1>

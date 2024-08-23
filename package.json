@@ -17,6 +17,7 @@
     "airtable": "^0.12.2",
     "axios": "^1.4.0",
     "crisp-sdk-web": "^1.0.21",
+    "emailjs-com": "^3.2.0",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.19",
     "form-data": "^4.0.0",
