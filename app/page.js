@@ -9,7 +9,7 @@ const Profile = () => {
     bioCards: [
       {
         title: `Brighter Tunnel`,
-        description: "Technical Interviewing as a Service for tech companies",
+        description: "software development company dedicated to crafting tailored solutions",
         url: "https://BrighterTunnel.com",
       },
       {
