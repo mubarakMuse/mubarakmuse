@@ -1,5 +1,4 @@
 import { Inter } from "next/font/google";
-import PlausibleProvider from "next-plausible";
 import { getSEOTags } from "@/libs/seo";
 import ClientLayout from "@/components/LayoutClient";
 import config from "@/config";
@@ -26,8 +25,12 @@ export default function RootLayout({ children }) {
 
       {config.domainName && (
         <head>
-          <PlausibleProvider domain={config.domainName} />
-          
+          <script
+            defer
+            data-website-id="dfid_9xdiiyMuZ99ROW0o53zh0"
+            data-domain="mubarakmuse.com"
+            src="https://datafa.st/js/script.js"
+          />
         </head>
       )}
       <body>
