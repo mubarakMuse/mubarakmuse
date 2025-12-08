@@ -2,6 +2,14 @@
 import React from 'react';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { getSEOTags } from "@/libs/seo";
+
+export const metadata = getSEOTags({
+  title: "Mubarak Muse - Resume | Software Engineer",
+  description: "Software engineer resume with experience at Amazon, Collective Health, and BrighterTunnel. Full-stack developer specializing in Java, JavaScript, Python, and AWS.",
+  keywords: ["Mubarak Muse", "resume", "software engineer", "full-stack developer", "Amazon", "Minneapolis", "BrighterTunnel"],
+  canonicalUrlRelative: "/resume",
+});
 
 const Resume = () => {
   return (

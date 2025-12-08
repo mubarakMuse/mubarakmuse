@@ -7,9 +7,9 @@ import Footer from "@/components/Footer";
 import { getSEOTags } from "@/libs/seo";
 
 export const metadata = getSEOTags({
-  title: "Mubarak Muse - Software Engineer & Consultant",
-  description: "Software engineer and consultant offering technical screening services through BrighterTunnel and custom software consulting. Based in Minneapolis, Minnesota.",
-  keywords: ["Mubarak Muse", "software engineer", "consultant", "technical screening", "BrighterTunnel", "software consulting", "Minneapolis"],
+  title: "Mubarak Muse - Entrepreneur & Software Engineer",
+  description: "Home for launching and building business ideas, products, and ventures. Software engineer, entrepreneur, and builder based in Minneapolis, Minnesota.",
+  keywords: ["Mubarak Muse", "entrepreneur", "software engineer", "business ideas", "products", "ventures", "Minneapolis"],
   canonicalUrlRelative: "/",
 });
 
@@ -17,19 +17,28 @@ const Profile = () => {
   const profileInfo = {
     name: "Mubarak Muse",
     location: "Minneapolis, Minnesota, USA",
-    services: [
-      {
-        title: `Software Consulting`,
-        description: "General software consulting service - Building software and AI integration solutions for businesses",
-        url: "/consulting",
-        external: false,
-      },
+    // Add your projects, products, or business ventures here
+    // Set external: true for external links, false for internal pages
+    projects: [
       {
         title: `BrighterTunnel`,
         description: "Live technical screening interview service for businesses - A Karat.com alternative",
         url: "/brighter-tunnel",
         external: false,
       },
+      {
+        title: `Software Consulting`,
+        description: "General software consulting service - Building software and AI integration solutions for businesses",
+        url: "/consulting",
+        external: false,
+      },
+      // Add more projects here as you launch them:
+      // {
+      //   title: "Your New Product",
+      //   description: "Description of your product or service",
+      //   url: "/your-product-page", // or "https://external-link.com" for external
+      //   external: false, // or true for external links
+      // },
     ],
     socialLinks: [
       {
@@ -74,7 +83,11 @@ const Profile = () => {
           <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-3 tracking-tight">
             {profileInfo.name}
           </h1>
-          <p className="text-lg text-indigo-600 mb-6 font-medium">{profileInfo.location}</p>
+          <p className="text-lg text-indigo-600 mb-4 font-medium">{profileInfo.location}</p>
+          <p className="text-base text-gray-600 mb-6 max-w-2xl mx-auto">
+            This is my home for launching and testing business ideas, products, and ventures. 
+            A place to experiment, build, and share what I'm working on.
+          </p>
           
           {/* Social Links */}
           <div className="flex justify-center items-center gap-6 flex-wrap mb-6">
@@ -104,12 +117,12 @@ const Profile = () => {
           </div>
         </div>
 
-        {/* Services Section */}
+        {/* Projects Section */}
         <div className="mb-16">
-          <h2 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-2 text-center">Services</h2>
-          <p className="text-indigo-600 text-center mb-8 font-medium">Software consulting and technical screening services</p>
+          <h2 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-2 text-center">Projects & Ventures</h2>
+          <p className="text-indigo-600 text-center mb-8 font-medium">Launching and testing business ideas, products, and services</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            {profileInfo.services.map((card, index) => (
+            {profileInfo.projects.map((card, index) => (
               <a
                 key={index}
                 href={card.url}
