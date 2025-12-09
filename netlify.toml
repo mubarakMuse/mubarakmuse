@@ -6,3 +6,5 @@
   NPM_FLAGS = "--legacy-peer-deps"
   NPM_CONFIG_LEGACY_PEER_DEPS = "true"
 
+[build.environment]
+  NODE_VERSION = "20"
