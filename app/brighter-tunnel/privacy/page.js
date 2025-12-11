@@ -1,6 +1,4 @@
 import React from "react";
-import BrighterTunnelHeader from "../components/BrighterTunnelHeader";
-import BrighterTunnelFooter from "../components/BrighterTunnelFooter";
 import { getSEOTags } from "@/libs/seo";
 
 export const metadata = getSEOTags({
@@ -12,24 +10,22 @@ export const metadata = getSEOTags({
 
 const BrighterTunnelPrivacy = () => {
   return (
-    <>
-      <BrighterTunnelHeader />
-      <div className="bg-white min-h-screen">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 md:py-20">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Privacy Policy</h1>
-          <p className="text-gray-600 mb-8" suppressHydrationWarning>Last updated: December 8, 2025</p>
+    <div className="bg-white text-black min-h-screen">
+        <div className="max-w-xl mx-auto px-6 py-6">
+          <h1 className="text-xl font-bold mb-4">Privacy Policy</h1>
+          <p className="text-sm text-gray-600 mb-8" suppressHydrationWarning>Last updated: December 8, 2025</p>
 
-          <div className="prose prose-lg max-w-none space-y-8 text-gray-700">
+          <div className="text-sm leading-relaxed space-y-6">
             <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Introduction</h2>
+              <h2 className="text-lg font-bold mb-3">1. Introduction</h2>
               <p>
                 BrighterTunnel ("we," "our," or "us") is committed to protecting your privacy and the privacy of candidates we screen on your behalf. This Privacy Policy explains how we collect, use, disclose, and safeguard information when you use our technical screening services.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">2. Information We Collect</h2>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">From Clients:</h3>
+              <h2 className="text-lg font-bold mb-3">2. Information We Collect</h2>
+              <h3 className="text-sm font-semibold mb-2">From Clients:</h3>
               <ul className="list-disc list-inside space-y-2 ml-4">
                 <li>Company name and contact information</li>
                 <li>Billing and payment information</li>
@@ -37,7 +33,7 @@ const BrighterTunnelPrivacy = () => {
                 <li>Communication records and preferences</li>
               </ul>
               
-              <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">From Candidates:</h3>
+              <h3 className="text-sm font-semibold mb-2 mt-4">From Candidates:</h3>
               <ul className="list-disc list-inside space-y-2 ml-4">
                 <li>Name, contact information, and resume details</li>
                 <li>Interview responses and code samples</li>
@@ -47,7 +43,7 @@ const BrighterTunnelPrivacy = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">3. How We Use Information</h2>
+              <h2 className="text-lg font-bold mb-3">3. How We Use Information</h2>
               <p>We use the information we collect to:</p>
               <ul className="list-disc list-inside space-y-2 ml-4">
                 <li>Conduct technical interviews and assessments</li>
@@ -60,7 +56,7 @@ const BrighterTunnelPrivacy = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">4. Information Sharing and Disclosure</h2>
+              <h2 className="text-lg font-bold mb-3">4. Information Sharing and Disclosure</h2>
               <p>We do not sell, trade, or rent personal information to third parties. We may share information:</p>
               <ul className="list-disc list-inside space-y-2 ml-4">
                 <li>With the client who requested the candidate screening</li>
@@ -71,21 +67,21 @@ const BrighterTunnelPrivacy = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">5. Data Security</h2>
+              <h2 className="text-lg font-bold mb-3">5. Data Security</h2>
               <p>
                 We implement appropriate technical and organizational measures to protect personal information against unauthorized access, alteration, disclosure, or destruction. This includes encryption, secure storage, and access controls.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">6. Data Retention</h2>
+              <h2 className="text-lg font-bold mb-3">6. Data Retention</h2>
               <p>
                 We retain candidate information and interview materials for as long as necessary to provide our services and comply with legal obligations. Client data is retained according to the terms of our service agreement.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">7. Candidate Rights</h2>
+              <h2 className="text-lg font-bold mb-3">7. Candidate Rights</h2>
               <p>Candidates have the right to:</p>
               <ul className="list-disc list-inside space-y-2 ml-4">
                 <li>Access their personal information we hold</li>
@@ -96,47 +92,48 @@ const BrighterTunnelPrivacy = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">8. Cookies and Tracking</h2>
+              <h2 className="text-lg font-bold mb-3">8. Cookies and Tracking</h2>
               <p>
                 We may use cookies and similar tracking technologies to improve our website functionality and user experience. You can control cookie preferences through your browser settings.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">9. Third-Party Links</h2>
+              <h2 className="text-lg font-bold mb-3">9. Third-Party Links</h2>
               <p>
                 Our website may contain links to third-party websites. We are not responsible for the privacy practices of these external sites. We encourage you to review their privacy policies.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">10. Children's Privacy</h2>
+              <h2 className="text-lg font-bold mb-3">10. Children's Privacy</h2>
               <p>
                 Our services are not intended for individuals under the age of 18. We do not knowingly collect personal information from children.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">11. Changes to This Policy</h2>
+              <h2 className="text-lg font-bold mb-3">11. Changes to This Policy</h2>
               <p>
                 We may update this Privacy Policy from time to time. Material changes will be communicated to clients and posted on our website with an updated revision date.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">12. Contact Us</h2>
+              <h2 className="text-lg font-bold mb-3">12. Contact Us</h2>
               <p>
                 If you have questions about this Privacy Policy or wish to exercise your rights regarding personal information, please contact us at{" "}
-                <a href="mailto:mubarak@brightertunnel.com" className="text-blue-600 hover:text-blue-700">
+                <a href="mailto:mubarak@brightertunnel.com" className="underline">
                   mubarak@brightertunnel.com
                 </a>
               </p>
             </section>
           </div>
+          <div className="mt-8">
+            <a href="/brighter-tunnel" className="underline text-sm">← Back to BrighterTunnel</a>
+          </div>
         </div>
-      </div>
-      <BrighterTunnelFooter />
-    </>
+    </div>
   );
 };
 
