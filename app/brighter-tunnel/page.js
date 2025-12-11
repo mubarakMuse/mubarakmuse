@@ -78,7 +78,7 @@ const BrighterTunnel = () => {
                 href="https://cal.com/brighter-tunnel/15min" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="underline"
+                className="underline font-bold"
               >
                 Book an intro call to learn more (15 min)
               </a>
@@ -129,7 +129,7 @@ const BrighterTunnel = () => {
               href="https://cal.com/brighter-tunnel/15min" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="underline"
+              className="underline font-bold"
             >
               Book an intro call to learn more (15 min) →
             </a>
@@ -236,7 +236,7 @@ const BrighterTunnel = () => {
               href="https://cal.com/brighter-tunnel/15min" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="underline"
+              className="underline font-bold"
             >
               cal.com/brighter-tunnel/15min
             </a>

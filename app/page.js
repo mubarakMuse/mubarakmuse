@@ -32,6 +32,7 @@ const Profile = () => {
         <div className="mb-10">
           <h2 className="text-lg font-bold mb-4">Projects</h2>
           <div className="space-y-6">
+           
             <div>
               <p className="mb-2 text-sm font-semibold">
                 <Link href="/brighter-tunnel" className="underline">
@@ -52,15 +53,22 @@ const Profile = () => {
                 General software consulting service - Building software and AI integration solutions for businesses
               </p>
             </div>
+            <div>
+              <p className="mb-2 text-sm font-semibold">
+                <Link href="/software-engineers" className="underline">
+                  SWE Job search via paraform
+                </Link>
+              </p>
+              <p className="mb-2 text-sm leading-relaxed">
+                Help software engineers find jobs - Access to 176+ roles on paraform.com and ree practice coding interviews
+              </p>
+            </div>
           </div>
         </div>
 
         <div className="mb-10">
           <h2 className="text-lg font-bold mb-4">Links</h2>
           <div className="text-sm space-y-2">
-            <p>
-              <Link href="/software-engineers" className="underline">Help Software Engineers</Link>
-            </p>
             <p>
               <a href="/resume" className="underline">Resume</a>
             </p>
