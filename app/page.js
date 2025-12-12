@@ -30,9 +30,8 @@ const Profile = () => {
         </div>
 
         <div className="mb-10">
-          <h2 className="text-lg font-bold mb-4">Projects</h2>
+          <h2 className="text-lg font-bold mb-4">Venture Portfolio</h2>
           <div className="space-y-6">
-           
             <div>
               <p className="mb-2 text-sm font-semibold">
                 <Link href="/brighter-tunnel" className="underline">
@@ -45,12 +44,42 @@ const Profile = () => {
             </div>
             <div>
               <p className="mb-2 text-sm font-semibold">
-                <Link href="/consulting" className="underline">
-                  Software Consulting
+                <Link href="/software-engineers" className="underline">
+                  Technical Recruiting & Mock Interviews
                 </Link>
               </p>
               <p className="mb-2 text-sm leading-relaxed">
-                General software consulting service - Building software and AI integration solutions for businesses
+                I place top 1% engineers and help you pass the hardest interviews.
+              </p>
+            </div>
+            <div>
+              <p className="mb-2 text-sm font-semibold">
+                <a href="https://supakidapp.com" target="_blank" rel="noopener noreferrer" className="underline">
+                  SupaKid
+                </a>
+              </p>
+              <p className="mb-2 text-sm leading-relaxed">
+                Kids app platform for learning and entertainment.
+              </p>
+            </div>
+            <div>
+              <p className="mb-2 text-sm font-semibold">
+                <a href="https://goldyphone.com" target="_blank" rel="noopener noreferrer" className="underline">
+                  Goldy
+                </a>
+              </p>
+              <p className="mb-2 text-sm leading-relaxed">
+                Phone services and solutions platform.
+              </p>
+            </div>
+            <div>
+              <p className="mb-2 text-sm font-semibold">
+                <Link href="/consulting" className="underline">
+                  AI & Software Consulting
+                </Link>
+              </p>
+              <p className="mb-2 text-sm leading-relaxed">
+                Building MVPs and AI workflows for startups.
               </p>
             </div>
             <div>
@@ -60,7 +89,47 @@ const Profile = () => {
                 </Link>
               </p>
               <p className="mb-2 text-sm leading-relaxed">
-                Help software engineers find jobs - Access to 176+ roles on paraform.com and ree practice coding interviews
+                Help software engineers find jobs - Access to 176+ roles on paraform.com and free practice coding interviews
+              </p>
+            </div>
+            <div>
+              <p className="mb-2 text-sm font-semibold">
+                <Link href="/islamic-studies" className="underline">
+                  Online Islamic Studies
+                </Link>
+              </p>
+              <p className="mb-2 text-sm leading-relaxed">
+                Structured, online Islamic education for the modern family.
+              </p>
+            </div>
+            <div>
+              <p className="mb-2 text-sm font-semibold">
+                <Link href="/lullaby-fresh" className="underline">
+                  Lullaby Fresh
+                </Link>
+              </p>
+              <p className="mb-2 text-sm leading-relaxed">
+                The pre-toss diaper neutralizer spray. Stop the smell before it starts.
+              </p>
+            </div>
+            <div>
+              <p className="mb-2 text-sm font-semibold">
+                <Link href="/ventures" className="underline">
+                  Muse Ventures
+                </Link>
+              </p>
+              <p className="mb-2 text-sm leading-relaxed">
+                Investing in early-stage AI companies in SF and NYC.
+              </p>
+            </div>
+            <div>
+              <p className="mb-2 text-sm font-semibold">
+                <Link href="/apartments" className="underline">
+                  City Apartment Directory
+                </Link>
+              </p>
+              <p className="mb-2 text-sm leading-relaxed">
+                The only list of new move-in specials in your city.
               </p>
             </div>
           </div>

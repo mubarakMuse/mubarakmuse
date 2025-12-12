@@ -2,9 +2,9 @@ import React from "react";
 import { getSEOTags } from "@/libs/seo";
 
 export const metadata = getSEOTags({
-  title: "Software Consulting Services - Mubarak Muse",
-  description: "General software consulting service specializing in building custom software solutions and AI integrations. Expert in full-stack development, AI integration, and technical architecture.",
-  keywords: ["software consulting", "AI integration", "custom software development", "web development", "software engineer", "technical consulting"],
+  title: "AI & Software Consulting - Mubarak Muse",
+  description: "Building MVPs and AI workflows for startups. Expert in full-stack development, AI integration, and technical architecture.",
+  keywords: ["AI consulting", "software consulting", "MVP development", "AI workflows", "startup consulting", "custom software development"],
   canonicalUrlRelative: "/consulting",
 });
 
@@ -12,9 +12,12 @@ const Consulting = () => {
   return (
     <div className="bg-white text-black min-h-screen">
       <div className="max-w-xl mx-auto px-6 py-6">
-        <h1 className="text-xl font-bold mb-8">
-          Software Consulting Services
+        <h1 className="text-xl font-bold mb-4">
+          AI & Software Consulting
         </h1>
+        <p className="text-sm text-gray-600 mb-8">
+          Building MVPs and AI workflows for startups.
+        </p>
 
         <div className="mb-10">
           <h2 className="text-lg font-bold mb-4">What I Offer</h2>

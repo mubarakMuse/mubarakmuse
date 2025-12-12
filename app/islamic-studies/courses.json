@@ -1,0 +1,3061 @@
+{
+    "catalogTitle": "Islamic Studies Online Course Catalog",
+    "lastUpdated": "12-11-2025",
+    "courses": [
+        {
+            "courseID": "HAD001",
+            "courseSlug": "foundations-of-hadith-terminology",
+            "courseTitle": "Foundations of Hadith Terminology (Mustalah al-Hadith)",
+            "courseDescription": "A foundational course introducing the specialized science of Mustalah al-Hadith, which established the criteria for authenticating, classifying, and preserving the Prophetic tradition (Sunnah).",
+            "whatYouWillLearn": [
+              "The definition and distinction between Hadith, Sunnah, and related technical terms.",
+              "The two essential components of any Hadith: Sanad (chain) and Matn (text).",
+              "The major classifications of Hadith based on the number of narrators (Tawātur and Āhād).",
+              "The major classifications of Hadith based on authenticity (Sahīh, Hasan, and Da'īf).",
+              "The methods and criteria used in the rigorous assessment of narrators (Jarh wa Ta'dīl)."
+            ],
+            "sections": [
+              {
+                "sectionNumber": 1,
+                "sectionTitle": "Introduction: Defining Core Terms",
+                "vocab": [
+                  {"term": "حديث", "meaning": "Hadith (A specific report about the Prophet)"},
+                  {"term": "السنة", "meaning": "As-Sunnah (The normative way or example of the Prophet)"},
+                  {"term": "مصطلح الحديث", "meaning": "Mustalah al-Hadith (Science of Hadith Terminology)"},
+                  {"term": "خبر", "meaning": "Khabar (A general piece of news/report)"},
+                  {"term": "أثر", "meaning": "Athar (Reports from Companions or Successors)"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Need for Hadith Terminology"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The science of Mustalah al-Hadith developed after the early centuries of Islam to protect the Sunnah from fabrication and error. Its fundamental purpose is to establish the criteria necessary to distinguish genuine Prophetic reports from flawed or fabricated ones."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Distinguishing Hadith, Sunnah, and Athar"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "**Hadith:** Refers to a specific saying, action, tacit approval, or description related to the Prophet Muhammad (PBUH).",
+                      "**Sunnah:** Represents the broader, normative tradition or way of life exemplified by the Prophet. A Hadith is a textual report of the Sunnah.",
+                      "**Athar:** Generally refers to reports traced back to the Companions (Sahābah) or the generation that followed them (Tābi'ūn), though sometimes used synonymously with Hadith."
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "Ibn al-Mubarak said, 'The Sanad is part of the religion. Had it not been for the Sanad, anyone could have said anything they wanted.' This illustrates the fundamental importance of authenticating the source."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the primary function of the science of Mustalah al-Hadith?",
+                    "options": [
+                      "To gather all historical reports about the Arabs.",
+                      "To establish the criteria for assessing the authenticity of Prophetic traditions.",
+                      "To translate all Hadith into different languages.",
+                      "To interpret the complex verses of the Qur'an."
+                    ],
+                    "correctAnswer": "To establish the criteria for assessing the authenticity of Prophetic traditions."
+                  },
+                  {
+                    "question": "In the technical terminology of Hadith, to whom does the term 'Athar' usually refer?",
+                    "options": [
+                      "Reports from the Prophet Muhammad (PBUH) only.",
+                      "Reports from the Companions and Successors.",
+                      "Reports found in the Sahihayn only.",
+                      "Reports containing theological opinions."
+                    ],
+                    "correctAnswer": "Reports from the Companions and Successors."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 2,
+                "sectionTitle": "The Anatomy of a Hadith: Sanad and Matn",
+                "vocab": [
+                  {"term": "السند", "meaning": "Al-Sanad (The chain of narrators)"},
+                  {"term": "المتن", "meaning": "Al-Matn (The text/content of the Hadith)"},
+                  {"term": "الراوي", "meaning": "Al-Rāwī (The narrator/reporter in the chain)"},
+                  {"term": "الإسناد", "meaning": "Al-Isnād (The process of relating the Hadith back to its source)"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Al-Sanad: The Chain of Authority"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The **Sanad** is the most crucial part of Hadith authentication. It is the continuous chain of narrators linking the final compiler (e.g., Imam Bukhari) back to the Prophet (PBUH). The entire science of Hadith terminology centers on scrutinizing the integrity and memory of the individuals within this chain."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Al-Matn: The Content"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The **Matn** is the actual text, saying, action, or description conveyed by the chain. While the Sanad must be sound, the Matn is also subject to internal criticism to ensure it does not contradict established, stronger texts or clear verses of the Qur'an."
+                  },
+                  {
+                    "type": "quote",
+                    "text": "A Hadith is only as strong as its weakest link. If any narrator in the chain (Sanad) is deemed unreliable, the entire report (Matn) is invalidated."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": ""
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What does the term 'Matn' refer to in the context of Hadith?",
+                    "options": [
+                      "The individual who transmitted the report.",
+                      "The book in which the Hadith is recorded.",
+                      "The actual text, saying, or content of the report.",
+                      "The grading given to the Hadith (e.g., Sahīh)."
+                    ],
+                    "correctAnswer": "The actual text, saying, or content of the report."
+                  },
+                  {
+                    "question": "Why is the continuous chain of narrators (Sanad) considered the 'most crucial' part of a Hadith?",
+                    "options": [
+                      "It determines the length of the Matn.",
+                      "Its reliability dictates the authenticity of the entire report.",
+                      "It is necessary for reading the Arabic text correctly.",
+                      "It allows for memorizing the Hadith more easily."
+                    ],
+                    "correctAnswer": "Its reliability dictates the authenticity of the entire report."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 3,
+                "sectionTitle": "Classification by Number of Narrators (Tawātur vs. Āhād)",
+                "vocab": [
+                  {"term": "المتواتر", "meaning": "Mutawātir (Mass-Transmitted Hadith)"},
+                  {"term": "الآحاد", "meaning": "Āhād (Single-Chain Hadith)"},
+                  {"term": "المشهور", "meaning": "Mashhūr (Well-Known Hadith - at least 3 narrators)"},
+                  {"term": "العزيز", "meaning": "Azīz (Rare/Strong Hadith - at least 2 narrators)"},
+                  {"term": "الغريب", "meaning": "Gharīb (Scarce/Lone Hadith - 1 narrator at some point)"},
+                  {"term": "اليقين", "meaning": "Yaqīn (Certainty/Absolute Knowledge)"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Mutawātir: Absolute Certainty (Yaqīn)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "A **Mutawātir** Hadith is defined by the sheer number of narrators at every stage of the chain. This number must be large enough to completely exclude the possibility of collusion or accidental error. The benefit of this class of Hadith is that it provides absolute certainty (**Yaqīn**) and must be accepted without needing further scrutiny of individual narrators."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Āhād: Single-Chain Reports (Probability/Zann)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The **Āhād** class includes all reports that do not meet the stringent requirements of Mutawātir. It provides a strong degree of probability (**Zann**), but its acceptance is conditional upon proving the reliability of every narrator in its specific chain. It is further categorized by the lowest number of narrators in any stage:"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "**Mashhūr:** Reported by at least three narrators at every stage.",
+                      "**Azīz:** Reported by at least two narrators at every stage.",
+                      "**Gharīb:** Reported by only one narrator at any stage of the chain."
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "While Mutawātir reports form the bedrock of the most fundamental beliefs and practices, the vast majority of legal rulings (Fiqh) and detailed practices rely upon the carefully scrutinized Āhād reports."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the primary benefit or knowledge provided by a Mutawātir Hadith?",
+                    "options": [
+                      "A weak probability of truth.",
+                      "A historical record of an event.",
+                      "Absolute certainty (Yaqīn).",
+                      "A religious opinion open to debate."
+                    ],
+                    "correctAnswer": "Absolute certainty (Yaqīn)."
+                  },
+                  {
+                    "question": "Which subclass of Āhād Hadith is defined by having only a single narrator at some point in its chain?",
+                    "options": [
+                      "Mashhūr",
+                      "Azīz",
+                      "Mursal",
+                      "Gharīb"
+                    ],
+                    "correctAnswer": "Gharīb"
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 4,
+                "sectionTitle": "Classification by Strength and Authenticity",
+                "vocab": [
+                  {"term": "الصحيح", "meaning": "Sahīh (Sound/Authentic)"},
+                  {"term": "الحسن", "meaning": "Hasan (Good/Acceptable)"},
+                  {"term": "الضعيف", "meaning": "Da'īf (Weak/Unsound)"},
+                  {"term": "الشذوذ", "meaning": "Shudhūdh (Anomaly/Contradicting a stronger report)"},
+                  {"term": "العلة", "meaning": "Illah (Hidden defect)"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Five Conditions for Sahīh (Sound) Hadith"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "A Hadith is classified as **Sahīh** (Sound) only if it meets five cumulatively strict conditions:"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "**1. Ittisāl as-Sanad:** Continuous chain of narration (no breaks).",
+                      "**2. Adālat ar-Rāwī:** Narrators are trustworthy, righteous, and of good character.",
+                      "**3. Dabt ar-Rāwī:** Narrators are precise and accurate in their preservation (strong memory).",
+                      "**4. Salāmah min ash-Shudhūdh:** Free from being anomalous (not contradicting a stronger, accepted report).",
+                      "**5. Salāmah min al-Illah:** Free from any subtle, damaging hidden defects."
+                    ]
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Hasan (Good) and Da'īf (Weak)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "A **Hasan** Hadith is identical to a Sahīh Hadith except for one criterion: the narrator's level of precision (**Dabt**) is slightly weaker, though still sufficient to be accepted as legal proof. A **Da'īf** Hadith is any report that fails to meet even one of the five conditions for a Hasan or Sahīh report. It is generally not used as legal evidence, though exceptions exist for virtues and moral exhortation."
+                  },
+                  {
+                    "type": "quote",
+                    "text": "The existence of Sahīh and Hasan Hadith provides the necessary evidence (Hujjah) for the Islamic legal system."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the key difference that distinguishes a Hasan Hadith from a Sahīh Hadith?",
+                    "options": [
+                      "A Hasan Hadith has a broken chain of narration.",
+                      "The narrator's righteousness ('Adālah) is weak in a Hasan Hadith.",
+                      "The precision/accuracy (Dabt) of the narrators is slightly lesser in a Hasan Hadith.",
+                      "A Hasan Hadith is always contradicted by a Qur'anic verse."
+                    ],
+                    "correctAnswer": "The precision/accuracy (Dabt) of the narrators is slightly lesser in a Hasan Hadith."
+                  },
+                  {
+                    "question": "What does the term 'Illah' refer to when criticizing a Hadith?",
+                    "options": [
+                      "An open contradiction in the Matn.",
+                      "A hidden, subtle, damaging defect in the chain or text.",
+                      "The narrator's place of residence.",
+                      "A Hadith that is too famous."
+                    ],
+                    "correctAnswer": "A hidden, subtle, damaging defect in the chain or text."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 5,
+                "sectionTitle": "Jarh wa Ta'dīl: The Science of Narrator Criticism",
+                "vocab": [
+                  {"term": "الجرح", "meaning": "Al-Jarh (Disparagement/Criticism)"},
+                  {"term": "التعديل", "meaning": "At-Ta'dīl (Endorsement/Praise)"},
+                  {"term": "العدالة", "meaning": "Al-'Adālah (Integrity/Righteous Character)"},
+                  {"term": "الضبط", "meaning": "Al-Dabt (Precision/Accuracy and Strong Memory)"},
+                  {"term": "المجهول", "meaning": "Majhūl (Unknown Narrator)"},
+                  {"term": "الكذاب", "meaning": "Kadhdhāb (A liar)"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Purpose of Jarh wa Ta'dīl"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "This specialized discipline is the foundation of Hadith authentication. It involves meticulous research into the life, behavior, and memory of every narrator in the chain to determine if their report should be accepted. Acceptance requires meeting two primary conditions: **Al-'Adālah (Integrity)** and **Al-Dabt (Precision)**."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Criteria: Integrity ('Adālah) and Precision (Dabt)"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "**Al-'Adālah (Integrity):** Deals with the narrator's moral character, righteousness, adherence to religious law, and honesty. A narrator is rejected if accused of lying, excessive sin, or major innovation.",
+                      "**Al-Dabt (Precision):** Deals with the narrator's cognitive ability to remember and transmit the Hadith exactly as they heard it, without error, change, or carelessness. Weakness in Dabt results in a Hadith being labeled Hasan (if slight) or Da'īf (if severe)."
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "A narrator must be both righteous in character ('Ādil) and accurate in memory (Dābit) for their Hadith to be considered sound (Sahīh) or good (Hasan)."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "The criteria of 'Al-Jarh' (Disparagement) primarily focuses on which aspect of a narrator?",
+                    "options": [
+                      "Their wealth and social status.",
+                      "Identifying defects in their character or memory that invalidate their narration.",
+                      "Determining the country where they traveled.",
+                      "Their ability to write poetry."
+                    ],
+                    "correctAnswer": "Identifying defects in their character or memory that invalidate their narration."
+                  },
+                  {
+                    "question": "What is the primary difference between Al-'Adālah and Al-Dabt?",
+                    "options": [
+                      "Al-'Adālah refers to family lineage, and Al-Dabt refers to age.",
+                      "Al-'Adālah refers to financial honesty, and Al-Dabt refers to reading speed.",
+                      "Al-'Adālah refers to moral integrity/righteousness, and Al-Dabt refers to accuracy/precision of memory.",
+                      "They are two terms that mean the exact same thing."
+                    ],
+                    "correctAnswer": "Al-'Adālah refers to moral integrity/righteousness, and Al-Dabt refers to accuracy/precision of memory."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "courseID": "TAF001",
+            "courseSlug": "fundamentals-of-quran-exegesis",
+            "courseTitle": "Fundamentals of Qur'an Exegesis (Usūl al-Tafsīr)",
+            "courseImage": "https://www.islamicstudies.org/images/courses/quran-exegesis.jpg",
+            "courseDescription": "A course providing the core principles, methodologies, and tools used by Islamic scholars to correctly understand and interpret the meanings of the Qur'an.",
+            "whatYouWillLearn": [
+              "The definition and distinction between Tafsīr (exegesis) and Ta'wīl (interpretation).",
+              "The correct hierarchy and sources for interpreting the Qur'an.",
+              "The different types of Tafsīr: Bi al-Ma'thūr (narrated) and Bi al-Ra'y (opinion-based).",
+              "The historical stages of Tafsīr development.",
+              "The essential 'External Sciences' required for a Mufassir (Exegete)."
+            ],
+            "sections": [
+              {
+                "sectionNumber": 1,
+                "sectionTitle": "Introduction: Tafsīr vs. Ta'wīl and The Need for Usūl",
+                "vocab": [
+                  {"term": "التفسير", "meaning": "Al-Tafsīr (Qur'an Exegesis/Explanation)"},
+                  {"term": "التأويل", "meaning": "Al-Ta'wīl (Interpretation/Deducing deeper meaning)"},
+                  {"term": "أصول التفسير", "meaning": "Usūl al-Tafsīr (Principles of Exegesis)"},
+                  {"term": "المفسر", "meaning": "Al-Mufassir (The Exegete/Scholar of Tafsīr)"},
+                  {"term": "المعاني", "meaning": "Al-Ma'ānī (Meanings/Significance)"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Defining the Key Terms"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The science of Usūl al-Tafsīr provides the rules necessary to move from the literal text of the Qur'an to its intended legal, theological, and spiritual meanings. Without these rules, interpretation risks becoming arbitrary."
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "**Tafsīr:** Primarily focuses on explaining the literal meaning (apparent meaning) of the words, grammar, and context of the verse.",
+                      "**Ta'wīl:** Focuses on interpreting the deeper or more obscure meaning that aligns with the literal text but clarifies its practical application or spiritual implication. Ta'wīl must never contradict the core meaning established by Tafsīr."
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "The greatest danger in Tafsīr is allowing personal desires (Hawā) to dictate the meaning of the divine text, rather than following the sound principles established by the scholars."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the main focus of Al-Tafsīr (Exegesis)?",
+                    "options": [
+                      "Predicting future events and prophecy.",
+                      "Explaining the literal meaning, grammar, and context of the Qur'anic verses.",
+                      "Translating the Qur'an into every language possible.",
+                      "Writing new laws independent of the Sunnah."
+                    ],
+                    "correctAnswer": "Explaining the literal meaning, grammar, and context of the Qur'anic verses."
+                  },
+                  {
+                    "question": "Why is the science of Usūl al-Tafsīr necessary?",
+                    "options": [
+                      "To allow anyone to interpret the Qur'an freely.",
+                      "To prevent arbitrary interpretations and ensure the Qur'an's meaning is derived correctly.",
+                      "To simplify the Arabic language for non-Arabs.",
+                      "To argue against the Sunnah."
+                    ],
+                    "correctAnswer": "To prevent arbitrary interpretations and ensure the Qur'an's meaning is derived correctly."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 2,
+                "sectionTitle": "The Hierarchy of Primary Sources",
+                "vocab": [
+                  {"term": "القرآن", "meaning": "Al-Qur'an (The primary source of Tafsīr)"},
+                  {"term": "تفسير القرآن بالقرآن", "meaning": "Tafsīr al-Qur'an bi al-Qur'an (Explaining the Qur'an by the Qur'an)"},
+                  {"term": "أسباب النزول", "meaning": "Asbāb an-Nuzūl (Occasions/Contexts of Revelation)"},
+                  {"term": "الناسخ والمنسوخ", "meaning": "An-Nāsikh wa al-Mansūkh (Abrogating and Abrogated verses)"},
+                  {"term": "الصحابة", "meaning": "As-Sahābah (The Companions of the Prophet)"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Indispensable Order of Sources"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Scholars of Usūl al-Tafsīr agree that interpretation must follow a strict, decreasing hierarchy of authority to ensure fidelity to the divine message. One cannot jump to a later source if an explanation exists in a higher source."
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "**1. Qur'an by Qur'an:** The Qur'an is the best explanation of itself, as one verse may elaborate on the meaning of another (e.g., general vs. specific, brief vs. detailed).",
+                      "**2. Qur'an by Sunnah:** The Sunnah (Prophet's sayings and actions) is the practical application and clarification of the Qur'an. The Prophet was the first and best Mufassir.",
+                      "**3. Qur'an by Companions (Sahābah):** The Companions witnessed the revelation and knew the context of revelation (Asbāb an-Nuzūl) and the Prophet's direct teachings.",
+                      "**4. Qur'an by Successors (Tābi'ūn):** The generation after the Companions took their knowledge directly from the Sahābah."
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "Knowing the occasions of revelation (Asbāb an-Nuzūl) is crucial, as it limits arbitrary interpretations of general verses."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is considered the highest and most authoritative source for interpreting a verse of the Qur'an?",
+                    "options": [
+                      "The opinion of a contemporary scholar.",
+                      "Tafsīr al-Qur'an bi al-Qur'an (Explaining the Qur'an by the Qur'an).",
+                      "The Hadith found in weak collections.",
+                      "Personal logical reasoning (Ra'y)."
+                    ],
+                    "correctAnswer": "Tafsīr al-Qur'an bi al-Qur'an (Explaining the Qur'an by the Qur'an)."
+                  },
+                  {
+                    "question": "Why are the interpretations of the Companions (Sahābah) given high authority in Tafsīr?",
+                    "options": [
+                      "They were the first to write books of Tafsīr.",
+                      "They were the primary source for the language of the Qur'an.",
+                      "They witnessed the context of revelation (Asbāb an-Nuzūl) and learned directly from the Prophet.",
+                      "They were responsible for determining the Abrogating and Abrogated verses."
+                    ],
+                    "correctAnswer": "They witnessed the context of revelation (Asbāb an-Nuzūl) and learned directly from the Prophet."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 3,
+                "sectionTitle": "Types of Tafsīr: Ma'thūr vs. Ra'y",
+                "vocab": [
+                  {"term": "التفسير بالمأثور", "meaning": "Tafsīr bi al-Ma'thūr (Narrated/Transmitted Exegesis)"},
+                  {"term": "التفسير بالرأي", "meaning": "Tafsīr bi al-Ra'y (Opinion-Based Exegesis)"},
+                  {"term": "الرأي المحمود", "meaning": "Al-Ra'y al-Mahmūd (Praiseworthy/Acceptable Opinion)"},
+                  {"term": "الرأي المذموم", "meaning": "Al-Ra'y al-Madhmūm (Blameworthy/Unacceptable Opinion)"},
+                  {"term": "الإجتهاد", "meaning": "Ijtihād (Independent legal reasoning)"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Tafsīr bi al-Ma'thūr: The Narrated Path"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "**Tafsīr bi al-Ma'thūr** refers to interpretation derived from the narrated tradition, exclusively using the first three sources of the hierarchy: Qur'an, Sunnah, and the sayings of the Sahābah. This is considered the safest and most reliable form of exegesis, as it is grounded directly in transmission."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Tafsīr bi al-Ra'y: The Role of Opinion and Intellect"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "**Tafsīr bi al-Ra'y** is interpretation based on the exegete's independent reasoning (**Ijtihād**). This type is categorized as either praiseworthy or blameworthy:"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "**Praiseworthy (Al-Ra'y al-Mahmūd):** Used only after exhausting all Ma'thūr sources, and relies on solid knowledge of Arabic, Usūl al-Fiqh, and related sciences. It is used for verses that are general or open to reasonable deduction.",
+                      "**Blameworthy (Al-Ra'y al-Madhmūm):** Based on the interpreter's own whims (Hawā), sectarian biases, or a lack of the necessary scholarly tools. This is forbidden and leads to deviation."
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "A sound Tafsīr bi al-Ra'y is essentially an intellectual exertion that remains strictly within the boundaries set by the transmitted sources (Ma'thūr)."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What primary sources are used in Tafsīr bi al-Ma'thūr (Narrated Exegesis)?",
+                    "options": [
+                      "Modern scientific theories and physics.",
+                      "The Qur'an, Sunnah, and sayings of the Companions and Successors.",
+                      "Philosophical texts and ancient Greek knowledge.",
+                      "Non-Muslim historical records and literature."
+                    ],
+                    "correctAnswer": "The Qur'an, Sunnah, and sayings of the Companions and Successors."
+                  },
+                  {
+                    "question": "When does Tafsīr bi al-Ra'y (Opinion-Based Exegesis) become blameworthy (Al-Ra'y al-Madhmūd)?",
+                    "options": [
+                      "When it is based on solid knowledge of the Arabic language.",
+                      "When it is used to support sectarian biases or personal desires (Hawā) without relying on primary sources.",
+                      "When it is written by a famous Mufassir.",
+                      "When it is written in a language other than Arabic."
+                    ],
+                    "correctAnswer": "When it is used to support sectarian biases or personal desires (Hawā) without relying on primary sources."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 4,
+                "sectionTitle": "The External Sciences of the Mufassir",
+                "vocab": [
+                  {"term": "علوم القرآن", "meaning": "Ulūm al-Qur'an (Sciences of the Qur'an)"},
+                  {"term": "النحو", "meaning": "An-Nahw (Arabic Grammar/Syntax)"},
+                  {"term": "الصرف", "meaning": "As-Sarf (Arabic Morphology/Word Formation)"},
+                  {"term": "البيان", "meaning": "Al-Bayān (Rhetoric/Eloquence)"},
+                  {"term": "الفقه", "meaning": "Al-Fiqh (Islamic Jurisprudence/Law)"},
+                  {"term": "أصول الفقه", "meaning": "Usūl al-Fiqh (Principles of Islamic Jurisprudence)"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Linguistic Mastery: The Keys to Meaning"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "A Mufassir must possess comprehensive mastery over the Arabic language, as the Qur'an's inimitable eloquence (I'jāz) and precision can only be grasped through its linguistic structure. Key linguistic sciences include:"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "**Nahw (Syntax) and Sarf (Morphology):** These govern word function and structure, as a single vowel change can drastically alter the legal meaning of a verse.",
+                      "**Al-Bayān (Rhetoric):** Understanding figurative speech, metaphors, emphasis, and conciseness, necessary to appreciate the Qur'an's literary depth."
+                    ]
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Legal and Contextual Sciences"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Beyond language, a Mufassir must be proficient in the sciences that derive law and context from the texts:"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "**Usūl al-Fiqh:** Provides the methodology for legal deduction (Istinbāt) from the Qur'an and Sunnah, teaching how to apply universal rules to specific legal verses.",
+                      "**Ulūm al-Qur'an:** The broader sciences encompassing Nāsikh wa Mansūkh, Asbāb an-Nuzūl, and the different modes of recitation (Qirā'āt)."
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "It is agreed upon that ignorance of the Arabic language and its sciences is the single greatest cause of misinterpretation of the Qur'an."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "Which science is essential for understanding the legal rulings derived from the Qur'an, such as the methodology for legal deduction?",
+                    "options": [
+                      "An-Nahw (Syntax).",
+                      "As-Sarf (Morphology).",
+                      "Al-Fiqh (Jurisprudence).",
+                      "Usūl al-Fiqh (Principles of Jurisprudence)."
+                    ],
+                    "correctAnswer": "Usūl al-Fiqh (Principles of Jurisprudence)."
+                  },
+                  {
+                    "question": "What specific area of Arabic language study addresses the use of figurative speech, metaphors, and the Qur'an's eloquence?",
+                    "options": [
+                      "Al-Bayān (Rhetoric).",
+                      "Asbāb an-Nuzūl.",
+                      "Ilm al-Hadith.",
+                      "Ilm al-Tawhīd."
+                    ],
+                    "correctAnswer": "Al-Bayān (Rhetoric)."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "courseID": "QUR030",
+            "courseSlug": "juz-amma-tafseer",
+            "courseTitle": "The Spiritual Wisdom and Detailed Tafseer of Juz' Amma (Surahs 78-114)",
+            "courseDescription": "An in-depth online course providing verse-by-verse translation, detailed explanation (Tafseer), essential vocabulary, and profound spiritual takeaways for all 37 Surahs of the 30th Part of the Qur'an. This course links the potent Meccan message of accountability, Tawheed (Oneness of God), and the Hereafter to the believer’s daily life.",
+            "whatYouWillLearn": [
+              "The translation, linguistic significance, and key themes of every Surah in Juz' Amma.",
+              "Detailed explanation of key vocabulary and concepts such as the Day of Judgment (Akhirah) and divine accountability.",
+              "Practical virtues and recommended recitations for Surahs often used in daily prayers (Salah).",
+              "How to derive essential ethical and spiritual lessons for personal growth and character refinement.",
+              "The significance of the 'Mu'awwidhatayn' (the two Surahs of refuge) and their role in spiritual protection."
+            ],
+            "sections": [
+              {
+                "sectionNumber": 78,
+                "sectionTitle": "Surah An-Naba (The Tidings, Surah 78)",
+                "vocab": [
+                  {"term": "النَّبَإِ الْعَظِيمِ", "meaning": "The momentous news"},
+                  {"term": "مِهَادًا", "meaning": "smoothed out like a bed"},
+                  {"term": "أَوْتَادًا", "meaning": "as pegs (referring to mountains stabilizing the earth)"},
+                  {"term": "يَوْمَ الْفَصْلِ", "meaning": "The Day of Final Decision"},
+                  {"term": "مِرْصَادًا", "meaning": "lying in ambush"},
+                  {"term": "أَحْقَابًا", "meaning": "endless ages"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Certainty of Resurrection (Verses 1-5)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The disbelievers were questioning each other about the Day of Judgment. They doubted its occurrence and resurrection after death. Allah assures that there will soon be no doubt about it. The 'momentous news' (An-Naba Al-'Azīm) is the Resurrection and the Day of Decision."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Proofs of Divine Power (Verses 6-16)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Allah presents natural phenomena as proofs of His ability to resurrect. These creations include the earth smoothed out like a bed, mountains as pegs, humans created in pairs, and sleep made for rest. Further signs are the seven mighty heavens, the sun as a shining lamp, and rain producing grain and dense orchards."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Day of Decision and Consequences (Verses 17-40)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Day of Final Decision is an appointed time, marked by the blowing of the Trumpet, where people will come forth in crowds. The sky will open like gates, and the mountains will crumble and disappear like a mirage."
+                  },
+                  {
+                    "type": "quote",
+                    "text": "Hell is waiting for the disbelievers, who will live there forever without any relief, only boiling water and pus to drink. Their punishment matches their sins because they denied the Day of Judgment and rejected Allah's signs. Allah keeps a precise record of everything."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "In contrast, the righteous will have salvation in Gardens, vineyards, and heavenly companions. They will only hear pleasant speech and receive a generous reward from Allah. On that Day, no one will speak without Allah's permission, and the disbelievers will regret their actions, wishing they were dust."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the 'momentous news' (An-Naba Al-'Azīm) that the disbelievers were questioning?",
+                    "options": [
+                      "The Prophet's migration (Hijrah).",
+                      "The creation of the seven heavens.",
+                      "The Day of Judgment and Resurrection.",
+                      "The story of past nations."
+                    ],
+                    "correctAnswer": "The Day of Judgment and Resurrection."
+                  },
+                  {
+                    "question": "What will be the only drink offered to the transgressors in Hell?",
+                    "options": [
+                      "Pure, cool water.",
+                      "Milk and honey.",
+                      "Boiling water and oozing pus.",
+                      "Nothing at all."
+                    ],
+                    "correctAnswer": "Boiling water and oozing pus."
+                  },
+                  {
+                    "question": "What is mentioned as a sign of Allah's power to resurrect in Surah An-Naba?",
+                    "options": [
+                      "The precise recording of deeds by the angels.",
+                      "The movement of the moon.",
+                      "The creation of the mountains as pegs.",
+                      "The destruction of past empires."
+                    ],
+                    "correctAnswer": "The creation of the mountains as pegs."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 79,
+                "sectionTitle": "Surah An-Nazi’at (Those Who Drag Forth, Surah 79)",
+                "vocab": [
+                  {"term": "النَّازِعَاتِ غَرْقًا", "meaning": "Angels stripping out evil souls harshly"},
+                  {"term": "النَّاشِطَاتِ نَشْطًا", "meaning": "Angels pulling out good souls gently"},
+                  {"term": "الرَّاجِفَةُ", "meaning": "the quaking Blast (the first blow of the trumpet)"},
+                  {"term": "الْحَافِرَةِ", "meaning": "our former state (life on earth)"},
+                  {"term": "طَغَىٰ", "meaning": "transgressed all bounds"},
+                  {"term": "الطَّامَّةُ الْكُبْرَىٰ", "meaning": "the Supreme Disaster"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Oaths by Angels and the Blows of the Trumpet (Verses 1-14)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Allah takes an oath by five types of angels, symbolizing the certainty of the Day of Judgment. These angels include those who harshly strip out the souls of disbelievers and gently pull out the souls of believers. The Day of Judgment starts with the quaking Blast (Ar-Rājifah), followed by a second Blast (Ar-Rādifah). The hearts of deniers will tremble in horror. Resurrection is easy for Allah; all it takes is a simple blow of the trumpet, and they will all reappear above ground."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Warning in Pharaoh's Story (Verses 15-26)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The long section on the story of Moses and Pharaoh is recounted as a major warning. Moses was sent to Pharaoh, who had truly transgressed all bounds. Pharaoh denied, disobeyed, and proudly proclaimed, 'I am your lord, the most high!'. Allah made Pharaoh's destruction an example in this life and the next."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Proof of Resurrection and Final Outcome (Verses 27-46)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Allah challenges the doubters by asking which is harder to create: them or the sky. The creation of the heavens, the earth, and the mountains proves Allah's ability to resurrect. When the Supreme Disaster comes, those who transgressed and preferred this worldly life will have Hellfire as their home. Those who controlled their desires and were in awe of standing before their Lord will have Paradise. The Prophet's job is only to warn; the knowledge of the Hour rests only with Allah."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the 'Supreme Disaster' (Al-Tāmma al-Kubrā) that will occur?",
+                    "options": [
+                      "The Prophet's death.",
+                      "The destruction of the Pharaoh.",
+                      "The Day of Judgment.",
+                      "A global war."
+                    ],
+                    "correctAnswer": "The Day of Judgment."
+                  },
+                  {
+                    "question": "What key attribute, leading to their success, did the people destined for Paradise possess?",
+                    "options": [
+                      "They were extremely wealthy.",
+                      "They were in awe of standing before their Lord and restrained themselves from evil desires.",
+                      "They lived for exactly 70 years.",
+                      "They successfully controlled the sea."
+                    ],
+                    "correctAnswer": "They were in awe of standing before their Lord and restrained themselves from evil desires."
+                  },
+                  {
+                    "question": "In Surah An-Nazi'at, what reason is given to refute the disbelievers' mock concerning resurrection?",
+                    "options": [
+                      "That the Earth will testify against them.",
+                      "That the creation of the universe and sky is much harder than resurrecting humans.",
+                      "That the Prophet has promised it will happen.",
+                      "That their books of deeds are already sealed."
+                    ],
+                    "correctAnswer": "That the creation of the universe and sky is much harder than resurrecting humans."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 80,
+                "sectionTitle": "Surah Abasa (He Frowned, Surah 80)",
+                "vocab": [
+                  {"term": "عَبَسَ وَتَوَلَّىٰ", "meaning": "He frowned and turned his attention away"},
+                  {"term": "الْأَعْمَىٰ", "meaning": "the blind man (Abdullah ibn Umm Maktum)"},
+                  {"term": "اسْتَغْنَىٰ", "meaning": "was indifferent / thought himself self-sufficient"},
+                  {"term": "الصُّحُفِ مُكَرَّمَةٍ", "meaning": "pages held in honour"},
+                  {"term": "الصَّاخَّةُ", "meaning": "the Deafening Blast"},
+                  {"term": "الْكَفَرَةُ الْفَجَرَةُ", "meaning": "disbelievers, the wicked sinners"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Divine Correction and Priority of the Message (Verses 1-10)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "This Surah opens with a subtle divine correction to the Prophet (PBUH). He momentarily ignored a sincere believer, the blind man, to focus on an indifferent disbeliever among the Quraysh leaders, hoping to guide them. Allah established a fundamental principle: the believer, eager to learn and in awe of Allah, is more deserving of attention and guidance."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Nobility of the Qur'an and Man's Ungratefulness (Verses 11-32)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The revelation (Qur'an) is truly a reminder, preserved on honourable, purified pages (Suhuf) held by virtuous angel-scribes. Allah condemns ungrateful humans, reminding them of their creation from a sperm-drop and the guidance given to them. Allah also emphasizes His blessings, such as the rain and the food He brings forth."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Deafening Blast and Final Destiny (Verses 33-42)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "On the Day of Judgment, when the Deafening Blast (As-Sākhkhah) comes, people will flee from their closest relatives—siblings, parents, spouse, and children—as each will have enough concern of their own. Faces will either be bright, laughing and rejoicing (the believers) or dusty and cast in gloom (the disbelievers and wicked sinners)."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "Who was the blind man (Al-A'mā) mentioned in Surah 'Abasa?",
+                    "options": [
+                      "A wealthy leader of the Quraysh.",
+                      "A Prophet from ancient times.",
+                      "'Abdullah ibn Umm Maktum, a sincere believer.",
+                      "A Roman emissary."
+                    ],
+                    "correctAnswer": "'Abdullah ibn Umm Maktum, a sincere believer."
+                  },
+                  {
+                    "question": "What happens when the 'Deafening Blast' (As-Sākhkhah) comes on the Day of Judgment?",
+                    "options": [
+                      "Everyone will gather with their family happily.",
+                      "Everyone will receive wealth.",
+                      "Every person will flee from their own relatives to secure their own salvation.",
+                      "The angels will stop recording deeds."
+                    ],
+                    "correctAnswer": "Every person will flee from their own relatives to secure their own salvation."
+                  },
+                  {
+                    "question": "Which phrase describes the fate of the righteous (believers) on the Day in Surah 'Abasa?",
+                    "options": [
+                      "Faces will be dusty, cast in gloom.",
+                      "Faces will be burdened and exhausted.",
+                      "Faces will be bright, laughing and rejoicing.",
+                      "They will be looking for their scattered wealth."
+                    ],
+                    "correctAnswer": "Faces will be bright, laughing and rejoicing."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 81,
+                "sectionTitle": "Surah At-Takwir (The Overthrowing, Surah 81)",
+                "vocab": [
+                  {"term": "كُوِّرَتْ", "meaning": "is put out/wrapped up (referring to the sun)"},
+                  {"term": "الْعِشَارُ عُطِّلَتْ", "meaning": "pregnant camels are left untended"},
+                  {"term": "سُجِّرَتْ", "meaning": "set on fire (referring to the seas)"},
+                  {"term": "زُوِّجَتْ", "meaning": "paired (souls and bodies) once more"},
+                  {"term": "الْمَوْءُودَةُ", "meaning": "baby girls, buried alive"},
+                  {"term": "لَقَوْلُ رَسُولٍ كَرِيمٍ", "meaning": "is the Word of Allah delivered by Gabriel, a noble messenger"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Cosmic Upheaval of the Hour (Verses 1-14)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Surah describes the terrifying events of the Day of Judgment: the sun is put out, stars fall, and mountains are blown away. Pregnant camels, once highly prized, will be left untended, symbolizing the total chaos and abandonment of prized possessions. The seas will be set on fire, and the souls and their bodies will be paired once more."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "A key point of justice is made: the baby girls who were buried alive will be asked for what crime they were put to death. When the records of deeds are laid open, each soul will know what deeds it has brought along."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Infallibility of the Qur'an (Verses 15-29)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Allah swears by natural phenomena (stars, night, day) to affirm that the Qur'an is the Word of Allah, delivered by the noble, powerful, and trustworthy messenger-angel Gabriel. It refutes the disbelievers' claims that the Prophet is insane or that the message is from a devil. The Qur'an is a decisive reminder, and while humans have a choice to follow the Straight Way, that will is ultimately subject to the Will of Allah."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What did the people of Makkah do to their baby girls, which is addressed in Surah At-Takwir?",
+                    "options": [
+                      "They celebrated their births with a feast.",
+                      "They neglected them and forced them into labor.",
+                      "They buried them alive because they didn't value women.",
+                      "They sent them to live in distant lands."
+                    ],
+                    "correctAnswer": "They buried them alive because they didn't value women."
+                  },
+                  {
+                    "question": "The second half of Surah At-Takwir is dedicated to affirming what truth?",
+                    "options": [
+                      "The necessity of giving charity.",
+                      "The importance of family lineage.",
+                      "The truth that the Qur'an is the Word of Allah delivered by the angel Gabriel.",
+                      "The future prosperity of the Quraysh."
+                    ],
+                    "correctAnswer": "The truth that the Qur'an is the Word of Allah delivered by the angel Gabriel."
+                  },
+                  {
+                    "question": "The 'pregnant camels being left untended' (Verse 4) symbolizes what on the Day of Judgment?",
+                    "options": [
+                      "The rising value of animals.",
+                      "A shift in the economy.",
+                      "The total chaos and the abandonment of the most highly prized possessions.",
+                      "The conversion of all camel owners to Islam."
+                    ],
+                    "correctAnswer": "The total chaos and the abandonment of the most highly prized possessions."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 82,
+                "sectionTitle": "Surah Al-Infitar (The Cleaving, Surah 82)",
+                "vocab": [
+                  {"term": "انفَطَرَتْ", "meaning": "splits open (referring to the sky)"},
+                  {"term": "فُجِّرَتْ", "meaning": "burst forth (referring to the seas)"},
+                  {"term": "بُعْثِرَتْ", "meaning": "spill out (referring to the graves)"},
+                  {"term": "مَا غَرَّكَ", "meaning": "what has emboldened you against"},
+                  {"term": "الْكَرِيمِ", "meaning": "the Most Generous"},
+                  {"term": "كِرَامًا كَاتِبِينَ", "meaning": "honorable angels, recording everything"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Cleaving and the Reckoning (Verses 1-5)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Surah begins by mentioning four events that will take place on the Day of Judgment: the sky splits open, stars fall away, the seas burst forth, and the graves spill out their contents. On that day, each soul will know what obligations they fulfilled and which ones they neglected."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Man's Ungratefulness and Divine Surveillance (Verses 6-12)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Allah delivers a powerful rhetorical challenge: 'O humanity! What has emboldened you against your Lord, the Most Generous?'. He reminds man that He created, fashioned, and perfected their design. Humans deny the Day of Judgment, unaware that vigilant, honorable angels (Kirāman Kātibīn) are constantly observing and recording everything they do."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Two Destinies (Verses 13-19)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Surah contrasts the fate of the virtuous (Al-Abrār) who will be in bliss with the wicked (Al-Fujjār) who will burn in Hell, with no escape. On that Day, all authority belongs to Allah entirely, and no soul will benefit another."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What question does Allah rhetorically pose to humanity regarding their ungratefulness?",
+                    "options": [
+                      "Why do you not build more Mosques?",
+                      "What has emboldened you against your Lord, the Most Generous?",
+                      "Why do you travel so much in the world?",
+                      "What has made you forget the story of Adam?"
+                    ],
+                    "correctAnswer": "What has emboldened you against your Lord, the Most Generous?"
+                  },
+                  {
+                    "question": "According to Surah Al-Infitar, what will the virtuous (Al-Abrār) be in on Judgment Day?",
+                    "options": [
+                      "A temporary home.",
+                      "A state of confusion.",
+                      "Bliss (Na'īm).",
+                      "A place of reckoning."
+                    ],
+                    "correctAnswer": "Bliss (Na'īm)."
+                  },
+                  {
+                    "question": "What does Allah remind man of to demonstrate His power and generosity in Surah Al-Infitar?",
+                    "options": [
+                      "His creation from a sperm-drop, his fashioning, and his perfected design.",
+                      "His ability to create great military generals.",
+                      "His capacity to heal all diseases.",
+                      "His creation of wealth for all people."
+                    ],
+                    "correctAnswer": "His creation from a sperm-drop, his fashioning, and his perfected design."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 83,
+                "sectionTitle": "Surah Al-Mutaffifin (The Defrauders, Surah 83)",
+                "vocab": [
+                  {"term": "الْمُطَفِّفِينَ", "meaning": "the defrauders (those who cheat in business)"},
+                  {"term": "يَسْتَوْفُونَ", "meaning": "take full measure (when buying)"},
+                  {"term": "يُخْسِرُونَ", "meaning": "give less (when measuring or weighing for buyers)"},
+                  {"term": "سِجِّينٌ", "meaning": "Sijjîn (record of the wicked at the bottom of Hell)"},
+                  {"term": "عِلِّيُّونَ", "meaning": "'Illiyûn (record of the virtuous in elevated Gardens)"},
+                  {"term": "رَانَ عَلَىٰ قُلُوبِهِم", "meaning": "their hearts have been stained"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Condemnation of Cheating and the Reason for Denial (Verses 1-17)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Allah issues a severe condemnation ('Woe!') to the defrauders—those who cheat in business by taking full measure when buying but giving less when selling. This dishonesty stems from their denial and lack of concern for the Day of Judgment. They will stand before the Lord of all worlds on that tremendous Day."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The book of deeds of the wicked (Al-Fujjār) will be stored at the bottom of Hell in **Sijjîn**. The deniers dismiss warnings as 'Ancient fables!'. Their hearts are stained (Rān) by the many sins they have committed. Their biggest punishment will be being sealed off (Mahjūbūn) from seeing Allah on that Day, in addition to experiencing Hell."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Bliss of the Virtuous and the Reversal of Roles (Verses 18-36)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "In contrast, the book of deeds of the righteous (Al-Abrār) will be elevated to **'Illiyûn** in elevated Gardens, witnessed by those nearest to Allah. The virtuous will be in bliss, seated on couches, with the glow of delight visible on their faces, enjoying sealed, pure wine whose last sip smells like musk. Whoever aspires to this must strive diligently."
+                  },
+                  {
+                    "type": "quote",
+                    "text": "In the worldly life, the wicked laughed and mocked the believers. However, Allah will reverse the roles in the hereafter, where the good people will have the ultimate laugh, having been paid back for what they used to do."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "The denial of the Day of Judgment by the defrauders is primarily attributed to what?",
+                    "options": [
+                      "Their lack of education.",
+                      "Their belief that cheating is ethical.",
+                      "Their lack of concern about the hereafter and the final judgment.",
+                      "Their focus on farming and agriculture."
+                    ],
+                    "correctAnswer": "Their lack of concern about the hereafter and the final judgment."
+                  },
+                  {
+                    "question": "What distinguishes the record of the righteous ('Illiyûn) from the record of the wicked (Sijjîn)?",
+                    "options": [
+                      "'Illiyûn is sealed, while Sijjîn is open.",
+                      "'Illiyûn is elevated in Paradise, while Sijjîn is stored in the depths of Hell.",
+                      "'Illiyûn is in Arabic, while Sijjîn is in Persian.",
+                      "They are both located in the lowest heaven."
+                    ],
+                    "correctAnswer": "'Illiyûn is elevated in Paradise, while Sijjîn is stored in the depths of Hell."
+                  },
+                  {
+                    "question": "What is considered the biggest spiritual punishment for the wicked in this Surah, besides the Hellfire?",
+                    "options": [
+                      "Being denied access to all food.",
+                      "Being forced to watch the believers enjoying Paradise.",
+                      "Being sealed off from seeing Allah's face.",
+                      "Being stripped of all their wealth."
+                    ],
+                    "correctAnswer": "Being sealed off from seeing Allah's face."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 84,
+                "sectionTitle": "Surah Al-Inshiqaq (The Splitting Asunder, Surah 84)",
+                "vocab": [
+                  {"term": "أَنشَقَّتْ", "meaning": "bursts open (referring to the sky)"},
+                  {"term": "كَادِحٌ", "meaning": "laboring restlessly/striving"},
+                  {"term": "كِتَابَهُ بِيَمِينِهِ", "meaning": "their record in their right hand"},
+                  {"term": "وَرَاءَ ظَهْرِهِ", "meaning": "behind their backs (referring to receiving the record)"},
+                  {"term": "الشَّفَقِ", "meaning": "the twilight"},
+                  {"term": "طَبَقًا عَن طَبَقٍ", "meaning": "from one state to another (the life cycle)"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Cosmic Obedience and Human Toil (Verses 1-6)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Day of Judgment begins when the sky bursts open, obeying its Lord, and the earth is flattened out, ejecting its contents, also in obedience. This leads to the profound statement about man's life: 'O humanity! Indeed, you are laboring restlessly (Kādih) towards your Lord, and will eventually meet the consequences'."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Two Outcomes of Reckoning (Verses 7-15)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Surah details the decisive reckoning:"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "**Easy Reckoning:** Those who receive their record in their **right hand** will have an easy reckoning and will return to their people joyfully.",
+                      "**Hard Reckoning:** Those who receive their record in their **left hand from behind their backs** will cry for destruction and burn in the blazing Fire. They were prideful and thought they would never return to Allah."
+                    ]
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Perseverance and Reward (Verses 16-25)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Allah swears by the twilight, the night, and the full moon to affirm that humans will pass through various stages in life (Tabqan 'an Ṭabaq). It questions why people do not believe and refuse to bow down when the Qur'an is recited. The righteous who believe and do good will have a never-ending reward. The disbelievers persist in denial and are promised a painful punishment."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the universal truth about human life stated in the phrase 'Indeed, you are laboring restlessly towards your Lord'?",
+                    "options": [
+                      "That all humans are destined to fail.",
+                      "That all humans are meant to find immediate peace.",
+                      "That all humans are stiving and working throughout their lives and will meet their Lord.",
+                      "That physical labor is the only accepted form of worship."
+                    ],
+                    "correctAnswer": "That all humans are stiving and working throughout their lives and will meet their Lord."
+                  },
+                  {
+                    "question": "The disbelievers who receive their record behind their backs are described as having thought what in their worldly life?",
+                    "options": [
+                      "That they would become very wealthy.",
+                      "That they would never return to Allah.",
+                      "That they were the most humble of people.",
+                      "That their good deeds were sufficient."
+                    ],
+                    "correctAnswer": "That they would never return to Allah."
+                  },
+                  {
+                    "question": "What is the significance of the phrase 'tabqan 'an ṭabaq' (from one state to another)?",
+                    "options": [
+                      "It refers to the changing nature of the earth.",
+                      "It refers to the various stages humans go through in the life cycle.",
+                      "It refers to the levels of Hellfire.",
+                      "It refers to the different layers of the sky."
+                    ],
+                    "correctAnswer": "It refers to the various stages humans go through in the life cycle."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 85,
+                "sectionTitle": "Surah Al-Buruj (The Constellations, Surah 85)",
+                "vocab": [
+                  {"term": "ذَاتِ الْبُرُوجِ", "meaning": "full of constellations"},
+                  {"term": "أَصْحَابُ الْأُخْدُودِ", "meaning": "the makers of the ditch (People of the Ditch)"},
+                  {"term": "يَنْقَمُوا", "meaning": "resented"},
+                  {"term": "بَطْشَ رَبِّكَ لَشَدِيدٌ", "meaning": "the crushing grip of your Lord is severe"},
+                  {"term": "الْوَدُودُ", "meaning": "All-Loving"},
+                  {"term": "لَوْحٍ مَّحْفُوظٍ", "meaning": "Preserved Tablet"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Consolation through the People of the Ditch (Verses 1-11)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Allah swears by the sky full of constellations and the Promised Day of Judgment to introduce the story of the **'People of the Ditch' (Ashāb al-Ukhdūd)**. This account condemns the tyrannical rulers who burned believers alive in fire pits. The believers were resented for no reason other than their faith in Allah. Allah promises severe punishment for those who persecute believers unless they repent. The reward for those who believe and do good is Gardens under which rivers flow—the greatest triumph."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Divine Attributes and Sovereignty (Verses 12-22)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Allah reminds the transgressors that His crushing grip is severe. He is the one who originates and resurrects all, yet He is also the All-Forgiving and **All-Loving (Al-Wadūd)**. The destruction of past forces like Pharaoh and Thamūd serves as a historical lesson. Despite their persistent denial, Allah encompassed them from all sides. The Qur'an is declared to be a glorious book, recorded in a Preserved Tablet (Lawh Mahfūz)."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What was the only reason the king persecuted the 'People of the Ditch'?",
+                    "options": [
+                      "They refused to pay taxes.",
+                      "They tried to take over his kingdom.",
+                      "They believed in Allah—the Almighty, the Praiseworthy.",
+                      "They fled from the city."
+                    ],
+                    "correctAnswer": "They believed in Allah—the Almighty, the Praiseworthy."
+                  },
+                  {
+                    "question": "What is the biggest reward promised to those who believe and do good in this Surah?",
+                    "options": [
+                      "Wealth and a long life.",
+                      "Gardens under which rivers flow (Jannah).",
+                      "Fame and glory.",
+                      "Immediate revenge on their persecutors."
+                    ],
+                    "correctAnswer": "Gardens under which rivers flow (Jannah)."
+                  },
+                  {
+                    "question": "What attribute of Allah is mentioned alongside All-Forgiving to emphasize His mercy?",
+                    "options": [
+                      "Al-Qahhar (The Dominant).",
+                      "Al-Wadūd (The All-Loving).",
+                      "Al-Muhyi (The Giver of Life).",
+                      "Al-Khaliq (The Creator)."
+                    ],
+                    "correctAnswer": "Al-Wadūd (The All-Loving)."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 86,
+                "sectionTitle": "Surah At-Tariq (The Night-Comer, Surah 86)",
+                "vocab": [
+                  {"term": "الطَّارِقِ", "meaning": "the nightly visitor (The piercing star)"},
+                  {"term": "حَافِظٌ", "meaning": "a guardian (angel assigned to oversee and record deeds)"},
+                  {"term": "مَاءٍ دَافِقٍ", "meaning": "a spurting fluid"},
+                  {"term": "تُبْلَى السَّرَائِرُ", "meaning": "secrets will be laid bare"},
+                  {"term": "لَقَوْلٌ فَصْلٌ", "meaning": "a decisive statement"},
+                  {"term": "كَيْدًا", "meaning": "a plot/plan"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Divine Surveillance and Human Origin (Verses 1-10)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Allah swears by the heaven and the piercing star (At-Tāriq) to affirm a great truth: **'There is no soul without a guardian over it'**. These assigned angels oversee every soul, recording their deeds."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Mankind is commanded to reflect on their creation from a mere spurting fluid emerging from between the backbone and the ribs. This simple origin proves Allah's capability of returning man to life (resurrection). The Day of Judgment will be a time when all secrets will be laid bare, except for the deeds of believers which Allah covered in this world."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Decisive Qur'an and Patience (Verses 11-17)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Allah swears by the sky and the earth to emphasize the decisive nature of the Qur'an. The Qur'an is a serious message, not something to be taken lightly. Disbelievers are plotting a plot, but Allah reassures the Prophet that He has His own plan. The Prophet and Muslims are advised to be patient and persevere through the adversities posed by disbelievers."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What truth does the oath by the piercing star (At-Tāriq) affirm about every soul?",
+                    "options": [
+                      "Every soul must be born at night.",
+                      "Every soul will eventually become a star.",
+                      "There is no soul without a guardian (angel) over it.",
+                      "Every soul is created from fire."
+                    ],
+                    "correctAnswer": "There is no soul without a guardian (angel) over it."
+                  },
+                  {
+                    "question": "The difference in the Qur'an and the disbelievers' plots is that:",
+                    "options": [
+                      "The Qur'an is a humorous joke, and their plot is serious.",
+                      "The Qur'an is a decisive, serious statement, and their plot is temporary, which Allah has a counter-plan for.",
+                      "The Qur'an is meant only for scholars, and their plot is for the common people.",
+                      "The Qur'an is only historical, and their plot is futuristic."
+                    ],
+                    "correctAnswer": "The Qur'an is a decisive, serious statement, and their plot is temporary, which Allah has a counter-plan for."
+                  },
+                  {
+                    "question": "On the Day when secrets will be laid bare, what will Allah honor and cover for the believers?",
+                    "options": [
+                      "Their hidden wealth.",
+                      "Their place of residence.",
+                      "The secrets of their hearts that Allah had already covered in the world.",
+                      "Their family lineage."
+                    ],
+                    "correctAnswer": "The secrets of their hearts that Allah had already covered in the world."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 87,
+                "sectionTitle": "Surah Al-A'la (The Most High, Surah 87)",
+                "vocab": [
+                  {"term": "سَبِّحْ", "meaning": "Glorify"},
+                  {"term": "الْأَعْلَىٰ", "meaning": "The Most High"},
+                  {"term": "قَدَّرَ فَهَدَىٰ", "meaning": "ordained precisely and inspired accordingly"},
+                  {"term": "غُثَاءً أَحْوَىٰ", "meaning": "withered chaff"},
+                  {"term": "لِلْيُسْرَىٰ", "meaning": "the Way of Ease"},
+                  {"term": "أَفْلَحَ", "meaning": "Successful indeed"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Command to Glorify and Divine Assurance (Verses 1-8)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Surah begins with the command to **'Glorify the Name of your Lord, the Most High'**. Allah is praised as the One who perfectly created, fashioned, ordained and guided. He also controls the cycle of growth and decay in nature, reducing green pasture to withered chaff."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Allah provides assurance to the Prophet (PBUH) who feared forgetting the revelation. Allah promises: 'We will have you recite the Quran, O Prophet, so you will not forget any of it' and that He will facilitate for him the Way of Ease."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Outcome of Adherence (Verses 9-19)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Prophet's duty is to always remind people with the Qur'an. Those who fear Allah will be mindful, while the most wretched will shun it and burn in the greatest Fire, where they will neither die nor live."
+                  },
+                  {
+                    "type": "quote",
+                    "text": "True winners are those who continuously purify their hearts, remember the Name of their Lord, and pray. Despite the Hereafter being far better and more lasting, many humans prefer the fleeting life of this world. This core message was also mentioned in the earlier Scriptures of Abraham and Moses."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What fear did the Prophet (PBUH) have that Allah addressed in Surah Al-A'la?",
+                    "options": [
+                      "The fear of persecution from the Quraysh.",
+                      "The fear of forgetting the revelation (Qur'an).",
+                      "The fear of not having enough followers.",
+                      "The fear of his wife leaving him."
+                    ],
+                    "correctAnswer": "The fear of forgetting the revelation (Qur'an)."
+                  },
+                  {
+                    "question": "What is the key reason given in the Surah for why people should prefer the Hereafter over this worldly life?",
+                    "options": [
+                      "The Hereafter is closer in time.",
+                      "The Hereafter is easier to achieve.",
+                      "The Hereafter is far better and more lasting.",
+                      "The Hereafter is only for the very wealthy."
+                    ],
+                    "correctAnswer": "The Hereafter is far better and more lasting."
+                  },
+                  {
+                    "question": "Which two previous Prophets are mentioned as having received the same core message as the one in this Surah?",
+                    "options": [
+                      "Noah and Lot.",
+                      "David and Solomon.",
+                      "Abraham and Moses.",
+                      "Adam and Idris."
+                    ],
+                    "correctAnswer": "Abraham and Moses."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 88,
+                "sectionTitle": "Surah Al-Ghashiyah (The Overwhelming, Surah 88)",
+                "vocab": [
+                  {"term": "الْغَاشِيَةِ", "meaning": "The Overwhelming Event (Day of Judgment)"},
+                  {"term": "عَامِلَةٌ نَّاصِبَةٌ", "meaning": "totally overburdened, exhausted"},
+                  {"term": "ضَرِيعٍ", "meaning": "foul, thorny shrub (painful food of Hell)"},
+                  {"term": "وُجُوهٌ نَّاعِمَةٌ", "meaning": "faces glowing with bliss"},
+                  {"term": "لَا تَسْمَعُ فِيهَا لَاغِيَةً", "meaning": "no idle talk will be heard"},
+                  {"term": "مُصَيْطِرٍ", "meaning": "compel them to believe"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Overwhelming Day and the Fate of the Evil (Verses 1-7)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The 'Overwhelming Event' (Al-Ghashiyah) is the Day of Judgment. The evil people will come humbled, looking exhausted and tired (A'milatun Nāṣibah). They will burn in a scorching Fire, forced to drink from a scalding spring, and fed a painful thorny shrub (Ḍarī') that neither nourishes nor satisfies hunger."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Bliss of the Righteous (Verses 8-16)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The good people will come joyful, with faces glowing with bliss, fully pleased with their striving, having earned Jannah in an elevated Garden. Jannah is a peaceful place where they will hear no idle talk. They will have running springs, raised thrones, cups, cushions, and splendid carpets."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Signs in Creation and Prophetic Duty (Verses 17-26)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Allah invites people to reflect on four simple creations that prove His power: the camel (a very special, masterfully created animal), the sky (raised high), the mountains (firmly set up), and the earth (leveled out). The Prophet (PBUH) is commanded to continue reminding people of Allah, as his duty is only to remind, not to compel them to believe. Those who turn away and persist in disbelief will face the major punishment, as their return and reckoning are with Allah alone."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "The faces of the evil people on the Day of Judgment are described as having what physical state?",
+                    "options": [
+                      "Glowing with bliss.",
+                      "Smiling and contented.",
+                      "Totally overburdened, exhausted, and downcast.",
+                      "Normal and calm."
+                    ],
+                    "correctAnswer": "Totally overburdened, exhausted, and downcast."
+                  },
+                  {
+                    "question": "What is unique about the food of the people in Hell (Ḍarī')?",
+                    "options": [
+                      "It is delicious but scarce.",
+                      "It is a thorny shrub that neither nourishes nor satisfies hunger.",
+                      "It is simple bread and water.",
+                      "It is only available to some people."
+                    ],
+                    "correctAnswer": "It is a thorny shrub that neither nourishes nor satisfies hunger."
+                  },
+                  {
+                    "question": "What is the key takeaway for a Muslim's duty regarding the rejection of the message?",
+                    "options": [
+                      "To compel people to believe using force.",
+                      "To stop reminding people entirely if they reject it.",
+                      "To continue reminding people without worrying about who accepts it, as reckoning is with Allah.",
+                      "To only remind those who are rich and powerful."
+                    ],
+                    "correctAnswer": "To continue reminding people without worrying about who accepts it, as reckoning is with Allah."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 89,
+                "sectionTitle": "Surah Al-Fajr (The Dawn, Surah 89)",
+                "vocab": [
+                  {"term": "وَالْفَجْرِ", "meaning": "By the dawn"},
+                  {"term": "لَيَالٍ عَشْرٍ", "meaning": "the ten nights (last 10 of Ramadan or first 10 of Dhul-Hijjah)"},
+                  {"term": "ذَاتِ الْعِمَادِ", "meaning": "with their great stature (referring to the people of 'Ad)"},
+                  {"term": "أَهَانَنِ", "meaning": "undeservedly humiliated me"},
+                  {"term": "النَّفْسُ الْمُطْمَئِنَّةُ", "meaning": "O tranquil soul"},
+                  {"term": "قَدَّمْتُ لِحَيَاتِي", "meaning": "I had sent forth 'something good for my true' life"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Oaths and Historical Lessons (Verses 1-14)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Allah swears by the dawn and the ten nights (a period of great virtue) to emphasize the importance of the warnings that follow. Lessons are drawn from the destruction of past tribes: 'Ad (who had great stature), Thamūd (who carved homes into rocks), and Pharaoh (of mighty structures). They all transgressed and spread corruption, resulting in Allah unleashing a severe scourge of punishment. Allah is truly vigilant (Bi-al-Mirsād)."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Critique of Man's Attitudes (Verses 15-20)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Surah critiques man's inconsistent attitude toward divine tests: when tested with generosity, he boasts he is honored; but when tested with limited provision, he protests that Allah has 'undeservedly humiliated' him. This leads to four bad character traits that are condemned: not being gracious to orphans, not encouraging the feeding of the poor, greedily consuming others' inheritance, and loving wealth fervently."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Ultimate Invitation (Verses 21-30)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "On the Day of Judgment, when the earth is crushed and Hell is brought forth, the disbeliever will remember their sins and cry, 'I wish I had sent forth [something good] for my [true] life'. Allah's punishment will be severe and just."
+                  },
+                  {
+                    "type": "quote",
+                    "text": "The Surah culminates with Allah's personal invitation to the believer's heart: 'O tranquil soul! Return to your Lord, well pleased with Him and well pleasing [to Him]. So join My servants, and enter My Paradise.'."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the key lesson drawn from the destruction of nations like 'Ad and Thamūd in this Surah?",
+                    "options": [
+                      "That wealth ensures safety.",
+                      "That Allah will never punish a powerful nation.",
+                      "That transgression and corruption lead to severe divine punishment.",
+                      "That they were too humble."
+                    ],
+                    "correctAnswer": "That transgression and corruption lead to severe divine punishment."
+                  },
+                  {
+                    "question": "How does man typically react when Allah tests him by limiting his provision?",
+                    "options": [
+                      "He boasts he is honored.",
+                      "He praises Allah more deeply.",
+                      "He protests that Allah has 'undeservedly humiliated' him.",
+                      "He only seeks charity from others."
+                    ],
+                    "correctAnswer": "He protests that Allah has 'undeservedly humiliated' him."
+                  },
+                  {
+                    "question": "What four bad character traits are specifically condemned in the second part of the Surah?",
+                    "options": [
+                      "Being too quiet, eating too little, sleeping too much, and reading too much.",
+                      "Not honoring the orphan, not feeding the poor, greedily consuming inheritance, and loving wealth fervently.",
+                      "Ignoring the sun, moon, and stars.",
+                      "Failing to travel and explore the world."
+                    ],
+                    "correctAnswer": "Not honoring the orphan, not feeding the poor, greedily consuming inheritance, and loving wealth fervently."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 90,
+                "sectionTitle": "Surah Al-Balad (The City, Surah 90)",
+                "vocab": [
+                  {"term": "بِهَذَا الْبَلَدِ", "meaning": "this city of Mecca"},
+                  {"term": "فِي كَبَدٍ", "meaning": "in constant struggle/toil"},
+                  {"term": "النَّجْدَيْنِ", "meaning": "the two ways of right and wrong"},
+                  {"term": "الْعَقَبَةَ", "meaning": "the challenging path of goodness"},
+                  {"term": "فَكُّ رَقَبَةٍ", "meaning": "to free a slave"},
+                  {"term": "أَصْحَابُ الْمَيْمَنَةِ", "meaning": "the people of the right (Paradise)"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Man Created for Struggle (Verses 1-10)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Allah swears by Mecca (The City) to establish the fundamental truth: humankind was created in **constant struggle (Kabad)**. The Surah challenges the arrogant person who boasts of squandering enormous wealth, thinking no one has power over or sees them. Allah reminds man of the blessings He gave: two eyes, a tongue, and two lips, and the innate guidance to distinguish between right and wrong (Al-Najdayn)."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Challenging Path (Verses 11-16)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Surah asks why man has not attempted the challenging path of goodness (Al-'Aqabah). This path involves difficult deeds that go against selfish desires. Examples include: **freeing a slave**, **giving food in times of famine** to an orphaned relative, or a poor person in distress."
+                  },
+                  {
+                    "type": "quote",
+                    "text": "The successful ones (People of the Right) are those who have faith and urge each other to perseverance (Sabr) and compassion (Marhamah). Those who deny Allah's signs are the People of the Left, and the Fire will be sealed over them."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the meaning of the phrase 'We have created humankind in constant struggle' (Fī Kabad)?",
+                    "options": [
+                      "That life is always easy and peaceful.",
+                      "That humans are created for toil and struggle.",
+                      "That humans are meant to hoard all their wealth.",
+                      "That only the Prophets struggled in life."
+                    ],
+                    "correctAnswer": "That humans are created for toil and struggle."
+                  },
+                  {
+                    "question": "What is the 'challenging path of goodness' (Al-'Aqabah) exemplified by?",
+                    "options": [
+                      "Boasting about one's wealth.",
+                      "Fleeing from the city of Makkah.",
+                      "Freeing a slave and feeding the poor during famine.",
+                      "Ignoring all advice from others."
+                    ],
+                    "correctAnswer": "Freeing a slave and feeding the poor during famine."
+                  },
+                  {
+                    "question": "The successful people (of the right) are characterized by having faith and urging each other to what two virtues?",
+                    "options": [
+                      "Rivalry and ambition.",
+                      "Wealth and status.",
+                      "Perseverance (Sabr) and compassion (Marhamah).",
+                      "War and conquest."
+                    ],
+                    "correctAnswer": "Perseverance (Sabr) and compassion (Marhamah)."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 91,
+                "sectionTitle": "Surah Ash-Shams (The Sun, Surah 91)",
+                "vocab": [
+                  {"term": "وَالشَّمْسِ وَضُحَاهَا", "meaning": "By the sun and its brightness"},
+                  {"term": "فَأَلْهَمَهَا", "meaning": "then inspired it"},
+                  {"term": "فُجُورَهَا وَتَقْوَاهَا", "meaning": "its wickedness and its righteousness"},
+                  {"term": "زَكَّاهَا", "meaning": "purifies their soul"},
+                  {"term": "دَسَّاهَا", "meaning": "corrupts it"},
+                  {"term": "نَاقَةَ اللَّهِ", "meaning": "Allah's camel"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Cosmic Oaths and The Soul's Inspiration (Verses 1-10)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Allah swears by several pairs of cosmic opposites—the sun/moon, day/night, heaven/earth—to emphasize the divine origin of the subsequent message. The ultimate oath is by the soul, which Allah fashioned and inspired with the knowledge of both its **wickedness (Fūjūr) and its righteousness (Taqwā)**."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "This leads to the Surah's core conclusion: **'Successful indeed is the one who purifies their soul, and doomed is the one who corrupts it!'**."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Example of Thamūd (Verses 11-15)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The tribe of Thamūd is used as a stark historical example. They rejected the truth out of arrogance. The most wicked among them was roused to kill the she-camel, which Prophet Saleh had warned them not to disturb. Because they defied him and slaughtered the camel, their Lord crushed them all, leveling them to the ground. Allah has no fear of consequences in carrying out His justice."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the ultimate choice and source of success/failure mentioned in this Surah?",
+                    "options": [
+                      "Achieving a high education.",
+                      "Choosing to purify or corrupt one's soul.",
+                      "Finding a great source of wealth.",
+                      "Building a large army."
+                    ],
+                    "correctAnswer": "Choosing to purify or corrupt one's soul."
+                  },
+                  {
+                    "question": "The word 'Fūjūr' (wickedness) and 'Taqwā' (righteousness) are mentioned to show that the human soul is inspired with what?",
+                    "options": [
+                      "Only goodness.",
+                      "Only evil.",
+                      "The knowledge of both its wickedness and its righteousness.",
+                      "The ability to fly."
+                    ],
+                    "correctAnswer": "The knowledge of both its wickedness and its righteousness."
+                  },
+                  {
+                    "question": "What act led to the destruction of the tribe of Thamūd in this Surah?",
+                    "options": [
+                      "They refused to build homes in the rocks.",
+                      "They worshiped the moon.",
+                      "They defied their prophet and slaughtered the she-camel.",
+                      "They refused to travel."
+                    ],
+                    "correctAnswer": "They defied their prophet and slaughtered the she-camel."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 92,
+                "sectionTitle": "Surah Al-Lail (The Night, Surah 92)",
+                "vocab": [
+                  {"term": "يَغْشَىٰ", "meaning": "covers (referring to the night)"},
+                  {"term": "تَجَلَّىٰ", "meaning": "shines (referring to the day)"},
+                  {"term": "سَعْيَكُمْ لَشَتَّىٰ", "meaning": "the ends you strive for are diverse"},
+                  {"term": "صَدَّقَ بِالْحُسْنَىٰ", "meaning": "firmly believes in the finest reward"},
+                  {"term": "بَخِلَ", "meaning": "is stingy"},
+                  {"term": "تَرَدَّىٰ", "meaning": "tumble into Hell"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Diversity of Human Effort (Verses 1-4)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Allah swears by opposites—night/day and male/female—to emphasize the diversity in human actions and goals."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Two Paths (Verses 5-11)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Surah contrasts the paths of two individuals:"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "**The Righteous:** One who is charitable, mindful of Allah, and believes in the finest reward (Al-Husnā). Allah will facilitate for them the **Way of Ease**.",
+                      "**The Wretched:** One who is stingy (Bakhil), denies the finest reward, and is indifferent to Allah. Allah will facilitate for them the **path of hardship**. Their wealth will be of no benefit when they tumble into Hell."
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "Allah affirms that guidance and ownership of this life and the next belong to Him. The truly righteous donate solely to purify themselves and seek the pleasure of Allah, not in return for favors. They will certainly be pleased with their reward."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the 'finest reward' (Al-Husnā) that the righteous firmly believe in?",
+                    "options": [
+                      "The ability to travel and see the world.",
+                      "Paradise and the Hereafter.",
+                      "Immediate wealth in this life.",
+                      "The possession of fine horses."
+                    ],
+                    "correctAnswer": "Paradise and the Hereafter."
+                  },
+                  {
+                    "question": "For those who are stingy and deny the finest reward, what is the consequence of their wealth?",
+                    "options": [
+                      "It will ensure they live forever.",
+                      "It will be used to help others.",
+                      "It will be of no benefit to them when they tumble into Hell.",
+                      "It will continue to increase until they die."
+                    ],
+                    "correctAnswer": "It will be of no benefit to them when they tumble into Hell."
+                  },
+                  {
+                    "question": "What is the defining characteristic of the donation made by the righteous to purify themselves?",
+                    "options": [
+                      "It is done to receive thanks from others.",
+                      "It is done in return for someone else's favors.",
+                      "It is done only to seek the pleasure of their Lord, the Most High.",
+                      "It is done publicly to encourage others."
+                    ],
+                    "correctAnswer": "It is done only to seek the pleasure of their Lord, the Most High."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 93,
+                "sectionTitle": "Surah Ad-Duha (The Morning Hours, Surah 93)",
+                "vocab": [
+                  {"term": "وَالضُّحَىٰ", "meaning": "By the morning sunlight"},
+                  {"term": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ", "meaning": "Your Lord has not abandoned you, nor has He become hateful of you"},
+                  {"term": "يَتِيمًا", "meaning": "an orphan"},
+                  {"term": "ضَالًّا فَهَدَىٰ", "meaning": "unguided then guided you"},
+                  {"term": "سَائِلًا فَلَا تَنْهَرْ", "meaning": "nor repulse the beggar"},
+                  {"term": "فَبِنِعْمَةِ رَبِّكَ فَحَدِّثْ", "meaning": "And proclaim the blessings of your Lord"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Divine Consolation and Assurance (Verses 1-5)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "This Surah was revealed when revelation paused, leading disbelievers to mock the Prophet (PBUH). Allah swore by the morning sunlight and the night to reassure the Prophet that **'Your Lord... has not abandoned you, nor has He become hateful of you'**. He promises that the Hereafter will be far better, and He will give the Prophet so much that he will be pleased."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Recounting Past Blessings (Verses 6-8)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "As an antidote to grief, Allah reminds the Prophet of His past blessings: sheltering him as an orphan, guiding him when he was unguided, and providing for him when he was needy."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Commands of Gratitude (Verses 9-11)"
+                  },
+                  {
+                    "type": "quote",
+                    "text": "In response to these blessings, the Prophet (and all believers) are commanded to treat the vulnerable with compassion: **'So do not oppress the orphan, nor repulse the beggar. And proclaim the blessings of your Lord.'**."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What was the main purpose of Surah Ad-Duha's revelation?",
+                    "options": [
+                      "To establish the rules of prayer.",
+                      "To console the Prophet (PBUH) after a pause in revelation and assure him of divine favor.",
+                      "To command a new military campaign.",
+                      "To describe the signs of the Day of Judgment."
+                    ],
+                    "correctAnswer": "To console the Prophet (PBUH) after a pause in revelation and assure him of divine favor."
+                  },
+                  {
+                    "question": "Which of the following is NOT a command of gratitude given in the final verses of the Surah?",
+                    "options": [
+                      "To proclaim the blessings of the Lord.",
+                      "To oppress the orphan.",
+                      "Not to repulse the beggar.",
+                      "To reflect on Allah's past blessings."
+                    ],
+                    "correctAnswer": "To oppress the orphan."
+                  },
+                  {
+                    "question": "What is the Prophet (PBUH) assured will be 'far better' for him than this present life?",
+                    "options": [
+                      "His fame among the Arabs.",
+                      "The next life (the Hereafter).",
+                      "The immediate end of all persecution.",
+                      "The wealth he will accumulate."
+                    ],
+                    "correctAnswer": "The next life (the Hereafter)."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 94,
+                "sectionTitle": "Surah Ash-Sharh (The Relief, Surah 94)",
+                "vocab": [
+                  {"term": "نَشْرَحْ لَكَ صَدْرَكَ", "meaning": "uplifted your heart for you"},
+                  {"term": "وِزْرَكَ", "meaning": "the burden"},
+                  {"term": "رَفَعْنَا لَكَ ذِكْرَكَ", "meaning": "elevated your renown for you"},
+                  {"term": "الْعُسْرِ يُسْرًا", "meaning": "with hardship comes ease"},
+                  {"term": "فَأَنصَبْ", "meaning": "strive in devotion"},
+                  {"term": "فَأَرْغَب", "meaning": "turn to your Lord alone with hope"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Divine Honors and Relief (Verses 1-4)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "This Surah was revealed when the Prophet (PBUH) was experiencing sadness and discouragement. Allah reminds him of the blessings already bestowed: uplifting (purifying) his heart, relieving him of the burden that weighed heavily on his back, and elevating his renown."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Principle of Ease (Verses 5-6)"
+                  },
+                  {
+                    "type": "quote",
+                    "text": "Allah emphasizes a golden life principle that relief will follow struggle, repeating it for certainty and reassurance: **'So, surely with hardship comes ease. Surely with that hardship comes more ease.'**."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Command for Continuous Devotion (Verses 7-8)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The final instruction guides the believer to respond with continuous effort: **'So once you have fulfilled your duty, strive [in devotion], turning to your Lord alone with hope.'**. This teaches a Muslim to move seamlessly from one act of worship to the next."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the key principle repeated twice in Surah Ash-Sharh for emphasis?",
+                    "options": [
+                      "With wealth comes happiness.",
+                      "With every sun comes the moon.",
+                      "With hardship comes ease.",
+                      "With every question comes an answer."
+                    ],
+                    "correctAnswer": "With hardship comes ease."
+                  },
+                  {
+                    "question": "The phrase 'uplifted your heart for you' refers to what divine action for the Prophet (PBUH)?",
+                    "options": [
+                      "Healing a physical ailment.",
+                      "Purifying his soul and preparing him for prophethood.",
+                      "Giving him immediate victory in battle.",
+                      "Removing his financial debts."
+                    ],
+                    "correctAnswer": "Purifying his soul and preparing him for prophethood."
+                  },
+                  {
+                    "question": "What are believers commanded to do immediately after fulfilling one duty/task?",
+                    "options": [
+                      "To take a long, extended rest.",
+                      "To strive in devotion and turn to their Lord alone with hope.",
+                      "To look for worldly employment.",
+                      "To seek assistance from others."
+                    ],
+                    "correctAnswer": "To strive in devotion and turn to their Lord alone with hope."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 95,
+                "sectionTitle": "Surah At-Tin (The Fig, Surah 95)",
+                "vocab": [
+                  {"term": "التِّينِ وَالزَّيْتُونِ", "meaning": "the fig and the olive"},
+                  {"term": "طُورِ سِينِينَ", "meaning": "Mount Sinai"},
+                  {"term": "الْبَلَدِ الْأَمِينِ", "meaning": "this secure city of Mecca"},
+                  {"term": "أَحْسَنِ تَقْوِيمٍ", "meaning": "the best form"},
+                  {"term": "أَسْفَلَ سَافِلِينَ", "meaning": "the lowest of the low in Hell"},
+                  {"term": "أَحْكَمِ الْحَاكِمِينَ", "meaning": "the most just of all judges"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Oaths on Sacred Lands (Verses 1-3)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Allah swears by four significant locations, symbolizing the connection among the Abrahamic faiths: the fig and the olive (referencing the lands of the Prophets, Jerusalem and Syria), Mount Sinai (where Moses received the Law), and Makkah (the secure city)."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Man's Potential and Final Destiny (Verses 4-8)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "These oaths lead to the declaration that Allah **'created humans in the best form (Ahsani Taqweem)'**, giving them the ability to make choices. Those who believe and do good deeds will have a never-ending reward (Jannah)."
+                  },
+                  {
+                    "type": "quote",
+                    "text": "Those who fail to believe and do good will be reduced to the lowest of the low in Hell. The Surah concludes by challenging the denier of the Judgment and affirming Allah as the most just of all judges."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What declaration does Allah make about the creation of humans in Surah At-Tin?",
+                    "options": [
+                      "That man was created from pure light.",
+                      "That man was created in the best form (Ahsani Taqweem).",
+                      "That man was created only to accumulate wealth.",
+                      "That man was created without free will."
+                    ],
+                    "correctAnswer": "That man was created in the best form (Ahsani Taqweem)."
+                  },
+                  {
+                    "question": "The places sworn by (Fig, Olive, Mount Sinai, Mecca) symbolize what in this Surah?",
+                    "options": [
+                      "The four cardinal directions.",
+                      "The different levels of heaven.",
+                      "The connection and brotherhood among the Abrahamic religions and their prophets.",
+                      "The major trading posts in Arabia."
+                    ],
+                    "correctAnswer": "The connection and brotherhood among the Abrahamic religions and their prophets."
+                  },
+                  {
+                    "question": "What two things are required to receive the 'never-ending reward' and avoid being reduced to the 'lowest of the low'?",
+                    "options": [
+                      "Giving small kindnesses and having a long life.",
+                      "Belief and good deeds.",
+                      "Ignoring the poor and mocking others.",
+                      "Accumulating great wealth and power."
+                    ],
+                    "correctAnswer": "Belief and good deeds."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 96,
+                "sectionTitle": "Surah Al-Alaq (The Clot, Surah 96)",
+                "vocab": [
+                  {"term": "أَقْرَأْ", "meaning": "Read/Recite (The first command of the Qur'an)"},
+                  {"term": "عَلَقٍ", "meaning": "a clinging clot"},
+                  {"term": "الْقَلَمِ", "meaning": "the pen"},
+                  {"term": "لَيَطْغَىٰ", "meaning": "exceeds all bounds/transgresses"},
+                  {"term": "اسْتَغْنَىٰ", "meaning": "thinks they are self-sufficient"},
+                  {"term": "النَّاصِيَةِ", "meaning": "the forelock"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The First Revelation: Knowledge and Creation (Verses 1-5)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "This Surah contains the first verses ever revealed to the Prophet (PBUH). The command is **'Read (Iqra!) in the Name of your Lord Who created'**. It establishes the foundation of Islam: Allah created man from a clinging clot, and He is the Most Generous Who taught man by the pen, emphasizing the importance of knowledge."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Man's Arrogance and the Opponent (Verses 6-19)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Humans tend to transgress and exceed all bounds (Yaṭghā) when they falsely think they are self-sufficient (Istaghnā). The ultimate return of all is to Allah."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Surah focuses on the antagonist (Abu Jahl) who opposed the Prophet and tried to prevent him from praying. Allah warns this opponent of severe consequences, threatening to drag him by his 'lying, sinful forelock'. Allah instructs the Prophet to disregard this opposition, never obey him, and instead **'prostrate and draw near [to Allah]'**."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What two concepts are established as foundational in the first five verses of the Qur'an?",
+                    "options": [
+                      "War and peace.",
+                      "Creation of man and the importance of knowledge and the pen.",
+                      "Trade and commerce.",
+                      "Fame and reputation."
+                    ],
+                    "correctAnswer": "Creation of man and the importance of knowledge and the pen."
+                  },
+                  {
+                    "question": "What state causes man to 'exceed all bounds' (Yaṭghā)?",
+                    "options": [
+                      "Having too little wealth.",
+                      "Thinking they are self-sufficient and don't need Allah.",
+                      "Being too charitable to the poor.",
+                      "Working too hard during the day."
+                    ],
+                    "correctAnswer": "Thinking they are self-sufficient and don't need Allah."
+                  },
+                  {
+                    "question": "What is the final instruction given to the Prophet (PBUH) in response to his opponent's threats?",
+                    "options": [
+                      "To fight the opponent immediately.",
+                      "To flee to a new city.",
+                      "To continue to prostrate and draw near to Allah.",
+                      "To call upon his tribal associates for help."
+                    ],
+                    "correctAnswer": "To continue to prostrate and draw near to Allah."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 97,
+                "sectionTitle": "Surah Al-Qadr (The Power/Destiny, Surah 97)",
+                "vocab": [
+                  {"term": "لَيْلَةِ الْقَدْرِ", "meaning": "the Night of Glory/Decree"},
+                  {"term": "خَيْرٌ مِّنْ أَلْفِ شَهْرٍ", "meaning": "better than a thousand months"},
+                  {"term": "الرُّوحُ", "meaning": "the holy spirit (Jibreel)"},
+                  {"term": "تَنَزَّلُ الْمَلَائِكَةُ", "meaning": "the angels descend"},
+                  {"term": "سَلَامٌ", "meaning": "peace"},
+                  {"term": "مَطْلَعِ الْفَجْرِ", "meaning": "the break of dawn"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Immense Value of the Night of Decree (Verses 1-5)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "This short Surah highlights the immense significance of **Laylat al-Qadr (The Night of Glory/Decree)**. The Qur'an was sent down on this blessed night."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The central message is its overwhelming merit: the Night of Glory is **'better than a thousand months'** in terms of reward, equivalent to approximately 83 years of continuous worship."
+                  },
+                  {
+                    "type": "quote",
+                    "text": "On this night, the angels and the Holy Spirit (Jibreel) descend by Allah's permission for every decreed matter. The night is characterized by being entirely 'peace until the break of dawn'."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the meaning of the statement, 'The Night of Glory is better than a thousand months'?",
+                    "options": [
+                      "The night lasts longer than 1,000 days.",
+                      "Worshipping on this single night yields reward equivalent to over 83 years of worship.",
+                      "Only 1,000 people will witness this night.",
+                      "It is the anniversary of 1,000 historical events."
+                    ],
+                    "correctAnswer": "Worshipping on this single night yields reward equivalent to over 83 years of worship."
+                  },
+                  {
+                    "question": "Besides the angels, who is specifically mentioned as descending on the Night of Glory?",
+                    "options": [
+                      "The Prophet Muhammad (PBUH).",
+                      "The Holy Spirit (Ar-Rūh), or Jibreel.",
+                      "All righteous people from Earth.",
+                      "The past generations of prophets."
+                    ],
+                    "correctAnswer": "The Holy Spirit (Ar-Rūh), or Jibreel."
+                  },
+                  {
+                    "question": "In the context of the revelation, what occurred on Laylat al-Qadr?",
+                    "options": [
+                      "The Earth was split open.",
+                      "The entire Qur'an was sent down to the lowest heaven and the first verses were revealed to the Prophet.",
+                      "The Ka'bah was destroyed.",
+                      "The rules for fasting were established."
+                    ],
+                    "correctAnswer": "The entire Qur'an was sent down to the lowest heaven and the first verses were revealed to the Prophet."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 98,
+                "sectionTitle": "Surah Al-Bayyinah (The Clear Proof, Surah 98)",
+                "vocab": [
+                  {"term": "أَهْلِ الْكِتَابِ", "meaning": "People of the Book (Jews and Christians)"},
+                  {"term": "الْبَيِّنَةُ", "meaning": "The Clear Proof (Prophet Muhammad and the Qur'an)"},
+                  {"term": "حُنَفَاءَ", "meaning": "in all uprightness"},
+                  {"term": "دِينُ الْقَيِّمَةِ", "meaning": "the upright Way"},
+                  {"term": "شَرُّ الْبَرِيَّةِ", "meaning": "the worst of all beings"},
+                  {"term": "خَيْرُ الْبَرِيَّةِ", "meaning": "the best of 'all' beings"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Clear Proof Arrives (Verses 1-4)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Surah addresses the disbelievers from the People of the Book and the polytheists. They claimed they would not desist from disbelief until the Clear Proof (Al-Bayyinah) came. The Proof arrived as a Messenger (Prophet Muhammad, PBUH) from Allah, reciting scrolls of utmost purity. The division among the People of the Book occurred *after* this Clear Proof came."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Core Command and Two Destinies (Verses 5-8)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The universal command in all previous scriptures was simple: to worship Allah alone with **sincere devotion (Ikhlās)**, establish prayer, and pay alms-tax (Zakāt). That is the upright Way (Dīn al-Qayyimah)."
+                  },
+                  {
+                    "type": "quote",
+                    "text": "The disbelievers are the **worst of all beings** (Sharru al-Bariyyah) and will be in Hell forever. Conversely, those who believe and do good are the **best of all beings** (Khayru al-Bariyyah). Their reward is eternal Gardens of Eternity, where Allah is pleased with them and they are pleased with Him."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "Who does the term 'Al-Bayyinah' (The Clear Proof) refer to in this Surah?",
+                    "options": [
+                      "The new temple in Makkah.",
+                      "The Prophet Muhammad (PBUH) and the Qur'an.",
+                      "The sign of the splitting of the moon.",
+                      "The rules for trade and commerce."
+                    ],
+                    "correctAnswer": "The Prophet Muhammad (PBUH) and the Qur'an."
+                  },
+                  {
+                    "question": "What is the fate of those who believe and do good deeds according to Surah Al-Bayyinah?",
+                    "options": [
+                      "They will be the worst of all beings.",
+                      "They will have a temporary stay in Paradise.",
+                      "They will be the best of all beings and receive eternal Gardens of Eternity.",
+                      "They will be given an opportunity to return to the world."
+                    ],
+                    "correctAnswer": "They will be the best of all beings and receive eternal Gardens of Eternity."
+                  },
+                  {
+                    "question": "What is one of the major rewards for the righteous mentioned in the final verse?",
+                    "options": [
+                      "Becoming kings on Earth.",
+                      "Being able to travel to every planet.",
+                      "The pleasure and contentment of Allah and their being pleased with Him.",
+                      "A long, healthy life on Earth."
+                    ],
+                    "correctAnswer": "The pleasure and contentment of Allah and their being pleased with Him."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 99,
+                "sectionTitle": "Surah Az-Zalzalah (The Earthquake, Surah 99)",
+                "vocab": [
+                  {"term": "زُلْزِلَتِ الْأَرْضُ زِلْزَالَهَا", "meaning": "the earth is shaken in its ultimate quaking"},
+                  {"term": "أَخْبَارَهَا", "meaning": "its news/everything that happened on it"},
+                  {"term": "يَصْدُرُ النَّاسُ أَشْتَاتًا", "meaning": "people will proceed in separate groups"},
+                  {"term": "مِثْقَالَ ذَرَّةٍ", "meaning": "an atom's weight"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Earth's Ultimate Quaking (Verses 1-5)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Day of Judgment will begin with a massive earthquake, causing the earth to shake violently and throw out all its contents, including treasures and dead bodies. Humanity will cry out, 'What is wrong with it?'."
+                  },
+                  {
+                    "type": "quote",
+                    "text": "On that Day, the Earth will speak and **'recount everything'** (report its news), testifying to all events that happened upon it, having been commanded by Allah to do so."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Precise Accountability (Verses 6-8)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "People will proceed in separate groups (Ashtātan) to be shown the consequences of their deeds. The Surah concludes with the fundamental principle of Divine Justice: every action, no matter how small, will be accounted for."
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Whoever does an **atom's weight of good** will see it.",
+                      "Whoever does an **atom's weight of evil** will see it."
+                    ]
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What surprising action will the Earth take on the Day of Judgment?",
+                    "options": [
+                      "It will fly into the sky.",
+                      "It will stop rotating permanently.",
+                      "It will speak and recount everything that happened upon it.",
+                      "It will apologize for all the bad deeds done on it."
+                    ],
+                    "correctAnswer": "It will speak and recount everything that happened upon it."
+                  },
+                  {
+                    "question": "The final verses of the Surah emphasize that every action, no matter how small, will be accounted for. What unit of measurement is used to stress this point?",
+                    "options": [
+                      "A mountain's weight.",
+                      "An ocean's weight.",
+                      "An atom's weight.",
+                      "A kilogram."
+                    ],
+                    "correctAnswer": "An atom's weight."
+                  },
+                  {
+                    "question": "Why will people proceed in 'separate groups' (Ashtātan) on that Day?",
+                    "options": [
+                      "To hide their deeds from others.",
+                      "To find their family members.",
+                      "To be shown the consequences of their individual deeds.",
+                      "To travel to a new location."
+                    ],
+                    "correctAnswer": "To be shown the consequences of their individual deeds."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 100,
+                "sectionTitle": "Surah Al-Adiyat (The Chargers, Surah 100)",
+                "vocab": [
+                  {"term": "الْعَادِيَاتِ", "meaning": "the galloping, panting horses"},
+                  {"term": "كَنُودٌ", "meaning": "ungrateful"},
+                  {"term": "حُبِّ الْخَيْرِ لَشَدِيدٌ", "meaning": "truly extreme in their love of 'worldly' gains/wealth"},
+                  {"term": "بُعْثِرَ مَا فِي الْقُبُورِ", "meaning": "the contents of the graves will be spilled out"},
+                  {"term": "حُصِّلَ مَا فِي الصُّدُورِ", "meaning": "the secrets of the hearts will be laid bare"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Oaths of War Horses and Man's Ingratitude (Verses 1-8)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Allah swears by the loyalty and ferocity of war horses—those that gallop, strike sparks, launch raids at dawn, and penetrate enemy lines. This serves as a contrast to the human characteristic that follows: **'Surely humankind is ungrateful (Kanūd) to their Lord'**. Man attests to this ingratitude and is extreme in their love and obsession with worldly gains."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Unveiling of Secrets (Verses 9-11)"
+                  },
+                  {
+                    "type": "quote",
+                    "text": "People often forget there will be a Day of Judgment when the contents of the graves will be spilled out and, more critically, **'the secrets of the hearts will be laid bare'**. Allah is All-Aware of them on that Day."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "The oaths by the war horses in the opening verses are used to highlight which negative quality of mankind?",
+                    "options": [
+                      "Their laziness.",
+                      "Their fear of combat.",
+                      "Their ungratefulness (Kanūd) to their Lord.",
+                      "Their mastery of horsemanship."
+                    ],
+                    "correctAnswer": "Their ungratefulness (Kanūd) to their Lord."
+                  },
+                  {
+                    "question": "What does the phrase 'the secrets of the hearts will be laid bare' imply about accountability?",
+                    "options": [
+                      "Only outward actions will be judged.",
+                      "All hidden intentions, thoughts, and deeds will be exposed.",
+                      "Only the actions of the horses will be revealed.",
+                      "That the heart will stop beating on that Day."
+                    ],
+                    "correctAnswer": "All hidden intentions, thoughts, and deeds will be exposed."
+                  },
+                  {
+                    "question": "What 'Khayr' (good) are humans described as being extreme in their love for?",
+                    "options": [
+                      "The love of seeking knowledge.",
+                      "The love of worldly gains/wealth.",
+                      "The love of fasting and prayer.",
+                      "The love of solitude."
+                    ],
+                    "correctAnswer": "The love of worldly gains/wealth."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 101,
+                "sectionTitle": "Surah Al-Qari'ah (The Calamity, Surah 101)",
+                "vocab": [
+                  {"term": "الْقَارِعَةُ", "meaning": "The Striking Disaster/Calamity (Day of Judgment)"},
+                  {"term": "كَالْفَرَاشِ الْمَبْثُوثِ", "meaning": "like scattered moths"},
+                  {"term": "كَالْعِهْنِ الْمَنفُوشِ", "meaning": "like carded wool (referring to mountains)"},
+                  {"term": "ثَقُلَتْ مَوَازِينُهُ", "meaning": "whose scale is heavy (with good deeds)"},
+                  {"term": "خَفَّتْ مَوَازِينُهُ", "meaning": "whose scale is light"},
+                  {"term": "هَاوِيَةٌ", "meaning": "the abyss (a name for Hell)"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Chaos of the Striking Disaster (Verses 1-5)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Surah begins by emphasizing the severity and surprise of the Day of Judgment, calling it **'The Striking Disaster' (Al-Qāri'ah)**. The chaos is described in vivid terms: people will be like scattered moths, and the mountains, once firm, will become like carded wool."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Final Verdict (Verses 6-11)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The core message is the decisive weighing of deeds (Mawāzīn):"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "**Heavy Scales:** Those whose scale is heavy with good deeds will be in a life of bliss (Jannah).",
+                      "**Light Scales:** Those whose scale is light will have their home in **Al-Hāwiyah** (The Abyss), which is described as a scorching Fire.",
+                      "Deeds determine one's qualification for Heaven or Hell."
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "The Day of Judgment will be surprising and chaotic."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "How are people described as appearing on the Day of Judgment in this Surah?",
+                    "options": [
+                      "Like firmly set mountains.",
+                      "Like perfectly aligned soldiers.",
+                      "Like scattered moths.",
+                      "Like powerful kings."
+                    ],
+                    "correctAnswer": "Like scattered moths."
+                  },
+                  {
+                    "question": "What is the ultimate destination for those whose scale of deeds is 'light'?",
+                    "options": [
+                      "A temporary holding place.",
+                      "Al-Hāwiyah (The Abyss/Scorching Fire).",
+                      "The Gardens of Bliss.",
+                      "They return to Earth."
+                    ],
+                    "correctAnswer": "Al-Hāwiyah (The Abyss/Scorching Fire)."
+                  },
+                  {
+                    "question": "What primary event will determine a person's eternal fate in Surah Al-Qari'ah?",
+                    "options": [
+                      "The size of their wealth.",
+                      "The speed of their prayer.",
+                      "The weighing of their deeds (Mawāzīn).",
+                      "Their mastery of the Arabic language."
+                    ],
+                    "correctAnswer": "The weighing of their deeds (Mawāzīn)."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 102,
+                "sectionTitle": "Surah At-Takathur (Rivalry in Worldly Increase, Surah 102)",
+                "vocab": [
+                  {"term": "أَلْهَاكُمُ التَّكَاثُرُ", "meaning": "Competition for more 'gains diverts you from Allah"},
+                  {"term": "زُرْتُمُ الْمَقَابِرَ", "meaning": "you end up in 'your' graves"},
+                  {"term": "عِلْمَ الْيَقِينِ", "meaning": "knowledge of certainty"},
+                  {"term": "عَيْنَ الْيَقِينِ", "meaning": "the eye of certainty (seeing something with one's own eyes)"},
+                  {"term": "عَنِ النَّعِيمِ", "meaning": "about your worldly pleasures"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Distraction of Worldly Rivalry (Verses 1-4)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "This Surah delivers a sharp warning: **'Competition for more [worldly] gains (At-Takāthur) diverts you from Allah'**. This obsession with rivalry and collecting more wealth or status continues until man visits the graves (i.e., until they die). Allah assures them they will soon come to know the truth of the Hereafter."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Certainty and Accountability (Verses 5-8)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Surah addresses the three levels of certainty:"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "**Knowledge of Certainty (Ilm al-Yaqīn):** What they should have known in life.",
+                      "**The Eye of Certainty (Ayn al-Yaqīn):** What they will see when they witness Hellfire.",
+                      "**Haqq al-Yaqīn (True Certainty):** The experience of the reality."
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "On that Day, they will definitely be questioned about the worldly pleasures (An-Na'īm) they enjoyed, and they will realize their mistake."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the primary distraction that diverts people from Allah, as condemned in this Surah?",
+                    "options": [
+                      "Excessive prayer.",
+                      "Rivalry and competition for more worldly gains (At-Takāthur).",
+                      "Seeking knowledge of the universe.",
+                      "Helping the less fortunate."
+                    ],
+                    "correctAnswer": "Rivalry and competition for more worldly gains (At-Takāthur)."
+                  },
+                  {
+                    "question": "The pursuit of 'more' continues for mankind until they reach what point?",
+                    "options": [
+                      "Until they build a great castle.",
+                      "Until they travel across the sea.",
+                      "Until they end up in their graves.",
+                      "Until they master a new language."
+                    ],
+                    "correctAnswer": "Until they end up in their graves."
+                  },
+                  {
+                    "question": "What will people be questioned about on the Day of Judgment, according to the final verse?",
+                    "options": [
+                      "The number of books they wrote.",
+                      "The worldly pleasures (An-Na'īm) they enjoyed.",
+                      "The names of their children.",
+                      "The types of animals they owned."
+                    ],
+                    "correctAnswer": "The worldly pleasures (An-Na'īm) they enjoyed."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 103,
+                "sectionTitle": "Surah Al-Asr (The Declining Day/Time, Surah 103)",
+                "vocab": [
+                  {"term": "وَالْعَصْرِ", "meaning": "By the passage of time"},
+                  {"term": "فِي خُسْرٍ", "meaning": "in grave loss"},
+                  {"term": "الصَّالِحَاتِ", "meaning": "good deeds"},
+                  {"term": "تَوَاصَوْا بِالْحَقِّ", "meaning": "urge each other to the truth"},
+                  {"term": "تَوَاصَوْا بِالصَّبْرِ", "meaning": "urge each other to perseverance/patience"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Formula for Salvation (Verses 1-3)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Allah swears by Time (Al-'Asr), emphasizing its importance and the fleeting nature of life. He declares that 'Surely humanity is in [grave] loss'."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The only exceptions to this universal loss are those who fulfill four necessary, interconnected conditions (the formula for success):"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "**1. Faith (Iman):** Believe.",
+                      "**2. Righteous Deeds (Amal as-Sālihāt):** Do good.",
+                      "**3. Mutual Urging to the Truth (Al-Haqq):** Urge each other to the truth.",
+                      "**4. Mutual Urging to Perseverance (As-Sabr):** Urge each other to perseverance and patience."
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "The ultimate success is determined by one's faith and actions, and patience and perseverance are crucial in upholding truth and righteousness."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the universal state of mankind, according to this Surah, without the four exceptions?",
+                    "options": [
+                      "In a state of great joy.",
+                      "In a state of great wealth.",
+                      "In a state of grave loss.",
+                      "In a state of constant sleep."
+                    ],
+                    "correctAnswer": "In a state of grave loss."
+                  },
+                  {
+                    "question": "Which one of the following is NOT one of the four conditions for salvation mentioned in Surah Al-Asr?",
+                    "options": [
+                      "Having faith.",
+                      "Doing good deeds.",
+                      "Urging each other to acquire wealth.",
+                      "Urging each other to perseverance/patience."
+                    ],
+                    "correctAnswer": "Urging each other to acquire wealth."
+                  },
+                  {
+                    "question": "What does the oath 'By the passage of time' emphasize?",
+                    "options": [
+                      "The permanence of life.",
+                      "The importance and fleeting nature of time.",
+                      "The need to ignore the past.",
+                      "The certainty of future technology."
+                    ],
+                    "correctAnswer": "The importance and fleeting nature of time."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 104,
+                "sectionTitle": "Surah Al-Humazah (The Slanderer, Surah 104)",
+                "vocab": [
+                  {"term": "هُمَزَةٍ لُّمَزَةٍ", "meaning": "backbiter, slanderer"},
+                  {"term": "الْحُطَمَةُ", "meaning": "The Crusher (A name for Hellfire)"},
+                  {"term": "تَطَّلِعُ عَلَى الْأَفْئِدَةِ", "meaning": "rages over the hearts"},
+                  {"term": "أَخْلَدَهُ", "meaning": "will make them immortal"},
+                  {"term": "مُوقَدَةُ", "meaning": "kindled Fire"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Condemnation of Mockery and Greed (Verses 1-3)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Allah issues a severe condemnation ('Woe!') to every backbiter and slanderer (Humazah Lumazah). This is coupled with the condemnation of those who amass wealth greedily, counting it repeatedly. They are deluded, thinking their wealth will grant them immortality or independence from Allah."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Punishment of The Crusher (Verses 4-9)"
+                  },
+                  {
+                    "type": "quote",
+                    "text": "Such people will be tossed into **Al-Hutamah (The Crusher)**. This is Allah's kindled Fire, which is unique because it will penetrate and rage over the hearts (Al-Af'idah)—the source of their corrupt desires, envy, and greed. The Fire will be sealed over them with long braces."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the specific name of the Hellfire mentioned in Surah Al-Humazah?",
+                    "options": [
+                      "Al-Qāri'ah.",
+                      "Al-Hutamah (The Crusher).",
+                      "As-Sākhkhah.",
+                      "An-Naba."
+                    ],
+                    "correctAnswer": "Al-Hutamah (The Crusher)."
+                  },
+                  {
+                    "question": "Why do the hoarders of wealth think their riches will save them?",
+                    "options": [
+                      "They believe wealth will make them immortal.",
+                      "They believe money can buy forgiveness.",
+                      "They believe they can bribe the angels.",
+                      "They believe wealth can extinguish the Fire."
+                    ],
+                    "correctAnswer": "They believe wealth will make them immortal."
+                  },
+                  {
+                    "question": "What part of the body will the Hellfire target in Al-Hutamah?",
+                    "options": [
+                      "The hands and feet.",
+                      "The eyes and ears.",
+                      "The heart (Al-Af'idah).",
+                      "The skin and hair."
+                    ],
+                    "correctAnswer": "The heart (Al-Af'idah)."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 105,
+                "sectionTitle": "Surah Al-Fil (The Elephant, Surah 105)",
+                "vocab": [
+                  {"term": "أَصْحَابِ الْفِيلِ", "meaning": "the Army of the Elephant (Abraha's army)"},
+                  {"term": "كَيْدَهُمْ فِي تَضْلِيلٍ", "meaning": "frustrate their scheme"},
+                  {"term": "طَيْرًا أَبَابِيلَ", "meaning": "flocks of birds"},
+                  {"term": "حِجَارَةٍ مِّن سِجِّيلٍ", "meaning": "stones of baked clay"},
+                  {"term": "كَعَصْفٍ مَّأْكُولٍ", "meaning": "like chewed-up straw"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Divine Protection of the Ka'bah (Verses 1-5)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Surah recalls the powerful historical event of the Army of the Elephant, led by Abraha, who attempted to destroy the Ka'bah. Allah asks, 'Have you not seen [O Prophet] how your Lord dealt with the Army of the Elephant?'"
+                  },
+                  {
+                    "type": "quote",
+                    "text": "Allah frustrated their scheme, defeating the mighty army by sending weak creatures—flocks of birds (Abābīl)—that pelted them with stones of baked clay. The army was left like chewed-up straw. This event is a sign that Allah protects His sacred places and handles His enemies in His own way."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "Who was the leader of the Army of the Elephant?",
+                    "options": [
+                      "Abu Lahab.",
+                      "Abraha, the governor of Yemen.",
+                      "A Roman emperor.",
+                      "The Prophet's grandfather."
+                    ],
+                    "correctAnswer": "Abraha, the governor of Yemen."
+                  },
+                  {
+                    "question": "How did Allah destroy the Army of the Elephant?",
+                    "options": [
+                      "By a massive flood.",
+                      "By a huge earthquake.",
+                      "By sending flocks of birds (Abābīl) with stones of baked clay.",
+                      "By blinding the elephants."
+                    ],
+                    "correctAnswer": "By sending flocks of birds (Abābīl) with stones of baked clay."
+                  },
+                  {
+                    "question": "What primary lesson is drawn from the event of the Army of the Elephant?",
+                    "options": [
+                      "That elephants are powerful war animals.",
+                      "That humans should always travel in groups.",
+                      "That Allah protects His sacred places and frustrates the schemes of His enemies.",
+                      "That birds are the strongest creatures on Earth."
+                    ],
+                    "correctAnswer": "That Allah protects His sacred places and frustrates the schemes of His enemies."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 106,
+                "sectionTitle": "Surah Quraysh (Quraysh, Surah 106)",
+                "vocab": [
+                  {"term": "إِيلَافِ قُرَيْشٍ", "meaning": "the favour of making Quraysh habitually secure"},
+                  {"term": "رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ", "meaning": "trading caravan in the winter and summer"},
+                  {"term": "رَبَّ هَذَا الْبَيْتِ", "meaning": "the Lord of this Sacred House (the Ka'bah)"},
+                  {"term": "أَطْعَمَهُم مِّن جُوعٍ", "meaning": "fed them against hunger"},
+                  {"term": "ءَامَنَهُم مِّنْ خَوْفٍ", "meaning": "made them secure against fear"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Gratitude for Divine Favors (Verses 1-4)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "This Surah reminds the tribe of Quraysh of the blessings they enjoy due to their hosting of the Ka'bah. Allah provided them with security in their trading caravans to Yemen (winter) and Syria (summer), despite living in a resource-scarce area."
+                  },
+                  {
+                    "type": "quote",
+                    "text": "In return for these great blessings, the command is simple and fundamental: **'let them worship the Lord of this Sacred House, Who has fed them against hunger and made them secure against fear'**. Protection from hunger and fear are essential for a society's flourishing."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the specific command given to the Quraysh tribe in return for their security and prosperity?",
+                    "options": [
+                      "To travel only in the summer.",
+                      "To move the Ka'bah to a safer location.",
+                      "To worship the Lord of the Sacred House (the Ka'bah).",
+                      "To establish a new form of currency."
+                    ],
+                    "correctAnswer": "To worship the Lord of the Sacred House (the Ka'bah)."
+                  },
+                  {
+                    "question": "What two key benefits did the Quraysh enjoy that are highlighted as favors from Allah?",
+                    "options": [
+                      "Great military power and vast territory.",
+                      "Exemption from fasting and prayer.",
+                      "Being fed against hunger and made secure against fear.",
+                      "The ability to fly and swim well."
+                    ],
+                    "correctAnswer": "Being fed against hunger and made secure against fear."
+                  },
+                  {
+                    "question": "What specific human effort does this Surah mention that benefited the Quraysh?",
+                    "options": [
+                      "Their mastery of science.",
+                      "Their peaceful trade caravans in the winter and summer.",
+                      "Their ability to read and write.",
+                      "Their building of great pyramids."
+                    ],
+                    "correctAnswer": "Their peaceful trade caravans in the winter and summer."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 107,
+                "sectionTitle": "Surah Al-Ma'un (The Small Kindnesses, Surah 107)",
+                "vocab": [
+                  {"term": "يُكَذِّبُ بِالدِّينِ", "meaning": "denies the final Judgment"},
+                  {"term": "يَدُعُّ الْيَتِيمَ", "meaning": "repulses the orphan"},
+                  {"term": "سَاهُونَ", "meaning": "unmindful/negligent of their prayers"},
+                  {"term": "يُرَاءُونَ", "meaning": "only show off (Riyā')"},
+                  {"term": "الْمَاعُونَ", "meaning": "the simplest aid/small kindnesses"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Traits of the Denier (Verses 1-7)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Surah starkly links the denial of the Day of Judgment (Dīn) to negative social behavior and insincere worship. The one who denies Dīn is characterized by five negative traits:"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "**1. Repulsing the orphan**.",
+                      "**2. Not encouraging the feeding of the poor**.",
+                      "**3. Being unmindful/negligent of their prayers (Sāhūn)**.",
+                      "**4. Showing off (Riyā')**.",
+                      "**5. Refusing to give even the simplest aid or small kindnesses (Al-Mā'ūn)**."
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "The core message is that spiritual worship (Prayer) is inseparable from social ethics (compassion and charity). Woe (Wail) is promised to the hypocrites who pray without mindfulness."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What does 'Sāhūn' (Verse 4) refer to in the context of prayer?",
+                    "options": [
+                      "Praying five times a day.",
+                      "Reciting the Qur'an in a loud voice.",
+                      "Being unmindful or negligent of their prayer.",
+                      "Praying only on Fridays."
+                    ],
+                    "correctAnswer": "Being unmindful or negligent of their prayer."
+                  },
+                  {
+                    "question": "The denial of the Day of Judgment manifests itself in which of the following social behaviors?",
+                    "options": [
+                      "Encouraging the feeding of the poor.",
+                      "Repulsing the orphan.",
+                      "Being a devout Muslim who fasts regularly.",
+                      "Speaking only the truth."
+                    ],
+                    "correctAnswer": "Repulsing the orphan."
+                  },
+                  {
+                    "question": "What is the meaning of 'Al-Mā'ūn'?",
+                    "options": [
+                      "Great acts of devotion like Pilgrimage.",
+                      "Refusing to participate in military campaigns.",
+                      "The simplest aid or small kindnesses.",
+                      "The wealth accumulated by the rich."
+                    ],
+                    "correctAnswer": "The simplest aid or small kindnesses."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 108,
+                "sectionTitle": "Surah Al-Kawthar (The Abundance, Surah 108)",
+                "vocab": [
+                  {"term": "الْكَوْثَرَ", "meaning": "abundant goodness (A special river/fountain in Paradise)"},
+                  {"term": "فَصَلِّ لِرَبِّكَ وَانْحَرْ", "meaning": "So pray and sacrifice to your Lord alone"},
+                  {"term": "شَانِئَكَ", "meaning": "the one who hates you"},
+                  {"term": "الْأَبْتَرُ", "meaning": "truly cut off (without legacy)"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Divine Grant and Consolation (Verses 1-3)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "This Surah was revealed to comfort the Prophet (PBUH) who was being mocked by his opponents (like Abu Lahab) for having no male offspring, calling him **'Al-Abtar' (cut off)**. Allah assures him that He has granted him abundant goodness (Al-Kawthar)."
+                  },
+                  {
+                    "type": "quote",
+                    "text": "The command in response is gratitude and sincere worship: **'So pray and sacrifice to your Lord alone.'**. The Surah concludes by reversing the insult: the one who hates the Prophet is truly the one who is cut off from any goodness and legacy."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the meaning of 'Al-Kawthar'?",
+                    "options": [
+                      "A title of leadership.",
+                      "The name of the Prophet's son.",
+                      "Abundant goodness, including a special River/Fountain in Paradise.",
+                      "The name of the shortest Surah."
+                    ],
+                    "correctAnswer": "Abundant goodness, including a special River/Fountain in Paradise."
+                  },
+                  {
+                    "question": "What act of worship is the Prophet (PBUH) specifically commanded to do in response to the gift of Al-Kawthar?",
+                    "options": [
+                      "To fast every day.",
+                      "To travel and leave Makkah.",
+                      "To pray and offer sacrifice to his Lord alone.",
+                      "To write a new book of poetry."
+                    ],
+                    "correctAnswer": "To pray and offer sacrifice to his Lord alone."
+                  },
+                  {
+                    "question": "What term did the Prophet's opponents use to mock him, meaning 'cut off'?",
+                    "options": [
+                      "Al-Masad.",
+                      "Al-Abtar.",
+                      "Al-Ma'un.",
+                      "Al-Fil."
+                    ],
+                    "correctAnswer": "Al-Abtar."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 109,
+                "sectionTitle": "Surah Al-Kafirun (The Disbelievers, Surah 109)",
+                "vocab": [
+                  {"term": "الْكَافِرُونَ", "meaning": "O you disbelievers"},
+                  {"term": "لَا أَعْبُدُ مَا تَعْبُدُونَ", "meaning": "I do not worship what you worship"},
+                  {"term": "دِينُكُمْ", "meaning": "your way/religion"},
+                  {"term": "وَلِيَ دِينِ", "meaning": "and I have my Way/religion"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "A Clear Distinction in Worship (Verses 1-6)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "This Surah was revealed when the disbelievers proposed a compromise: they would alternate between worshipping Allah and the disbelievers' gods. Allah instructs the Prophet to issue a clear and uncompromising rejection, defining the distinct line between Monotheism (Tawheed) and Polytheism (Shirk)."
+                  },
+                  {
+                    "type": "quote",
+                    "text": "The repeated phrase, **'I do not worship what you worship, nor do you worship what I worship,'** emphasizes the permanent separation of the two forms of worship. The Surah concludes with the final principle of religious integrity: **'You have your way, and I have my Way.'**."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What was the proposal made by the disbelievers that led to the revelation of this Surah?",
+                    "options": [
+                      "An offer to trade all their goods.",
+                      "A compromise to alternate between worshipping Allah and their idols.",
+                      "A demand for the Muslims to leave Makkah.",
+                      "A challenge to fight a battle."
+                    ],
+                    "correctAnswer": "A compromise to alternate between worshipping Allah and their idols."
+                  },
+                  {
+                    "question": "What is the ultimate principle established by the final verse, 'To you be your religion, and to me be my Way'?",
+                    "options": [
+                      "The need for forced conversions.",
+                      "The need for Muslims to change their worship for peace.",
+                      "The principle of clear distinction and unwavering religious integrity in worship.",
+                      "The idea that all religions are exactly the same."
+                    ],
+                    "correctAnswer": "The principle of clear distinction and unwavering religious integrity in worship."
+                  },
+                  {
+                    "question": "What concept does this Surah definitively reject?",
+                    "options": [
+                      "Charity.",
+                      "Monotheism (Tawheed).",
+                      "Any form of compromise in the core principles of worship and belief.",
+                      "The use of the Arabic language."
+                    ],
+                    "correctAnswer": "Any form of compromise in the core principles of worship and belief."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 110,
+                "sectionTitle": "Surah An-Nasr (The Divine Help, Surah 110)",
+                "vocab": [
+                  {"term": "نَصْرُ اللَّهِ وَالْفَتْحُ", "meaning": "Allah's ultimate help and the victory over Mecca"},
+                  {"term": "أَفْوَاجًا", "meaning": "in crowds/droves"},
+                  {"term": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ", "meaning": "glorify the praises of your Lord and seek His forgiveness"},
+                  {"term": "تَوَّابًا", "meaning": "ever Accepting of Repentance"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Prophecy of Victory (Verses 1-2)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "This is one of the last complete Surahs revealed. It prophesies the imminent **'Victory of Allah'** (Al-Fath), understood as the Conquest of Makkah. This victory would be accompanied by the sight of people embracing Allah's Way in crowds."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Instruction for Conclusion (Verse 3)"
+                  },
+                  {
+                    "type": "quote",
+                    "text": "Following this great achievement, the Prophet (PBUH) is instructed to conclude his mission by increasing his worship and seeking forgiveness: **'then glorify the praises of your Lord and seek His forgiveness, for certainly He is ever Accepting of Repentance.'** This teaches that success should be met with humility and gratitude."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What major event is primarily referred to as 'the Victory' (Al-Fath) in this Surah?",
+                    "options": [
+                      "The Battle of Badr.",
+                      "The Conquest of Makkah.",
+                      "The Prophet's night journey.",
+                      "The Battle of Uhud."
+                    ],
+                    "correctAnswer": "The Conquest of Makkah."
+                  },
+                  {
+                    "question": "The people entering the religion are described as coming in what manner?",
+                    "options": [
+                      "One by one.",
+                      "In secret.",
+                      "In crowds (Afwājan).",
+                      "Only the poor people."
+                    ],
+                    "correctAnswer": "In crowds (Afwājan)."
+                  },
+                  {
+                    "question": "What two acts of devotion is the believer instructed to increase upon achieving great success?",
+                    "options": [
+                      "Building large houses and traveling.",
+                      "Glorifying the praises of their Lord and seeking His forgiveness.",
+                      "Sleeping and resting.",
+                      "Arguing and debating with others."
+                    ],
+                    "correctAnswer": "Glorifying the praises of their Lord and seeking His forgiveness."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 111,
+                "sectionTitle": "Surah Al-Masad (The Palm Fiber/Flame, Surah 111)",
+                "vocab": [
+                  {"term": "تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ", "meaning": "May the hands of Abu Lahab perish, and he himself perish"},
+                  {"term": "نَارًا ذَاتَ لَهَبٍ", "meaning": "a flaming Fire"},
+                  {"term": "حَمَّالَةَ الْحَطَبِ", "meaning": "the carrier of thorny kindling (His wife, Umm Jameel)"},
+                  {"term": "حَبْلٌ مِّن مَّسَدٍ", "meaning": "a rope of palm-fibre"},
+                  {"term": "مَا أَغْنَىٰ عَنْهُ مَالُهُ", "meaning": "Neither his wealth nor worldly gains will benefit him"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "A Prophecy of Doom (Verses 1-5)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "This Surah is a severe and unique condemnation directed at the Prophet's uncle, **Abu Lahab**, and his wife, Umm Jameel, for their intense hostility and active efforts to harm the Prophet. It is the only Surah in the Qur'an that names a specific opponent."
+                  },
+                  {
+                    "type": "quote",
+                    "text": "The Surah prophecies that his wealth will not benefit him and he will burn in a flaming Fire. His wife is condemned as the 'carrier of thorny kindling,' who will have a rope of palm-fibre around her neck. The story paradoxically proves the truth of the Qur'an, as Abu Lahab's refusal to accept Islam confirmed the prophecy of his punishment."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the key lesson about wealth and worldly gains in this Surah?",
+                    "options": [
+                      "Wealth is the primary way to enter Paradise.",
+                      "Wealth can save a person from Hellfire.",
+                      "Wealth and worldly gains are of no benefit in the Hereafter.",
+                      "Wealth should be hoarded in this life."
+                    ],
+                    "correctAnswer": "Wealth and worldly gains are of no benefit in the Hereafter."
+                  },
+                  {
+                    "question": "What two individuals are the specific subjects of condemnation in this Surah?",
+                    "options": [
+                      "Pharaoh and Haman.",
+                      "Abu Jahl and Al-Walid.",
+                      "Abu Lahab and his wife, Umm Jameel.",
+                      "The Prophet's two friends."
+                    ],
+                    "correctAnswer": "Abu Lahab and his wife, Umm Jameel."
+                  },
+                  {
+                    "question": "The condemnation of Abu Lahab is often cited to prove what concept?",
+                    "options": [
+                      "The importance of family lineage.",
+                      "The certainty of prophecy, as his fate was sealed before his death.",
+                      "The need to change one's name.",
+                      "The weakness of the Arabs."
+                    ],
+                    "correctAnswer": "The certainty of prophecy, as his fate was sealed before his death."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 112,
+                "sectionTitle": "Surah Al-Ikhlas (Sincerity, Surah 112)",
+                "vocab": [
+                  {"term": "أَحَدٌ", "meaning": "One and Indivisible"},
+                  {"term": "الصَّمَدُ", "meaning": "The Sustainer needed by all (Eternal Refuge)"},
+                  {"term": "لَمْ يَلِدْ وَلَمْ يُولَدْ", "meaning": "He has never had offspring, nor was He born"},
+                  {"term": "كُفُوًا أَحَدٌ", "meaning": "none comparable to Him"},
+                  {"term": "يَعْدِلُ ثُلُثَ الْقُرْآنِ", "meaning": "equals reading one-third of the Qur'an"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Purest Monotheism (Tawheed) (Verses 1-4)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "This Surah was revealed when the disbelievers asked the Prophet to describe his Lord. It is the most concise statement of Islamic Monotheism (Tawheed) and is said to be equivalent in reward to reciting **one-third of the Qur'an**."
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "**1. He is Allah, One and Indivisible (Ahad)**.",
+                      "**2. Allah is The Sustainer needed by all (As-Samad)**.",
+                      "**3. He neither begets nor is born** (Negating any form of lineage).",
+                      "**4. There is none comparable to Him (Kufūwan Ahad)**."
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "Understanding who Allah is is fundamental to believing in Him, and knowing what Allah is not is as important as knowing what He is."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What does the attribute 'As-Samad' (Eternal Refuge) fundamentally mean?",
+                    "options": [
+                      "That Allah is always angry.",
+                      "That Allah is the Sustainer needed by all.",
+                      "That Allah has a large family.",
+                      "That Allah is always visible."
+                    ],
+                    "correctAnswer": "That Allah is the Sustainer needed by all."
+                  },
+                  {
+                    "question": "The Prophet (PBUH) described the recitation of Surah Al-Ikhlas as being equivalent to what?",
+                    "options": [
+                      "Reciting the entire Qur'an once.",
+                      "Reciting one-half of the Qur'an.",
+                      "Reciting one-third of the Qur'an.",
+                      "Reciting ten chapters of the Qur'an."
+                    ],
+                    "correctAnswer": "Reciting one-third of the Qur'an."
+                  },
+                  {
+                    "question": "The phrase 'He neither begets nor is born' refutes which major theological claim?",
+                    "options": [
+                      "The idea that humans can fly.",
+                      "The concept of polytheism.",
+                      "The idea that Allah has a partner, offspring, or was created.",
+                      "The belief in life after death."
+                    ],
+                    "correctAnswer": "The idea that Allah has a partner, offspring, or was created."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 113,
+                "sectionTitle": "Surah Al-Falaq (The Daybreak, Surah 113)",
+                "vocab": [
+                  {"term": "رَبِّ الْفَلَقِ", "meaning": "the Lord of the daybreak"},
+                  {"term": "غَاسِقٍ إِذَا وَقَبَ", "meaning": "the evil of the night when it grows dark"},
+                  {"term": "النَّفَّاثَاتِ فِي الْعُقَدِ", "meaning": "those 'witches' casting spells by blowing onto knots"},
+                  {"term": "حَاسِدٍ إِذَا حَسَدَ", "meaning": "an envier when they envy"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Seeking Refuge from External Evils (Verses 1-5)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "This Surah is part of **Al-Mu'awwidhatayn** (The Two Seekers of Refuge). It is a plea to the Lord of Daybreak for protection against various types of external evils. This Surah, along with An-Nas, was part of the Prophet's treatment when he was affected by a spell."
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "**1. The evil of creation** in general.",
+                      "**2. The evil of the night when it grows dark** (when crimes and lurking evils occur).",
+                      "**3. The evil of the casters of spells** (witches) by blowing onto knots.",
+                      "**4. The evil of the envier** when they envy."
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "The believer must always seek Allah's help to repel evil, as He is the only one who can aid and protect against the various forms of evil that exist."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the collective name for Surah Al-Falaq and Surah An-Nas?",
+                    "options": [
+                      "Al-Hamdayn.",
+                      "Al-Mu'awwidhatayn (The Two Seekers of Refuge).",
+                      "As-Sāhūn.",
+                      "Al-Mutaffifin."
+                    ],
+                    "correctAnswer": "Al-Mu'awwidhatayn (The Two Seekers of Refuge)."
+                  },
+                  {
+                    "question": "What specific act of witchcraft is mentioned in the Surah?",
+                    "options": [
+                      "Making dolls and statues.",
+                      "Blowing onto knots to cast spells.",
+                      "Speaking in a secret language.",
+                      "Walking backward in the dark."
+                    ],
+                    "correctAnswer": "Blowing onto knots to cast spells."
+                  },
+                  {
+                    "question": "What is one reason for seeking refuge from the 'night when it grows dark'?",
+                    "options": [
+                      "It is the only time to pray.",
+                      "It is when the moon is visible.",
+                      "It is the time when crimes and lurking evils typically occur.",
+                      "It is when all the angels descend."
+                    ],
+                    "correctAnswer": "It is the time when crimes and lurking evils typically occur."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 114,
+                "sectionTitle": "Surah An-Nas (Mankind, Surah 114)",
+                "vocab": [
+                  {"term": "رَبِّ النَّاسِ", "meaning": "the Lord of humankind"},
+                  {"term": "مَلِكِ النَّاسِ", "meaning": "the Master/King of humankind"},
+                  {"term": "إِلَهِ النَّاسِ", "meaning": "the God of humankind"},
+                  {"term": "الْوَسْوَاسِ الْخَنَّاسِ", "meaning": "the lurking whisperer (The devil)"},
+                  {"term": "يُوَسْوِسُ فِي صُدُورِ النَّاسِ", "meaning": "who whispers into the hearts of humankind"},
+                  {"term": "مِنَ الْجِنَّةِ وَالنَّاسِ", "meaning": "from among jinn and humankind"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Seeking Refuge from Internal Evil (Waswās) (Verses 1-6)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The final Surah commands the believer to seek refuge in Allah using His three Divine titles—Lord, King, and God of mankind—to emphasize His complete authority. The focus of protection here is from the subtle, internal evil of **Al-Waswās al-Khannās (The Lurking Whisperer)**."
+                  },
+                  {
+                    "type": "quote",
+                    "text": "This is the devil who whispers doubt and temptation into the chests/hearts of men. The sources of this evil influence are identified as coming from 'among jinn and humankind'. The Surah is the perfect conclusion, protecting the heart and mind from internal corruption."
+                  },
+                  {
+                    "type": "video",
+                    "src": "https://youtu.be/HQaZL_KHLcA?si=uxoWvdlLxFcf1ptF",
+                    "alt": "Surah An-Nas"
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What are the three divine titles used to seek refuge in Allah in Surah An-Nas?",
+                    "options": [
+                      "The Forgiving, The Merciful, The King.",
+                      "The Creator, The Fashioner, The Sustainer.",
+                      "Lord of Mankind, King of Mankind, and God of Mankind.",
+                      "The First, The Last, The Manifest."
+                    ],
+                    "correctAnswer": "Lord of Mankind, King of Mankind, and God of Mankind."
+                  },
+                  {
+                    "question": "What is the primary danger that the believer seeks protection from in Surah An-Nas?",
+                    "options": [
+                      "A devastating flood.",
+                      "The evil of the lurking whisperer (Waswās) who whispers into the hearts.",
+                      "The shame of poverty.",
+                      "The physical pain of fire."
+                    ],
+                    "correctAnswer": "The evil of the lurking whisperer (Waswās) who whispers into the hearts."
+                  },
+                  {
+                    "question": "The sources of the whispering evil (Waswās) are identified as coming from whom?",
+                    "options": [
+                      "Only the envier.",
+                      "Only past prophets.",
+                      "Only animals and birds.",
+                      "From among jinn and humankind."
+                    ],
+                    "correctAnswer": "From among jinn and humankind."
+                  }
+                ]
+              }
+            ]
+          }
+    ]
+  }
