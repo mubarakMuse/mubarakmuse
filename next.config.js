@@ -30,6 +30,14 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'youtu.be',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.loom.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'loom.com',
+      },
     ],
   },
   async redirects() {

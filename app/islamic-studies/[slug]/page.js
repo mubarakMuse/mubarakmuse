@@ -6,7 +6,8 @@ import QuizComponent from "../components/QuizComponent";
 import CourseAccess from "../CourseAccess";
 import AccessButton from "../components/AccessButton";
 import LoginBanner from "../components/LoginBanner";
-import { getCourseBySlug, getAllCourses } from "../courseUtils";
+import CourseImage from "../components/CourseImage";
+import { getCourseBySlug, getAllCourses, getCourseImageUrl } from "../courseUtils";
 
 // Generate static params for all courses at build time
 export async function generateStaticParams() {
@@ -69,6 +70,24 @@ const getYouTubeEmbedUrl = (url) => {
   
   // If already an embed URL, return as is
   if (url.includes('youtube.com/embed/')) {
+    return url;
+  }
+  
+  return null;
+};
+
+// Helper function to convert Loom URL to embed URL
+const getLoomEmbedUrl = (url) => {
+  if (!url) return null;
+  
+  // Handle loom.com/share format: https://www.loom.com/share/VIDEO_ID
+  const loomShareMatch = url.match(/loom\.com\/share\/([a-zA-Z0-9_-]+)/);
+  if (loomShareMatch) {
+    return `https://www.loom.com/embed/${loomShareMatch[1]}`;
+  }
+  
+  // If already an embed URL, return as is
+  if (url.includes('loom.com/embed/')) {
     return url;
   }
   
@@ -160,6 +179,39 @@ const renderContent = (content) => {
             )}
           </div>
         );
+      case "loom video":
+        const loomEmbedUrl = getLoomEmbedUrl(item.src);
+        if (!loomEmbedUrl) {
+          // Fallback: show as a link if URL conversion fails
+          return (
+            <div key={index} className="my-8">
+              <a
+                href={item.src}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 underline"
+              >
+                {item.alt || "Watch Loom Video"}
+              </a>
+            </div>
+          );
+        }
+        return (
+          <div key={index} className="my-8">
+            <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+              <iframe
+                src={loomEmbedUrl}
+                title={item.alt || "Loom Video"}
+                className="absolute top-0 left-0 w-full h-full rounded-lg"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+            {item.alt && (
+              <p className="text-sm text-gray-600 mt-2 text-center">{item.alt}</p>
+            )}
+          </div>
+        );
       default:
         return null;
     }
@@ -179,9 +231,14 @@ const CoursePage = async ({ params }) => {
   const courseData = {
     courseTitle: courseDataRaw.courseTitle,
     courseDescription: courseDataRaw.courseDescription,
+    courseImage: courseDataRaw.courseImage,
+    courseImageAlt: courseDataRaw.courseImageAlt,
+    status: courseDataRaw.status || "Available Now",
     whatYouWillLearn: courseDataRaw.whatYouWillLearn || [],
     sections: (courseDataRaw.sections || []).map(transformSection).filter(Boolean),
   };
+
+  const isAvailable = courseData.status === "Available Now";
 
   return (
     <CourseAccess courseTitle={courseData.courseTitle}>
@@ -195,17 +252,43 @@ const CoursePage = async ({ params }) => {
             <AccessButton />
           </div>
           
-          {/* Login Banner - shown when not logged in */}
-          <LoginBanner courseTitle={courseData.courseTitle} slug={slug} />
+          {/* Coming Soon Banner */}
+          {!isAvailable && (
+            <div className="mb-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r">
+              <div className="flex items-center gap-2">
+                <span className="text-lg">⏳</span>
+                <div>
+                  <p className="text-sm font-medium text-yellow-900">Coming Soon</p>
+                  <p className="text-xs text-yellow-700 mt-1">This course is currently under development and will be available soon.</p>
+                </div>
+              </div>
+            </div>
+          )}
+          
+          {/* Login Banner - shown when not logged in and course is available */}
+          {isAvailable && <LoginBanner courseTitle={courseData.courseTitle} slug={slug} />}
 
           {/* Course Header */}
           <div className="mb-10">
-            <h1 className="text-3xl font-bold mb-3 text-gray-900">
-              {courseData.courseTitle}
-            </h1>
-            <p className="text-base text-gray-600 leading-relaxed">
-              {courseData.courseDescription}
-            </p>
+            <div className="flex items-start gap-4 mb-4">
+              {courseData.courseImage && (
+                <div className="flex-shrink-0 w-32 h-32 rounded-lg overflow-hidden border border-gray-200 bg-gray-100">
+                  <CourseImage
+                    src={getCourseImageUrl(courseData.courseImage)}
+                    alt={courseData.courseImageAlt || courseData.courseTitle}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              )}
+              <div className="flex-1">
+                <h1 className="text-3xl font-bold mb-3 text-gray-900">
+                  {courseData.courseTitle}
+                </h1>
+                <p className="text-base text-gray-600 leading-relaxed">
+                  {courseData.courseDescription}
+                </p>
+              </div>
+            </div>
           </div>
 
           {/* What You Will Learn */}
@@ -223,9 +306,10 @@ const CoursePage = async ({ params }) => {
             </div>
           )}
 
-          {/* Course Sections */}
-          <div className="space-y-16">
-            {courseData.sections.map((section) => (
+          {/* Course Sections - only show if course is available */}
+          {isAvailable ? (
+            <div className="space-y-16">
+              {courseData.sections.map((section) => (
               <div key={section.sectionNumber} id={`section-${section.sectionNumber}`} className="scroll-mt-8">
                 <div className="mb-6 pb-4 border-b border-gray-200">
                   <h2 className="text-xl font-semibold text-gray-900">
@@ -252,24 +336,30 @@ const CoursePage = async ({ params }) => {
                 </div>
                 
                 {section.quiz && Array.isArray(section.quiz) && section.quiz.length > 0 && (
-                  <div className="mt-10 space-y-8">
-                    {section.quiz.map((quizItem, quizIndex) => (
-                      <QuizComponent 
-                        key={quizIndex} 
-                        quiz={quizItem} 
-                        sectionNumber={section.sectionNumber}
-                        questionNumber={quizIndex + 1}
-                        totalQuestions={section.quiz.length}
-                      />
-                    ))}
+                  <div className="mt-10">
+                    <QuizComponent 
+                      quiz={section.quiz}
+                      sectionNumber={section.sectionNumber}
+                    />
                   </div>
                 )}
               </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          ) : (
+            <div className="py-12 text-center">
+              <p className="text-gray-600 mb-4">This course content will be available soon.</p>
+              <a 
+                href="mailto:Mubarak014@gmail.com?subject=Course Inquiry"
+                className="text-sm text-gray-900 hover:text-gray-700 underline"
+              >
+                Contact us for updates
+              </a>
+            </div>
+          )}
 
-          {/* Quiz Section */}
-          {courseData.sections.some(s => s.quiz && Array.isArray(s.quiz) && s.quiz.length > 0) && (
+          {/* Quiz Section - only show if course is available */}
+          {isAvailable && courseData.sections.some(s => s.quiz && Array.isArray(s.quiz) && s.quiz.length > 0) && (
             <div className="mt-16 pt-8 border-t border-gray-200">
               <div className="p-6 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg border border-gray-200">
                 <h3 className="text-lg font-semibold mb-2 text-gray-900">Ready to Test Your Knowledge?</h3>

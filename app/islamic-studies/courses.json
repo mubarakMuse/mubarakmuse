@@ -2,331 +2,14 @@
     "catalogTitle": "Islamic Studies Online Course Catalog",
     "lastUpdated": "12-11-2025",
     "courses": [
-        {
-            "courseID": "HAD001",
-            "courseSlug": "foundations-of-hadith-terminology",
-            "courseTitle": "Foundations of Hadith Terminology (Mustalah al-Hadith)",
-            "courseDescription": "A foundational course introducing the specialized science of Mustalah al-Hadith, which established the criteria for authenticating, classifying, and preserving the Prophetic tradition (Sunnah).",
-            "whatYouWillLearn": [
-              "The definition and distinction between Hadith, Sunnah, and related technical terms.",
-              "The two essential components of any Hadith: Sanad (chain) and Matn (text).",
-              "The major classifications of Hadith based on the number of narrators (Tawātur and Āhād).",
-              "The major classifications of Hadith based on authenticity (Sahīh, Hasan, and Da'īf).",
-              "The methods and criteria used in the rigorous assessment of narrators (Jarh wa Ta'dīl)."
-            ],
-            "sections": [
-              {
-                "sectionNumber": 1,
-                "sectionTitle": "Introduction: Defining Core Terms",
-                "vocab": [
-                  {"term": "حديث", "meaning": "Hadith (A specific report about the Prophet)"},
-                  {"term": "السنة", "meaning": "As-Sunnah (The normative way or example of the Prophet)"},
-                  {"term": "مصطلح الحديث", "meaning": "Mustalah al-Hadith (Science of Hadith Terminology)"},
-                  {"term": "خبر", "meaning": "Khabar (A general piece of news/report)"},
-                  {"term": "أثر", "meaning": "Athar (Reports from Companions or Successors)"}
-                ],
-                "content": [
-                  {
-                    "type": "heading",
-                    "text": "The Need for Hadith Terminology"
-                  },
-                  {
-                    "type": "paragraph",
-                    "text": "The science of Mustalah al-Hadith developed after the early centuries of Islam to protect the Sunnah from fabrication and error. Its fundamental purpose is to establish the criteria necessary to distinguish genuine Prophetic reports from flawed or fabricated ones."
-                  },
-                  {
-                    "type": "heading",
-                    "text": "Distinguishing Hadith, Sunnah, and Athar"
-                  },
-                  {
-                    "type": "list",
-                    "items": [
-                      "**Hadith:** Refers to a specific saying, action, tacit approval, or description related to the Prophet Muhammad (PBUH).",
-                      "**Sunnah:** Represents the broader, normative tradition or way of life exemplified by the Prophet. A Hadith is a textual report of the Sunnah.",
-                      "**Athar:** Generally refers to reports traced back to the Companions (Sahābah) or the generation that followed them (Tābi'ūn), though sometimes used synonymously with Hadith."
-                    ]
-                  },
-                  {
-                    "type": "quote",
-                    "text": "Ibn al-Mubarak said, 'The Sanad is part of the religion. Had it not been for the Sanad, anyone could have said anything they wanted.' This illustrates the fundamental importance of authenticating the source."
-                  }
-                ],
-                "quiz": [
-                  {
-                    "question": "What is the primary function of the science of Mustalah al-Hadith?",
-                    "options": [
-                      "To gather all historical reports about the Arabs.",
-                      "To establish the criteria for assessing the authenticity of Prophetic traditions.",
-                      "To translate all Hadith into different languages.",
-                      "To interpret the complex verses of the Qur'an."
-                    ],
-                    "correctAnswer": "To establish the criteria for assessing the authenticity of Prophetic traditions."
-                  },
-                  {
-                    "question": "In the technical terminology of Hadith, to whom does the term 'Athar' usually refer?",
-                    "options": [
-                      "Reports from the Prophet Muhammad (PBUH) only.",
-                      "Reports from the Companions and Successors.",
-                      "Reports found in the Sahihayn only.",
-                      "Reports containing theological opinions."
-                    ],
-                    "correctAnswer": "Reports from the Companions and Successors."
-                  }
-                ]
-              },
-              {
-                "sectionNumber": 2,
-                "sectionTitle": "The Anatomy of a Hadith: Sanad and Matn",
-                "vocab": [
-                  {"term": "السند", "meaning": "Al-Sanad (The chain of narrators)"},
-                  {"term": "المتن", "meaning": "Al-Matn (The text/content of the Hadith)"},
-                  {"term": "الراوي", "meaning": "Al-Rāwī (The narrator/reporter in the chain)"},
-                  {"term": "الإسناد", "meaning": "Al-Isnād (The process of relating the Hadith back to its source)"}
-                ],
-                "content": [
-                  {
-                    "type": "heading",
-                    "text": "Al-Sanad: The Chain of Authority"
-                  },
-                  {
-                    "type": "paragraph",
-                    "text": "The **Sanad** is the most crucial part of Hadith authentication. It is the continuous chain of narrators linking the final compiler (e.g., Imam Bukhari) back to the Prophet (PBUH). The entire science of Hadith terminology centers on scrutinizing the integrity and memory of the individuals within this chain."
-                  },
-                  {
-                    "type": "heading",
-                    "text": "Al-Matn: The Content"
-                  },
-                  {
-                    "type": "paragraph",
-                    "text": "The **Matn** is the actual text, saying, action, or description conveyed by the chain. While the Sanad must be sound, the Matn is also subject to internal criticism to ensure it does not contradict established, stronger texts or clear verses of the Qur'an."
-                  },
-                  {
-                    "type": "quote",
-                    "text": "A Hadith is only as strong as its weakest link. If any narrator in the chain (Sanad) is deemed unreliable, the entire report (Matn) is invalidated."
-                  },
-                  {
-                    "type": "paragraph",
-                    "text": ""
-                  }
-                ],
-                "quiz": [
-                  {
-                    "question": "What does the term 'Matn' refer to in the context of Hadith?",
-                    "options": [
-                      "The individual who transmitted the report.",
-                      "The book in which the Hadith is recorded.",
-                      "The actual text, saying, or content of the report.",
-                      "The grading given to the Hadith (e.g., Sahīh)."
-                    ],
-                    "correctAnswer": "The actual text, saying, or content of the report."
-                  },
-                  {
-                    "question": "Why is the continuous chain of narrators (Sanad) considered the 'most crucial' part of a Hadith?",
-                    "options": [
-                      "It determines the length of the Matn.",
-                      "Its reliability dictates the authenticity of the entire report.",
-                      "It is necessary for reading the Arabic text correctly.",
-                      "It allows for memorizing the Hadith more easily."
-                    ],
-                    "correctAnswer": "Its reliability dictates the authenticity of the entire report."
-                  }
-                ]
-              },
-              {
-                "sectionNumber": 3,
-                "sectionTitle": "Classification by Number of Narrators (Tawātur vs. Āhād)",
-                "vocab": [
-                  {"term": "المتواتر", "meaning": "Mutawātir (Mass-Transmitted Hadith)"},
-                  {"term": "الآحاد", "meaning": "Āhād (Single-Chain Hadith)"},
-                  {"term": "المشهور", "meaning": "Mashhūr (Well-Known Hadith - at least 3 narrators)"},
-                  {"term": "العزيز", "meaning": "Azīz (Rare/Strong Hadith - at least 2 narrators)"},
-                  {"term": "الغريب", "meaning": "Gharīb (Scarce/Lone Hadith - 1 narrator at some point)"},
-                  {"term": "اليقين", "meaning": "Yaqīn (Certainty/Absolute Knowledge)"}
-                ],
-                "content": [
-                  {
-                    "type": "heading",
-                    "text": "Mutawātir: Absolute Certainty (Yaqīn)"
-                  },
-                  {
-                    "type": "paragraph",
-                    "text": "A **Mutawātir** Hadith is defined by the sheer number of narrators at every stage of the chain. This number must be large enough to completely exclude the possibility of collusion or accidental error. The benefit of this class of Hadith is that it provides absolute certainty (**Yaqīn**) and must be accepted without needing further scrutiny of individual narrators."
-                  },
-                  {
-                    "type": "heading",
-                    "text": "Āhād: Single-Chain Reports (Probability/Zann)"
-                  },
-                  {
-                    "type": "paragraph",
-                    "text": "The **Āhād** class includes all reports that do not meet the stringent requirements of Mutawātir. It provides a strong degree of probability (**Zann**), but its acceptance is conditional upon proving the reliability of every narrator in its specific chain. It is further categorized by the lowest number of narrators in any stage:"
-                  },
-                  {
-                    "type": "list",
-                    "items": [
-                      "**Mashhūr:** Reported by at least three narrators at every stage.",
-                      "**Azīz:** Reported by at least two narrators at every stage.",
-                      "**Gharīb:** Reported by only one narrator at any stage of the chain."
-                    ]
-                  },
-                  {
-                    "type": "quote",
-                    "text": "While Mutawātir reports form the bedrock of the most fundamental beliefs and practices, the vast majority of legal rulings (Fiqh) and detailed practices rely upon the carefully scrutinized Āhād reports."
-                  }
-                ],
-                "quiz": [
-                  {
-                    "question": "What is the primary benefit or knowledge provided by a Mutawātir Hadith?",
-                    "options": [
-                      "A weak probability of truth.",
-                      "A historical record of an event.",
-                      "Absolute certainty (Yaqīn).",
-                      "A religious opinion open to debate."
-                    ],
-                    "correctAnswer": "Absolute certainty (Yaqīn)."
-                  },
-                  {
-                    "question": "Which subclass of Āhād Hadith is defined by having only a single narrator at some point in its chain?",
-                    "options": [
-                      "Mashhūr",
-                      "Azīz",
-                      "Mursal",
-                      "Gharīb"
-                    ],
-                    "correctAnswer": "Gharīb"
-                  }
-                ]
-              },
-              {
-                "sectionNumber": 4,
-                "sectionTitle": "Classification by Strength and Authenticity",
-                "vocab": [
-                  {"term": "الصحيح", "meaning": "Sahīh (Sound/Authentic)"},
-                  {"term": "الحسن", "meaning": "Hasan (Good/Acceptable)"},
-                  {"term": "الضعيف", "meaning": "Da'īf (Weak/Unsound)"},
-                  {"term": "الشذوذ", "meaning": "Shudhūdh (Anomaly/Contradicting a stronger report)"},
-                  {"term": "العلة", "meaning": "Illah (Hidden defect)"}
-                ],
-                "content": [
-                  {
-                    "type": "heading",
-                    "text": "The Five Conditions for Sahīh (Sound) Hadith"
-                  },
-                  {
-                    "type": "paragraph",
-                    "text": "A Hadith is classified as **Sahīh** (Sound) only if it meets five cumulatively strict conditions:"
-                  },
-                  {
-                    "type": "list",
-                    "items": [
-                      "**1. Ittisāl as-Sanad:** Continuous chain of narration (no breaks).",
-                      "**2. Adālat ar-Rāwī:** Narrators are trustworthy, righteous, and of good character.",
-                      "**3. Dabt ar-Rāwī:** Narrators are precise and accurate in their preservation (strong memory).",
-                      "**4. Salāmah min ash-Shudhūdh:** Free from being anomalous (not contradicting a stronger, accepted report).",
-                      "**5. Salāmah min al-Illah:** Free from any subtle, damaging hidden defects."
-                    ]
-                  },
-                  {
-                    "type": "heading",
-                    "text": "Hasan (Good) and Da'īf (Weak)"
-                  },
-                  {
-                    "type": "paragraph",
-                    "text": "A **Hasan** Hadith is identical to a Sahīh Hadith except for one criterion: the narrator's level of precision (**Dabt**) is slightly weaker, though still sufficient to be accepted as legal proof. A **Da'īf** Hadith is any report that fails to meet even one of the five conditions for a Hasan or Sahīh report. It is generally not used as legal evidence, though exceptions exist for virtues and moral exhortation."
-                  },
-                  {
-                    "type": "quote",
-                    "text": "The existence of Sahīh and Hasan Hadith provides the necessary evidence (Hujjah) for the Islamic legal system."
-                  }
-                ],
-                "quiz": [
-                  {
-                    "question": "What is the key difference that distinguishes a Hasan Hadith from a Sahīh Hadith?",
-                    "options": [
-                      "A Hasan Hadith has a broken chain of narration.",
-                      "The narrator's righteousness ('Adālah) is weak in a Hasan Hadith.",
-                      "The precision/accuracy (Dabt) of the narrators is slightly lesser in a Hasan Hadith.",
-                      "A Hasan Hadith is always contradicted by a Qur'anic verse."
-                    ],
-                    "correctAnswer": "The precision/accuracy (Dabt) of the narrators is slightly lesser in a Hasan Hadith."
-                  },
-                  {
-                    "question": "What does the term 'Illah' refer to when criticizing a Hadith?",
-                    "options": [
-                      "An open contradiction in the Matn.",
-                      "A hidden, subtle, damaging defect in the chain or text.",
-                      "The narrator's place of residence.",
-                      "A Hadith that is too famous."
-                    ],
-                    "correctAnswer": "A hidden, subtle, damaging defect in the chain or text."
-                  }
-                ]
-              },
-              {
-                "sectionNumber": 5,
-                "sectionTitle": "Jarh wa Ta'dīl: The Science of Narrator Criticism",
-                "vocab": [
-                  {"term": "الجرح", "meaning": "Al-Jarh (Disparagement/Criticism)"},
-                  {"term": "التعديل", "meaning": "At-Ta'dīl (Endorsement/Praise)"},
-                  {"term": "العدالة", "meaning": "Al-'Adālah (Integrity/Righteous Character)"},
-                  {"term": "الضبط", "meaning": "Al-Dabt (Precision/Accuracy and Strong Memory)"},
-                  {"term": "المجهول", "meaning": "Majhūl (Unknown Narrator)"},
-                  {"term": "الكذاب", "meaning": "Kadhdhāb (A liar)"}
-                ],
-                "content": [
-                  {
-                    "type": "heading",
-                    "text": "The Purpose of Jarh wa Ta'dīl"
-                  },
-                  {
-                    "type": "paragraph",
-                    "text": "This specialized discipline is the foundation of Hadith authentication. It involves meticulous research into the life, behavior, and memory of every narrator in the chain to determine if their report should be accepted. Acceptance requires meeting two primary conditions: **Al-'Adālah (Integrity)** and **Al-Dabt (Precision)**."
-                  },
-                  {
-                    "type": "heading",
-                    "text": "The Criteria: Integrity ('Adālah) and Precision (Dabt)"
-                  },
-                  {
-                    "type": "list",
-                    "items": [
-                      "**Al-'Adālah (Integrity):** Deals with the narrator's moral character, righteousness, adherence to religious law, and honesty. A narrator is rejected if accused of lying, excessive sin, or major innovation.",
-                      "**Al-Dabt (Precision):** Deals with the narrator's cognitive ability to remember and transmit the Hadith exactly as they heard it, without error, change, or carelessness. Weakness in Dabt results in a Hadith being labeled Hasan (if slight) or Da'īf (if severe)."
-                    ]
-                  },
-                  {
-                    "type": "quote",
-                    "text": "A narrator must be both righteous in character ('Ādil) and accurate in memory (Dābit) for their Hadith to be considered sound (Sahīh) or good (Hasan)."
-                  }
-                ],
-                "quiz": [
-                  {
-                    "question": "The criteria of 'Al-Jarh' (Disparagement) primarily focuses on which aspect of a narrator?",
-                    "options": [
-                      "Their wealth and social status.",
-                      "Identifying defects in their character or memory that invalidate their narration.",
-                      "Determining the country where they traveled.",
-                      "Their ability to write poetry."
-                    ],
-                    "correctAnswer": "Identifying defects in their character or memory that invalidate their narration."
-                  },
-                  {
-                    "question": "What is the primary difference between Al-'Adālah and Al-Dabt?",
-                    "options": [
-                      "Al-'Adālah refers to family lineage, and Al-Dabt refers to age.",
-                      "Al-'Adālah refers to financial honesty, and Al-Dabt refers to reading speed.",
-                      "Al-'Adālah refers to moral integrity/righteousness, and Al-Dabt refers to accuracy/precision of memory.",
-                      "They are two terms that mean the exact same thing."
-                    ],
-                    "correctAnswer": "Al-'Adālah refers to moral integrity/righteousness, and Al-Dabt refers to accuracy/precision of memory."
-                  }
-                ]
-              }
-            ]
-          },
+       
           {
             "courseID": "TAF001",
             "courseSlug": "fundamentals-of-quran-exegesis",
             "courseTitle": "Fundamentals of Qur'an Exegesis (Usūl al-Tafsīr)",
-            "courseImage": "https://www.islamicstudies.org/images/courses/quran-exegesis.jpg",
+            "courseImage": "./app/islamic-studies/images/fundamentals-of-quran-exegesis-image.png",
+            "courseImageAlt": "Fundamentals of Qur'an Exegesis (Usūl al-Tafsīr)",
+            "status": "Available Now",
             "courseDescription": "A course providing the core principles, methodologies, and tools used by Islamic scholars to correctly understand and interpret the meanings of the Qur'an.",
             "whatYouWillLearn": [
               "The definition and distinction between Tafsīr (exegesis) and Ta'wīl (interpretation).",
@@ -581,10 +264,13 @@
             ]
           },
           {
-            "courseID": "QUR030",
+            "courseID": "TAF002",
             "courseSlug": "juz-amma-tafseer",
-            "courseTitle": "The Spiritual Wisdom and Detailed Tafseer of Juz' Amma (Surahs 78-114)",
-            "courseDescription": "An in-depth online course providing verse-by-verse translation, detailed explanation (Tafseer), essential vocabulary, and profound spiritual takeaways for all 37 Surahs of the 30th Part of the Qur'an. This course links the potent Meccan message of accountability, Tawheed (Oneness of God), and the Hereafter to the believer’s daily life.",
+            "courseTitle": "Tafseer of Juz' Amma (Surahs 78-114)",
+            "courseImage": "./app/islamic-studies/images/juz-amma-tafseer-image.png",
+            "courseImageAlt": "Tafseer of Juz' Amma (Surahs 78-114)",
+            "status": "Available Now",
+            "courseDescription": "An in-depth verse-by-verse translation, detailed explanation (Tafseer), essential vocabulary, and profound spiritual takeaways for all 37 Surahs of the 30th Part of the Qur'an.",
             "whatYouWillLearn": [
               "The translation, linguistic significance, and key themes of every Surah in Juz' Amma.",
               "Detailed explanation of key vocabulary and concepts such as the Day of Judgment (Akhirah) and divine accountability.",
@@ -636,6 +322,11 @@
                   {
                     "type": "paragraph",
                     "text": "In contrast, the righteous will have salvation in Gardens, vineyards, and heavenly companions. They will only hear pleasant speech and receive a generous reward from Allah. On that Day, no one will speak without Allah's permission, and the disbelievers will regret their actions, wishing they were dust."
+                  },
+                  {
+                    "type": "loom video",
+                    "src": "https://www.loom.com/share/9a7dde7a815e42698084718df31ab8e0",
+                    "alt": "A quick overview of Surah An-Naba By Ustadh Mubarak "
                   }
                 ],
                 "quiz": [
@@ -3052,6 +2743,328 @@
                       "From among jinn and humankind."
                     ],
                     "correctAnswer": "From among jinn and humankind."
+                  }
+                ]
+              }
+            ]
+          }, {
+            "courseID": "HAD001",
+            "courseSlug": "foundations-of-hadith-terminology",
+            "courseTitle": "Foundations of Hadith Terminology (Mustalah al-Hadith)",
+            "courseImage": "./app/islamic-studies/images/foundations-of-hadith-terminology.png",
+            "courseImageAlt": "Foundations of Hadith Terminology (Mustalah al-Hadith)",
+            "status": "coming soon",
+            "courseDescription": "A foundational course introducing the specialized science of Mustalah al-Hadith, which established the criteria for authenticating, classifying, and preserving the Prophetic tradition (Sunnah).",
+            "whatYouWillLearn": [
+              "The definition and distinction between Hadith, Sunnah, and related technical terms.",
+              "The two essential components of any Hadith: Sanad (chain) and Matn (text).",
+              "The major classifications of Hadith based on the number of narrators (Tawātur and Āhād).",
+              "The major classifications of Hadith based on authenticity (Sahīh, Hasan, and Da'īf).",
+              "The methods and criteria used in the rigorous assessment of narrators (Jarh wa Ta'dīl)."
+            ],
+            "sections": [
+              {
+                "sectionNumber": 1,
+                "sectionTitle": "Introduction: Defining Core Terms",
+                "vocab": [
+                  {"term": "حديث", "meaning": "Hadith (A specific report about the Prophet)"},
+                  {"term": "السنة", "meaning": "As-Sunnah (The normative way or example of the Prophet)"},
+                  {"term": "مصطلح الحديث", "meaning": "Mustalah al-Hadith (Science of Hadith Terminology)"},
+                  {"term": "خبر", "meaning": "Khabar (A general piece of news/report)"},
+                  {"term": "أثر", "meaning": "Athar (Reports from Companions or Successors)"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Need for Hadith Terminology"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The science of Mustalah al-Hadith developed after the early centuries of Islam to protect the Sunnah from fabrication and error. Its fundamental purpose is to establish the criteria necessary to distinguish genuine Prophetic reports from flawed or fabricated ones."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Distinguishing Hadith, Sunnah, and Athar"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "**Hadith:** Refers to a specific saying, action, tacit approval, or description related to the Prophet Muhammad (PBUH).",
+                      "**Sunnah:** Represents the broader, normative tradition or way of life exemplified by the Prophet. A Hadith is a textual report of the Sunnah.",
+                      "**Athar:** Generally refers to reports traced back to the Companions (Sahābah) or the generation that followed them (Tābi'ūn), though sometimes used synonymously with Hadith."
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "Ibn al-Mubarak said, 'The Sanad is part of the religion. Had it not been for the Sanad, anyone could have said anything they wanted.' This illustrates the fundamental importance of authenticating the source."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the primary function of the science of Mustalah al-Hadith?",
+                    "options": [
+                      "To gather all historical reports about the Arabs.",
+                      "To establish the criteria for assessing the authenticity of Prophetic traditions.",
+                      "To translate all Hadith into different languages.",
+                      "To interpret the complex verses of the Qur'an."
+                    ],
+                    "correctAnswer": "To establish the criteria for assessing the authenticity of Prophetic traditions."
+                  },
+                  {
+                    "question": "In the technical terminology of Hadith, to whom does the term 'Athar' usually refer?",
+                    "options": [
+                      "Reports from the Prophet Muhammad (PBUH) only.",
+                      "Reports from the Companions and Successors.",
+                      "Reports found in the Sahihayn only.",
+                      "Reports containing theological opinions."
+                    ],
+                    "correctAnswer": "Reports from the Companions and Successors."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 2,
+                "sectionTitle": "The Anatomy of a Hadith: Sanad and Matn",
+                "vocab": [
+                  {"term": "السند", "meaning": "Al-Sanad (The chain of narrators)"},
+                  {"term": "المتن", "meaning": "Al-Matn (The text/content of the Hadith)"},
+                  {"term": "الراوي", "meaning": "Al-Rāwī (The narrator/reporter in the chain)"},
+                  {"term": "الإسناد", "meaning": "Al-Isnād (The process of relating the Hadith back to its source)"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Al-Sanad: The Chain of Authority"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The **Sanad** is the most crucial part of Hadith authentication. It is the continuous chain of narrators linking the final compiler (e.g., Imam Bukhari) back to the Prophet (PBUH). The entire science of Hadith terminology centers on scrutinizing the integrity and memory of the individuals within this chain."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Al-Matn: The Content"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The **Matn** is the actual text, saying, action, or description conveyed by the chain. While the Sanad must be sound, the Matn is also subject to internal criticism to ensure it does not contradict established, stronger texts or clear verses of the Qur'an."
+                  },
+                  {
+                    "type": "quote",
+                    "text": "A Hadith is only as strong as its weakest link. If any narrator in the chain (Sanad) is deemed unreliable, the entire report (Matn) is invalidated."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": ""
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What does the term 'Matn' refer to in the context of Hadith?",
+                    "options": [
+                      "The individual who transmitted the report.",
+                      "The book in which the Hadith is recorded.",
+                      "The actual text, saying, or content of the report.",
+                      "The grading given to the Hadith (e.g., Sahīh)."
+                    ],
+                    "correctAnswer": "The actual text, saying, or content of the report."
+                  },
+                  {
+                    "question": "Why is the continuous chain of narrators (Sanad) considered the 'most crucial' part of a Hadith?",
+                    "options": [
+                      "It determines the length of the Matn.",
+                      "Its reliability dictates the authenticity of the entire report.",
+                      "It is necessary for reading the Arabic text correctly.",
+                      "It allows for memorizing the Hadith more easily."
+                    ],
+                    "correctAnswer": "Its reliability dictates the authenticity of the entire report."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 3,
+                "sectionTitle": "Classification by Number of Narrators (Tawātur vs. Āhād)",
+                "vocab": [
+                  {"term": "المتواتر", "meaning": "Mutawātir (Mass-Transmitted Hadith)"},
+                  {"term": "الآحاد", "meaning": "Āhād (Single-Chain Hadith)"},
+                  {"term": "المشهور", "meaning": "Mashhūr (Well-Known Hadith - at least 3 narrators)"},
+                  {"term": "العزيز", "meaning": "Azīz (Rare/Strong Hadith - at least 2 narrators)"},
+                  {"term": "الغريب", "meaning": "Gharīb (Scarce/Lone Hadith - 1 narrator at some point)"},
+                  {"term": "اليقين", "meaning": "Yaqīn (Certainty/Absolute Knowledge)"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "Mutawātir: Absolute Certainty (Yaqīn)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "A **Mutawātir** Hadith is defined by the sheer number of narrators at every stage of the chain. This number must be large enough to completely exclude the possibility of collusion or accidental error. The benefit of this class of Hadith is that it provides absolute certainty (**Yaqīn**) and must be accepted without needing further scrutiny of individual narrators."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Āhād: Single-Chain Reports (Probability/Zann)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The **Āhād** class includes all reports that do not meet the stringent requirements of Mutawātir. It provides a strong degree of probability (**Zann**), but its acceptance is conditional upon proving the reliability of every narrator in its specific chain. It is further categorized by the lowest number of narrators in any stage:"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "**Mashhūr:** Reported by at least three narrators at every stage.",
+                      "**Azīz:** Reported by at least two narrators at every stage.",
+                      "**Gharīb:** Reported by only one narrator at any stage of the chain."
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "While Mutawātir reports form the bedrock of the most fundamental beliefs and practices, the vast majority of legal rulings (Fiqh) and detailed practices rely upon the carefully scrutinized Āhād reports."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the primary benefit or knowledge provided by a Mutawātir Hadith?",
+                    "options": [
+                      "A weak probability of truth.",
+                      "A historical record of an event.",
+                      "Absolute certainty (Yaqīn).",
+                      "A religious opinion open to debate."
+                    ],
+                    "correctAnswer": "Absolute certainty (Yaqīn)."
+                  },
+                  {
+                    "question": "Which subclass of Āhād Hadith is defined by having only a single narrator at some point in its chain?",
+                    "options": [
+                      "Mashhūr",
+                      "Azīz",
+                      "Mursal",
+                      "Gharīb"
+                    ],
+                    "correctAnswer": "Gharīb"
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 4,
+                "sectionTitle": "Classification by Strength and Authenticity",
+                "vocab": [
+                  {"term": "الصحيح", "meaning": "Sahīh (Sound/Authentic)"},
+                  {"term": "الحسن", "meaning": "Hasan (Good/Acceptable)"},
+                  {"term": "الضعيف", "meaning": "Da'īf (Weak/Unsound)"},
+                  {"term": "الشذوذ", "meaning": "Shudhūdh (Anomaly/Contradicting a stronger report)"},
+                  {"term": "العلة", "meaning": "Illah (Hidden defect)"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Five Conditions for Sahīh (Sound) Hadith"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "A Hadith is classified as **Sahīh** (Sound) only if it meets five cumulatively strict conditions:"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "**1. Ittisāl as-Sanad:** Continuous chain of narration (no breaks).",
+                      "**2. Adālat ar-Rāwī:** Narrators are trustworthy, righteous, and of good character.",
+                      "**3. Dabt ar-Rāwī:** Narrators are precise and accurate in their preservation (strong memory).",
+                      "**4. Salāmah min ash-Shudhūdh:** Free from being anomalous (not contradicting a stronger, accepted report).",
+                      "**5. Salāmah min al-Illah:** Free from any subtle, damaging hidden defects."
+                    ]
+                  },
+                  {
+                    "type": "heading",
+                    "text": "Hasan (Good) and Da'īf (Weak)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "A **Hasan** Hadith is identical to a Sahīh Hadith except for one criterion: the narrator's level of precision (**Dabt**) is slightly weaker, though still sufficient to be accepted as legal proof. A **Da'īf** Hadith is any report that fails to meet even one of the five conditions for a Hasan or Sahīh report. It is generally not used as legal evidence, though exceptions exist for virtues and moral exhortation."
+                  },
+                  {
+                    "type": "quote",
+                    "text": "The existence of Sahīh and Hasan Hadith provides the necessary evidence (Hujjah) for the Islamic legal system."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "What is the key difference that distinguishes a Hasan Hadith from a Sahīh Hadith?",
+                    "options": [
+                      "A Hasan Hadith has a broken chain of narration.",
+                      "The narrator's righteousness ('Adālah) is weak in a Hasan Hadith.",
+                      "The precision/accuracy (Dabt) of the narrators is slightly lesser in a Hasan Hadith.",
+                      "A Hasan Hadith is always contradicted by a Qur'anic verse."
+                    ],
+                    "correctAnswer": "The precision/accuracy (Dabt) of the narrators is slightly lesser in a Hasan Hadith."
+                  },
+                  {
+                    "question": "What does the term 'Illah' refer to when criticizing a Hadith?",
+                    "options": [
+                      "An open contradiction in the Matn.",
+                      "A hidden, subtle, damaging defect in the chain or text.",
+                      "The narrator's place of residence.",
+                      "A Hadith that is too famous."
+                    ],
+                    "correctAnswer": "A hidden, subtle, damaging defect in the chain or text."
+                  }
+                ]
+              },
+              {
+                "sectionNumber": 5,
+                "sectionTitle": "Jarh wa Ta'dīl: The Science of Narrator Criticism",
+                "vocab": [
+                  {"term": "الجرح", "meaning": "Al-Jarh (Disparagement/Criticism)"},
+                  {"term": "التعديل", "meaning": "At-Ta'dīl (Endorsement/Praise)"},
+                  {"term": "العدالة", "meaning": "Al-'Adālah (Integrity/Righteous Character)"},
+                  {"term": "الضبط", "meaning": "Al-Dabt (Precision/Accuracy and Strong Memory)"},
+                  {"term": "المجهول", "meaning": "Majhūl (Unknown Narrator)"},
+                  {"term": "الكذاب", "meaning": "Kadhdhāb (A liar)"}
+                ],
+                "content": [
+                  {
+                    "type": "heading",
+                    "text": "The Purpose of Jarh wa Ta'dīl"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "This specialized discipline is the foundation of Hadith authentication. It involves meticulous research into the life, behavior, and memory of every narrator in the chain to determine if their report should be accepted. Acceptance requires meeting two primary conditions: **Al-'Adālah (Integrity)** and **Al-Dabt (Precision)**."
+                  },
+                  {
+                    "type": "heading",
+                    "text": "The Criteria: Integrity ('Adālah) and Precision (Dabt)"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "**Al-'Adālah (Integrity):** Deals with the narrator's moral character, righteousness, adherence to religious law, and honesty. A narrator is rejected if accused of lying, excessive sin, or major innovation.",
+                      "**Al-Dabt (Precision):** Deals with the narrator's cognitive ability to remember and transmit the Hadith exactly as they heard it, without error, change, or carelessness. Weakness in Dabt results in a Hadith being labeled Hasan (if slight) or Da'īf (if severe)."
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "A narrator must be both righteous in character ('Ādil) and accurate in memory (Dābit) for their Hadith to be considered sound (Sahīh) or good (Hasan)."
+                  }
+                ],
+                "quiz": [
+                  {
+                    "question": "The criteria of 'Al-Jarh' (Disparagement) primarily focuses on which aspect of a narrator?",
+                    "options": [
+                      "Their wealth and social status.",
+                      "Identifying defects in their character or memory that invalidate their narration.",
+                      "Determining the country where they traveled.",
+                      "Their ability to write poetry."
+                    ],
+                    "correctAnswer": "Identifying defects in their character or memory that invalidate their narration."
+                  },
+                  {
+                    "question": "What is the primary difference between Al-'Adālah and Al-Dabt?",
+                    "options": [
+                      "Al-'Adālah refers to family lineage, and Al-Dabt refers to age.",
+                      "Al-'Adālah refers to financial honesty, and Al-Dabt refers to reading speed.",
+                      "Al-'Adālah refers to moral integrity/righteousness, and Al-Dabt refers to accuracy/precision of memory.",
+                      "They are two terms that mean the exact same thing."
+                    ],
+                    "correctAnswer": "Al-'Adālah refers to moral integrity/righteousness, and Al-Dabt refers to accuracy/precision of memory."
                   }
                 ]
               }

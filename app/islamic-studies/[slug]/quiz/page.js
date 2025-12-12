@@ -44,24 +44,29 @@ const CourseQuiz = () => {
       if (course) {
         setCourseData(course);
         
-        // Collect all quiz questions from all sections
-        const questions = [];
-        course.sections?.forEach((section) => {
-          if (section.quiz && Array.isArray(section.quiz)) {
-            section.quiz.forEach((quiz, index) => {
-              questions.push({
-                id: `section-${section.sectionNumber}-q-${index}`,
-                sectionNumber: section.sectionNumber,
-                sectionTitle: section.sectionTitle,
-                question: quiz.question,
-                options: quiz.options,
-                correctAnswer: quiz.correctAnswer,
-              });
-            });
-          }
-        });
+        // Check if course is available
+        const isAvailable = course.status === "Available Now";
         
-        setAllQuestions(questions);
+        if (isAvailable) {
+          // Collect all quiz questions from all sections
+          const questions = [];
+          course.sections?.forEach((section) => {
+            if (section.quiz && Array.isArray(section.quiz)) {
+              section.quiz.forEach((quiz, index) => {
+                questions.push({
+                  id: `section-${section.sectionNumber}-q-${index}`,
+                  sectionNumber: section.sectionNumber,
+                  sectionTitle: section.sectionTitle,
+                  question: quiz.question,
+                  options: quiz.options,
+                  correctAnswer: quiz.correctAnswer,
+                });
+              });
+            }
+          });
+          
+          setAllQuestions(questions);
+        }
       }
     }
     setIsLoading(false);
@@ -124,7 +129,52 @@ const CourseQuiz = () => {
     );
   }
 
-  if (!courseData || allQuestions.length === 0) {
+  if (!courseData) {
+    return (
+      <div className="bg-white text-black min-h-screen">
+        <div className="max-w-3xl mx-auto px-6 py-8">
+          <div className="text-center py-12">
+            <h1 className="text-2xl font-bold mb-4">Course Not Found</h1>
+            <Link href="/islamic-studies" className="text-sm text-gray-600 hover:underline">
+              ← Back to Courses
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  const isAvailable = courseData.status === "Available Now";
+
+  if (!isAvailable) {
+    return (
+      <div className="bg-white text-black min-h-screen">
+        <div className="max-w-3xl mx-auto px-6 py-8">
+          <div className="flex justify-end mb-8">
+            <AccessButton />
+          </div>
+          <div className="mb-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r">
+            <div className="flex items-center gap-2">
+              <span className="text-lg">⏳</span>
+              <div>
+                <p className="text-sm font-medium text-yellow-900">Coming Soon</p>
+                <p className="text-xs text-yellow-700 mt-1">This course quiz will be available when the course is released.</p>
+              </div>
+            </div>
+          </div>
+          <div className="text-center py-12">
+            <h1 className="text-2xl font-bold mb-4">Quiz Coming Soon</h1>
+            <p className="text-gray-600 mb-6">This quiz will be available when the course is released.</p>
+            <Link href={`/islamic-studies/${slug}`} className="text-sm text-gray-600 hover:underline">
+              ← Back to Course
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (allQuestions.length === 0) {
     return (
       <div className="bg-white text-black min-h-screen">
         <div className="max-w-3xl mx-auto px-6 py-8">
