@@ -10,6 +10,7 @@ export const metadata = getSEOTags({
 });
 
 const Profile = () => {
+  /* Original code - commented out for now, will bring back later
   return (
     <div className="bg-white text-black min-h-screen">
       <div className="max-w-xl mx-auto px-6 py-6">
@@ -159,6 +160,25 @@ const Profile = () => {
             <p>
               <a href="mailto:Mubarak014@gmail.com" className="underline">Email</a>
             </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+  */
+
+  // Temporary minimal page - will restore later
+  return (
+    <div className="bg-white text-black min-h-screen">
+      <div className="max-w-xl mx-auto px-6 py-6">
+        <div className="flex items-center justify-center min-h-screen">
+          <div className="text-center">
+            <h1 className="text-xl font-bold mb-8">
+              Mubarak Muse
+            </h1>
+            <Link href="/islamic-studies" className="text-lg underline">
+              Online Islamic Studies
+            </Link>
           </div>
         </div>
       </div>
