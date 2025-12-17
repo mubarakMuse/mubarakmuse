@@ -3,9 +3,14 @@ import { getSEOTags } from "@/libs/seo";
 
 export const metadata = getSEOTags({
   title: "Lullaby Fresh - Pre-Toss Diaper Neutralizer Spray",
-  description: "The pre-toss diaper neutralizer spray. Stop the smell before it starts. Eliminate diaper odor instantly with our natural, safe formula.",
-  keywords: ["diaper spray", "diaper odor", "baby products", "diaper neutralizer", "odor eliminator", "baby care"],
+  description: "The pre-toss diaper neutralizer spray. Stop the smell before it starts. Eliminate diaper odor instantly with our natural, safe formula. No more stinky diaper pails or trash cans.",
+  keywords: ["diaper spray", "diaper odor", "baby products", "diaper neutralizer", "odor eliminator", "baby care", "diaper disposal", "baby hygiene"],
   canonicalUrlRelative: "/lullaby-fresh",
+  openGraph: {
+    title: "Lullaby Fresh - Pre-Toss Diaper Neutralizer Spray",
+    description: "The pre-toss diaper neutralizer spray. Stop the smell before it starts. Eliminate diaper odor instantly with our natural, safe formula.",
+    url: "/lullaby-fresh",
+  },
 });
 
 const LullabyFresh = () => {
@@ -44,5 +49,6 @@ const LullabyFresh = () => {
 };
 
 export default LullabyFresh;
+
 
 

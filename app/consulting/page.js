@@ -3,9 +3,14 @@ import { getSEOTags } from "@/libs/seo";
 
 export const metadata = getSEOTags({
   title: "AI & Software Consulting - Mubarak Muse",
-  description: "Building MVPs and AI workflows for startups. Expert in full-stack development, AI integration, and technical architecture.",
-  keywords: ["AI consulting", "software consulting", "MVP development", "AI workflows", "startup consulting", "custom software development"],
+  description: "Building MVPs and AI workflows for startups. Expert in full-stack development, AI integration, and technical architecture. Former Amazon and Collective Health engineer.",
+  keywords: ["AI consulting", "software consulting", "MVP development", "AI workflows", "startup consulting", "custom software development", "full-stack development", "Next.js", "AWS"],
   canonicalUrlRelative: "/consulting",
+  openGraph: {
+    title: "AI & Software Consulting - Mubarak Muse",
+    description: "Building MVPs and AI workflows for startups. Expert in full-stack development, AI integration, and technical architecture.",
+    url: "/consulting",
+  },
 });
 
 const Consulting = () => {

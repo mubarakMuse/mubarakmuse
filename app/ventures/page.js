@@ -3,9 +3,14 @@ import { getSEOTags } from "@/libs/seo";
 
 export const metadata = getSEOTags({
   title: "Muse Ventures - Early-Stage AI Investment",
-  description: "Investing in early-stage AI companies in SF and NYC. Supporting innovative AI startups with capital, expertise, and network.",
-  keywords: ["venture capital", "AI investment", "early stage funding", "startup investment", "AI startups", "venture studio"],
+  description: "Investing in early-stage AI companies in San Francisco and New York City. Supporting innovative AI startups with capital, technical expertise, and network access.",
+  keywords: ["venture capital", "AI investment", "early stage funding", "startup investment", "AI startups", "venture studio", "San Francisco", "New York", "AI companies"],
   canonicalUrlRelative: "/ventures",
+  openGraph: {
+    title: "Muse Ventures - Early-Stage AI Investment",
+    description: "Investing in early-stage AI companies in San Francisco and New York City. Supporting innovative AI startups with capital, expertise, and network.",
+    url: "/ventures",
+  },
 });
 
 const Ventures = () => {
@@ -44,5 +49,6 @@ const Ventures = () => {
 };
 
 export default Ventures;
+
 
 

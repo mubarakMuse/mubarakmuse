@@ -2,12 +2,18 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { getSEOTags } from "@/libs/seo";
+import picOfMe from "./picofme.png";
 
 export const metadata = getSEOTags({
   title: "Mubarak Muse - Entrepreneur & Software Engineer",
-  description: "Home for launching and building business ideas, products, and ventures. Software engineer, entrepreneur, and builder based in Minneapolis, Minnesota.",
-  keywords: ["Mubarak Muse", "entrepreneur", "software engineer", "business ideas", "products", "ventures", "Minneapolis"],
+  description: "Software engineer (formerly at Amazon and Collective Health) and entrepreneur building products, helping startups, and investing in early-stage AI companies. Based in Minneapolis, Minnesota and San Francisco, California.",
+  keywords: ["Mubarak Muse", "entrepreneur", "software engineer", "Amazon", "Collective Health", "startup founder", "AI investor", "technical recruiting", "Minneapolis", "San Francisco", "portfolio", "small bets"],
   canonicalUrlRelative: "/",
+  openGraph: {
+    title: "Mubarak Muse - Entrepreneur & Software Engineer",
+    description: "Software engineer and entrepreneur building products, helping startups, and investing in early-stage AI companies.",
+    url: "/",
+  },
 });
 
 const Profile = () => {
@@ -16,11 +22,12 @@ const Profile = () => {
       <div className="max-w-xl mx-auto px-6 py-6">
         <div className="flex items-center gap-4 mb-8">
           <Image
-            src="/picofme.png"
+            src={picOfMe}
             alt="Mubarak Muse"
             width={80}
             height={80}
             className="rounded-full object-cover"
+            unoptimized
           />
           <h1 className="text-xl font-bold">
             Mubarak Muse
@@ -81,7 +88,7 @@ const Profile = () => {
             </div>
             <div>
               <p className="mb-2 text-sm font-semibold">
-                <Link href="/islamic-studies" className="underline">
+                <Link href="https://ilmboost.com" className="underline">
                   Ilmboost.com - Online Islamic Studies platform
                 </Link>
               </p>
@@ -96,7 +103,7 @@ const Profile = () => {
                 </Link>
               </p>
               <p className="mb-2 text-sm leading-relaxed">
-                Investing in early-stage AI companies .
+                Investing in early-stage AI companies.
               </p>
             </div>
           </div>

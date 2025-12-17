@@ -3,9 +3,14 @@ import { getSEOTags } from "@/libs/seo";
 
 export const metadata = getSEOTags({
   title: "Privacy Policy - BrighterTunnel",
-  description: "Privacy Policy for BrighterTunnel technical screening services",
-  keywords: ["BrighterTunnel", "privacy policy", "data protection", "technical screening"],
+  description: "Privacy Policy for BrighterTunnel technical screening services. Learn how we protect candidate data and ensure privacy in our technical assessment process.",
+  keywords: ["BrighterTunnel", "privacy policy", "data protection", "technical screening", "candidate privacy", "data security"],
   canonicalUrlRelative: "/brighter-tunnel/privacy",
+  openGraph: {
+    title: "Privacy Policy - BrighterTunnel",
+    description: "Privacy Policy for BrighterTunnel technical screening services",
+    url: "/brighter-tunnel/privacy",
+  },
 });
 
 const BrighterTunnelPrivacy = () => {

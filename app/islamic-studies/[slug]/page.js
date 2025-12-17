@@ -29,10 +29,15 @@ export async function generateMetadata({ params }) {
   }
 
   return getSEOTags({
-    title: `${course.courseTitle} - Online Islamic Studies`,
-    description: course.courseDescription,
-    keywords: ["Islamic studies", "online Islamic education", course.courseTitle],
+    title: `${course.courseTitle} - Online Islamic Studies | Ilmboost.com`,
+    description: course.courseDescription || `Learn ${course.courseTitle} through structured online Islamic education. Part of Ilmboost.com's comprehensive Islamic studies curriculum.`,
+    keywords: ["Islamic studies", "online Islamic education", course.courseTitle, "Ilmboost", "Quran", "Hadith", "Tafseer", "Islamic learning"],
     canonicalUrlRelative: `/islamic-studies/${slug}`,
+    openGraph: {
+      title: `${course.courseTitle} - Online Islamic Studies`,
+      description: course.courseDescription || `Learn ${course.courseTitle} through structured online Islamic education.`,
+      url: `/islamic-studies/${slug}`,
+    },
   });
 }
 

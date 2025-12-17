@@ -8,9 +8,14 @@ import brighterTunnelLogo from "./brighter_tunnel_logo.png";
 
 export const metadata = getSEOTags({
   title: "BrighterTunnel - Technical Screening That Actually Works",
-  description: "Stop wasting your senior engineers' time on unqualified candidates. We screen applicants so you only interview the top 20% who can actually code.",
-  keywords: ["technical screening", "coding interviews", "candidate screening", "technical interviews", "hiring", "recruiting"],
+  description: "Stop wasting your senior engineers' time on unqualified candidates. We screen applicants so you only interview the top 20% who can actually code. Technical screening service for hiring managers.",
+  keywords: ["technical screening", "coding interviews", "candidate screening", "technical interviews", "hiring", "recruiting", "technical assessment", "coding assessment"],
   canonicalUrlRelative: "/brighter-tunnel",
+  openGraph: {
+    title: "BrighterTunnel - Technical Screening That Actually Works",
+    description: "Stop wasting your senior engineers' time on unqualified candidates. We screen applicants so you only interview the top 20% who can actually code.",
+    url: "/brighter-tunnel",
+  },
 });
 
 const BrighterTunnel = () => {

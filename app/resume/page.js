@@ -4,9 +4,14 @@ import { getSEOTags } from "@/libs/seo";
 
 export const metadata = getSEOTags({
   title: "Mubarak Muse - Resume | Software Engineer",
-  description: "Software engineer resume with experience at Amazon, Collective Health, and BrighterTunnel. Full-stack developer specializing in Java, JavaScript, Python, and AWS.",
-  keywords: ["Mubarak Muse", "resume", "software engineer", "full-stack developer", "Amazon", "Minneapolis", "BrighterTunnel"],
+  description: "Software engineer resume with 8+ years of experience at Amazon, Collective Health, and BrighterTunnel. Full-stack developer specializing in Java, JavaScript, Python, Next.js, React, and AWS.",
+  keywords: ["Mubarak Muse", "resume", "software engineer", "full-stack developer", "Amazon", "Collective Health", "BrighterTunnel", "Minneapolis", "Java", "JavaScript", "Python", "AWS"],
   canonicalUrlRelative: "/resume",
+  openGraph: {
+    title: "Mubarak Muse - Resume | Software Engineer",
+    description: "Software engineer resume with experience at Amazon, Collective Health, and BrighterTunnel. Full-stack developer specializing in Java, JavaScript, Python, and AWS.",
+    url: "/resume",
+  },
 });
 
 const Resume = () => {

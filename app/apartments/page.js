@@ -3,9 +3,14 @@ import { getSEOTags } from "@/libs/seo";
 
 export const metadata = getSEOTags({
   title: "City Apartment Directory - New Move-In Specials",
-  description: "The only list of new move-in specials in your city. Find the best apartment deals, move-in specials, and rental discounts in one place.",
-  keywords: ["apartment directory", "move-in specials", "apartment deals", "rental discounts", "apartment finder", "city apartments"],
+  description: "The only list of new move-in specials in your city. Find the best apartment deals, move-in specials, and rental discounts in one place. Save time and money on your next apartment search.",
+  keywords: ["apartment directory", "move-in specials", "apartment deals", "rental discounts", "apartment finder", "city apartments", "apartment search", "rental deals"],
   canonicalUrlRelative: "/apartments",
+  openGraph: {
+    title: "City Apartment Directory - New Move-In Specials",
+    description: "The only list of new move-in specials in your city. Find the best apartment deals, move-in specials, and rental discounts in one place.",
+    url: "/apartments",
+  },
 });
 
 const Apartments = () => {
@@ -44,5 +49,6 @@ const Apartments = () => {
 };
 
 export default Apartments;
+
 
 

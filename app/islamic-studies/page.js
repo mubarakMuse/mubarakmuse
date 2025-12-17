@@ -6,10 +6,15 @@ import AccessButton from "./components/AccessButton";
 import CourseImage from "./components/CourseImage";
 
 export const metadata = getSEOTags({
-  title: "Online Islamic Studies - Mubarak Muse",
-  description: "Structured, online Islamic education for the modern family. Learn Islamic studies from qualified teachers in a flexible, accessible format.",
-  keywords: ["Islamic studies", "online Islamic education", "Quran classes", "Islamic learning", "Muslim education", "online religious education"],
+  title: "Online Islamic Studies - Ilmboost.com | Mubarak Muse",
+  description: "Structured, online Islamic education for the modern family. Learn Islamic studies, Quran exegesis, and Hadith terminology from qualified teachers in a flexible, accessible format.",
+  keywords: ["Islamic studies", "online Islamic education", "Quran classes", "Islamic learning", "Muslim education", "online religious education", "Quran exegesis", "Tafseer", "Hadith", "Ilmboost"],
   canonicalUrlRelative: "/islamic-studies",
+  openGraph: {
+    title: "Online Islamic Studies - Ilmboost.com",
+    description: "Structured, online Islamic education for the modern family. Learn Islamic studies from qualified teachers in a flexible, accessible format.",
+    url: "/islamic-studies",
+  },
 });
 
 const IslamicStudies = () => {

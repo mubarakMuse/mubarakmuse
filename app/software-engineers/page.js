@@ -4,13 +4,13 @@ import { getSEOTags } from "@/libs/seo";
 import interviewImage from "./bt-interview.png";
 
 export const metadata = getSEOTags({
-  title: "Help Software Engineers Land Roles - Mubarak Muse",
-  description: "Get access to 176+ open roles, free mock coding interviews, and career advice from a senior software engineer.",
-  keywords: ["software engineer jobs", "mock coding interview", "career help", "job search", "technical interview practice"],
+  title: "Software Engineer Recruiting & Mock Interviews - Mubarak Muse",
+  description: "Get access to 176+ open software engineer roles via Paraform.com, free 45-minute mock coding interviews, and career advice. Former Amazon engineer with 900+ technical interviews conducted at Karat.",
+  keywords: ["software engineer jobs", "mock coding interview", "career help", "job search", "technical interview practice", "Paraform", "Karat", "Amazon engineer", "coding interview prep"],
   canonicalUrlRelative: "/software-engineers",
   openGraph: {
-    title: "Help Software Engineers Land Roles - Mubarak Muse",
-    description: "Get access to 176+ open roles, free mock coding interviews, and career advice from a senior software engineer.",
+    title: "Software Engineer Recruiting & Mock Interviews - Mubarak Muse",
+    description: "Get access to 176+ open software engineer roles, free mock coding interviews, and career advice from a senior software engineer.",
     url: "/software-engineers",
   },
 });

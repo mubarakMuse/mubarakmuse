@@ -3,9 +3,14 @@ import { getSEOTags } from "@/libs/seo";
 
 export const metadata = getSEOTags({
   title: "Terms of Service - BrighterTunnel",
-  description: "Terms of Service for BrighterTunnel technical screening services",
-  keywords: ["BrighterTunnel", "terms of service", "technical screening"],
+  description: "Terms of Service for BrighterTunnel technical screening services. Review our terms and conditions for using our technical assessment platform.",
+  keywords: ["BrighterTunnel", "terms of service", "technical screening", "terms and conditions", "service agreement"],
   canonicalUrlRelative: "/brighter-tunnel/tos",
+  openGraph: {
+    title: "Terms of Service - BrighterTunnel",
+    description: "Terms of Service for BrighterTunnel technical screening services",
+    url: "/brighter-tunnel/tos",
+  },
 });
 
 const BrighterTunnelTOS = () => {
