@@ -40,7 +40,7 @@ const BrighterTunnel = () => {
           </p>
         </div>
 
-        <nav className="mb-8 text-sm">
+        <nav className="mb-6 text-sm">
           <a href="#who-are-we" className="underline mr-4">Who are we</a>
           <a href="#what-we-do" className="underline mr-4">What we do</a>
           <a href="#benefits" className="underline mr-4">Benefits</a>
@@ -49,149 +49,132 @@ const BrighterTunnel = () => {
           <a href="#case-study" className="underline">Case Study</a>
         </nav>
 
-        <div id="who-are-we" className="mb-10">
-          <h2 className="text-lg font-bold mb-4">Who are we</h2>
+        <div id="who-are-we" className="mb-6">
+          <h2 className="text-lg font-bold mb-2">Who are we</h2>
           <div className="text-sm leading-relaxed space-y-3">
             <p>
-              We are former FAANG engineers who also worked at{" "}
+              Former FAANG engineers who also worked at{" "}
               <a href="https://www.karat.com" target="_blank" rel="noopener noreferrer" className="underline">
                 Karat
               </a>
               {" "}as interview engineers.
             </p>
-            <p>
-              Our experience at top tech companies and as technical interviewers gives us deep insight into what makes a great software engineer and how to assess technical skills effectively.
-            </p>
           </div>
         </div>
 
-        <div id="what-we-do" className="mb-10">
-          <h2 className="text-lg font-bold mb-4">What we do</h2>
+        <div id="what-we-do" className="mb-6">
+          <h2 className="text-lg font-bold mb-2">What we do</h2>
           <div className="text-sm leading-relaxed space-y-3">
             <p>
-              We specialize at the first round technical screen interview. We conduct 60-minute technical interviews to filter out unqualified candidates.
+              We conduct 60-minute technical interviews to filter out unqualified candidates. You then interview the qualified ones onsite.
             </p>
             <p>
-              Companies then interview the qualified candidates in the final onsite rounds. This saves your senior engineers time and lets them focus on building.
-            </p>
-            <p>
-              Each interview costs $50—less than the hourly rate of in-house engineers.
+              $50 per interview—less than the hourly rate of in-house engineers.
             </p>
             <p className="mt-4">
-              Ready to save your team time?{" "}
               <a 
                 href="https://cal.com/brighter-tunnel/15min" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="underline font-bold"
               >
-                Book an intro call to learn more (15 min)
+                Book an intro call (15 min)
               </a>
             </p>
           </div>
         </div>
 
-        <div className="mb-10">
+        <div className="mb-6">
           <Image
             src={interviewImage}
             alt="BrighterTunnel interview dashboard"
             width={800}
             height={400}
-            className="w-full h-auto mb-6"
+            className="w-full h-auto mb-4"
           />
         </div>
 
-        <div id="benefits" className="mb-10">
-          <h2 className="text-lg font-bold mb-4">Benefits</h2>
-          <div className="space-y-6">
+        <div id="benefits" className="mb-6">
+          <h2 className="text-lg font-bold mb-2">Benefits</h2>
+          <div className="space-y-4">
             <div>
-              <p className="mb-2 text-sm font-semibold">
+              <p className="mb-1 text-sm font-semibold">
                 Save 15+ hours per week
               </p>
-              <p className="mb-2 text-sm leading-relaxed">
-                Your engineers focus on building, not screening. We handle the technical vetting so you only see qualified candidates.
+              <p className="mb-1 text-sm leading-relaxed">
+                Your engineers focus on building. We handle technical vetting.
               </p>
             </div>
             <div>
-              <p className="mb-2 text-sm font-semibold">
+              <p className="mb-1 text-sm font-semibold">
                 Higher quality candidates
               </p>
-              <p className="mb-2 text-sm leading-relaxed">
-                Our human-led interviews assess real coding skills, not just resume keywords. You get candidates who can actually code.
+              <p className="mb-1 text-sm leading-relaxed">
+                Human-led interviews assess real coding skills, not just resume keywords.
               </p>
             </div>
             <div>
-              <p className="mb-2 text-sm font-semibold">
+              <p className="mb-1 text-sm font-semibold">
                 Detailed reports
               </p>
-              <p className="mb-2 text-sm leading-relaxed">
-                Every interview includes a comprehensive "Hire/No Hire" report with video recordings, so you know exactly what you're getting.
+              <p className="mb-1 text-sm leading-relaxed">
+                "Hire/No Hire" reports with video recordings included.
               </p>
             </div>
           </div>
-          <p className="mt-4 text-sm">
-            <a 
-              href="https://cal.com/brighter-tunnel/15min" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="underline font-bold"
-            >
-              Book an intro call to learn more (15 min) →
-            </a>
-          </p>
         </div>
 
-        <div id="how-it-works" className="mb-10">
-          <h2 className="text-lg font-bold mb-4">How it works</h2>
-          <div className="space-y-6">
+        <div id="how-it-works" className="mb-6">
+          <h2 className="text-lg font-bold mb-2">How it works</h2>
+          <div className="space-y-4">
             <div>
-              <p className="mb-2 text-sm font-semibold">
+              <p className="mb-1 text-sm font-semibold">
                 1. You send us candidates
               </p>
-              <p className="mb-2 text-sm leading-relaxed">
-                Forward resumes or candidate profiles. We handle the rest—scheduling, communication, and technical assessment.
+              <p className="mb-1 text-sm leading-relaxed">
+                Forward resumes. We handle scheduling and assessment.
               </p>
             </div>
             <div>
-              <p className="mb-2 text-sm font-semibold">
+              <p className="mb-1 text-sm font-semibold">
                 2. We conduct 60-minute technical interviews
               </p>
-              <p className="mb-2 text-sm leading-relaxed">
-                Our experienced engineers conduct live coding interviews. We test data structures, algorithms, system design, and practical problem-solving skills.
+              <p className="mb-1 text-sm leading-relaxed">
+                Live coding interviews testing data structures, algorithms, and system design.
               </p>
             </div>
             <div>
-              <p className="mb-2 text-sm font-semibold">
+              <p className="mb-1 text-sm font-semibold">
                 3. You interview qualified candidates onsite
               </p>
-              <p className="mb-2 text-sm leading-relaxed">
-                Receive detailed "Hire/No Hire" recommendations with video recordings, code samples, and specific feedback. You then interview the qualified candidates in your final onsite rounds.
+              <p className="mb-1 text-sm leading-relaxed">
+                Receive "Hire/No Hire" reports with video recordings and feedback.
               </p>
             </div>
           </div>
         </div>
 
-        <div className="mb-10">
+        <div className="mb-6">
           <Image
             src={womenInterviewingImage}
             alt="Technical interview in progress"
             width={800}
             height={400}
-            className="w-full h-auto mb-6"
+            className="w-full h-auto mb-4"
           />
         </div>
 
-        <div id="testimonials" className="mb-10">
-          <h2 className="text-lg font-bold mb-4">Testimonials</h2>
-          <div className="space-y-6">
+        <div id="testimonials" className="mb-6">
+          <h2 className="text-lg font-bold mb-2">Testimonials</h2>
+          <div className="space-y-4">
             <div>
-              <p className="mb-2 text-sm italic leading-relaxed">
+              <p className="mb-1 text-sm italic leading-relaxed">
                 "Thank you for the engaging interview... I truly enjoyed answering your insightful questions and working through both the DSA and the Pandas questions."
               </p>
               <p className="text-sm text-gray-600">— Samarth, Candidate</p>
             </div>
             <div>
-              <p className="mb-2 text-sm italic leading-relaxed">
+              <p className="mb-1 text-sm italic leading-relaxed">
                 "Thank you Mubarak for the interview, I really appreciate it. I enjoyed the session and had a good time."
               </p>
               <p className="text-sm text-gray-600">— Dedan I., Candidate</p>
@@ -199,9 +182,9 @@ const BrighterTunnel = () => {
           </div>
         </div>
 
-        <div id="case-study" className="mb-10">
-          <h2 className="text-lg font-bold mb-4">Case Study</h2>
-          <div className="mb-4">
+        <div id="case-study" className="mb-6">
+          <h2 className="text-lg font-bold mb-2">Case Study</h2>
+          <div className="mb-2">
             <Image
               src={pgLogo}
               alt="Piedmont Global logo"
@@ -212,7 +195,7 @@ const BrighterTunnel = () => {
           </div>
           <div className="text-sm leading-relaxed space-y-3">
             <p>
-              Earlier this year, we worked with{" "}
+              We worked with{" "}
               <a 
                 href="https://piedmontglobal.com/" 
                 target="_blank" 
@@ -221,21 +204,12 @@ const BrighterTunnel = () => {
               >
                 Piedmont Global
               </a>
-              {" "}to build their initial software development team. We conducted technical screening interviews for 4 different roles.
-            </p>
-            <p>
-              We interviewed 38 candidates total—a mix of both US candidates and international candidates. Our technical interviews helped Piedmont Global identify qualified candidates who could actually code, saving their engineering team significant time in the hiring process.
-            </p>
-            <p>
-              Each candidate received a 60-minute technical interview where we assessed their coding skills, problem-solving abilities, and technical knowledge. We provided detailed "Hire/No Hire" reports with video recordings, allowing Piedmont Global to make informed decisions about which candidates to bring in for their final onsite rounds.
+              {" "}to build their software development team. We interviewed 38 candidates across 4 roles, helping them identify qualified candidates and save engineering time.
             </p>
           </div>
         </div>
 
         <div className="mb-6">
-          <p className="mb-2 text-sm leading-relaxed">
-            Ready to save your team time? Book an intro call to learn more (15 min):
-          </p>
           <p className="text-sm">
             <a 
               href="https://cal.com/brighter-tunnel/15min" 
@@ -243,7 +217,7 @@ const BrighterTunnel = () => {
               rel="noopener noreferrer"
               className="underline font-bold"
             >
-              cal.com/brighter-tunnel/15min
+              Book an intro call (15 min)
             </a>
           </p>
         </div>

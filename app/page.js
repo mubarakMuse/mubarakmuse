@@ -38,7 +38,7 @@ const Profile = () => {
           <h2 className="text-lg font-bold mb-4">About</h2>
           <div className="text-sm leading-relaxed space-y-3">
             <p>
-              I'm a software engineer (formerly at Amazon and Collective Health) and entrepreneur based both in Minneapolis, Minnesota and San Francisco, California. I build products and help companies with technical challenges.
+              Software engineer (formerly at Amazon and Collective Health) and entrepreneur. Building products and helping startups.
             </p>
           </div>
         </div>
@@ -48,22 +48,52 @@ const Profile = () => {
           <div className="text-sm leading-relaxed space-y-3">
             <div>
               <p className="mb-2 text-sm font-semibold">
-                <Link href="/software-engineers" className="underline">
-                  Technical Recruiting via Paraform.com and Mock Interviews
+                <Link href="/brighter-tunnel" className="underline">
+                  BrighterTunnel
                 </Link>
               </p>
               <p className="mb-2 text-sm leading-relaxed">
-                I help Software Engineers find roles at tech companies and help them prep for their interviews.
+                Technical screening interviews as a service.
               </p>
             </div>
             <div>
               <p className="mb-2 text-sm font-semibold">
-                <Link href="/brighter-tunnel" className="underline">
-                  BrighterTunnel - Technical Screening Service
+                <a href="https://supakidapp.com" target="_blank" rel="noopener noreferrer" className="underline">
+                  SupaKid
+                </a>
+              </p>
+              <p className="mb-2 text-sm leading-relaxed">
+                A safer YouTube Kids alternative.
+              </p>
+            </div>
+            <div>
+              <p className="mb-2 text-sm font-semibold">
+                <a href="https://goldyphone.com" target="_blank" rel="noopener noreferrer" className="underline">
+                  GoldyPhone
+                </a>
+              </p>
+              <p className="mb-2 text-sm leading-relaxed">
+                International calling from your browser.
+              </p>
+            </div>
+            <div>
+              <p className="mb-2 text-sm font-semibold">
+                <Link href="https://ilmboost.com" className="underline">
+                  Ilmboost
                 </Link>
               </p>
               <p className="mb-2 text-sm leading-relaxed">
-                First round technical screening interviews as a service. We screen candidates so you only interview the top 20% who can actually code.
+                Online Islamic education platform.
+              </p>
+            </div>
+            <div>
+              <p className="mb-2 text-sm font-semibold">
+                <Link href="/software-engineers" className="underline">
+                  Technical Recruiting & Mock Interviews
+                </Link>
+              </p>
+              <p className="mb-2 text-sm leading-relaxed">
+                Helping engineers find roles and prep for interviews.
               </p>
             </div>
             <div>
@@ -74,36 +104,6 @@ const Profile = () => {
               </p>
               <p className="mb-2 text-sm leading-relaxed">
                 Building MVPs and AI workflows for startups.
-              </p>
-            </div>
-            <div>
-              <p className="mb-2 text-sm font-semibold">
-                <a href="https://supakidapp.com" target="_blank" rel="noopener noreferrer" className="underline">
-                  SupaKid app - a safer youtube kids Alternative
-                </a>
-              </p>
-              <p className="mb-2 text-sm leading-relaxed">
-                Youtube kids is dangerous for kids. SupaKid is a safer alternative.
-              </p>
-            </div>
-            <div>
-              <p className="mb-2 text-sm font-semibold">
-                <a href="https://goldyphone.com" target="_blank" rel="noopener noreferrer" className="underline">
-                  GoldyPhone.com - International Calling Service
-                </a>
-              </p>
-              <p className="mb-2 text-sm leading-relaxed">
-                Make international calls to any phone number from your browser. No need to download an app.
-              </p>
-            </div>
-            <div>
-              <p className="mb-2 text-sm font-semibold">
-                <Link href="https://ilmboost.com" className="underline">
-                  Ilmboost.com - Online Islamic Studies platform
-                </Link>
-              </p>
-              <p className="mb-2 text-sm leading-relaxed">
-                Structured, online Islamic education for the modern family.
               </p>
             </div>
             <div>
