@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { getSEOTags } from "@/libs/seo";
 
 export const metadata = getSEOTags({
@@ -10,67 +11,42 @@ export const metadata = getSEOTags({
 });
 
 const Profile = () => {
-  /* Original code - commented out for now, will bring back later
   return (
     <div className="bg-white text-black min-h-screen">
       <div className="max-w-xl mx-auto px-6 py-6">
-        <h1 className="text-xl font-bold mb-8">
-          Mubarak Muse
-        </h1>
+        <div className="flex items-center gap-4 mb-8">
+          <Image
+            src="/picofme.png"
+            alt="Mubarak Muse"
+            width={80}
+            height={80}
+            className="rounded-full object-cover"
+          />
+          <h1 className="text-xl font-bold">
+            Mubarak Muse
+          </h1>
+        </div>
 
         <div className="mb-10">
           <h2 className="text-lg font-bold mb-4">About</h2>
           <div className="text-sm leading-relaxed space-y-3">
             <p>
-              I'm a software engineer and entrepreneur based in Minneapolis, Minnesota. I build products and help companies with technical challenges.
-            </p>
-            <p>
-              This is my home for launching and testing business ideas, products, and ventures.
+              I'm a software engineer (formerly at Amazon and Collective Health) and entrepreneur based both in Minneapolis, Minnesota and San Francisco, California. I build products and help companies with technical challenges.
             </p>
           </div>
         </div>
 
         <div className="mb-10">
-          <h2 className="text-lg font-bold mb-4">Venture Portfolio</h2>
-          <div className="space-y-6">
-            <div>
-              <p className="mb-2 text-sm font-semibold">
-                <Link href="/brighter-tunnel" className="underline">
-                  BrighterTunnel
-                </Link>
-              </p>
-              <p className="mb-2 text-sm leading-relaxed">
-                Live technical screening interview service for businesses - A Karat.com alternative
-              </p>
-            </div>
+          <h2 className="text-lg font-bold mb-4">Portfolio of Small Bets</h2>
+          <div className="text-sm leading-relaxed space-y-3">
             <div>
               <p className="mb-2 text-sm font-semibold">
                 <Link href="/software-engineers" className="underline">
-                  Technical Recruiting & Mock Interviews
+                  Technical Recruiting via Paraform.com and Mock Interviews
                 </Link>
               </p>
               <p className="mb-2 text-sm leading-relaxed">
-                I place top 1% engineers and help you pass the hardest interviews.
-              </p>
-            </div>
-            <div>
-              <p className="mb-2 text-sm font-semibold">
-                <a href="https://supakidapp.com" target="_blank" rel="noopener noreferrer" className="underline">
-                  SupaKid
-                </a>
-              </p>
-              <p className="mb-2 text-sm leading-relaxed">
-                Kids app platform for learning and entertainment.
-              </p>
-            </div>
-            <div>
-              <p className="mb-2 text-sm font-semibold">
-                <a href="https://goldyphone.com" target="_blank" rel="noopener noreferrer" className="underline">
-                  Goldy
-                </a>
-              </p>
-              <p className="mb-2 text-sm leading-relaxed">
-                Phone services and solutions platform.
+                I help Software Engineers find roles at tech companies and help them prep for their interviews.
               </p>
             </div>
             <div>
@@ -85,32 +61,32 @@ const Profile = () => {
             </div>
             <div>
               <p className="mb-2 text-sm font-semibold">
-                <Link href="/software-engineers" className="underline">
-                  SWE Job search via paraform
-                </Link>
+                <a href="https://supakidapp.com" target="_blank" rel="noopener noreferrer" className="underline">
+                  SupaKid app - a safer youtube kids Alternative
+                </a>
               </p>
               <p className="mb-2 text-sm leading-relaxed">
-                Help software engineers find jobs - Access to 176+ roles on paraform.com and free practice coding interviews
+                Youtube kids is dangerous for kids. SupaKid is a safer alternative.
+              </p>
+            </div>
+            <div>
+              <p className="mb-2 text-sm font-semibold">
+                <a href="https://goldyphone.com" target="_blank" rel="noopener noreferrer" className="underline">
+                  GoldyPhone.com - International Calling Service
+                </a>
+              </p>
+              <p className="mb-2 text-sm leading-relaxed">
+                Make international calls to any phone number from your browser. No need to download an app.
               </p>
             </div>
             <div>
               <p className="mb-2 text-sm font-semibold">
                 <Link href="/islamic-studies" className="underline">
-                  Online Islamic Studies
+                  Ilmboost.com - Online Islamic Studies platform
                 </Link>
               </p>
               <p className="mb-2 text-sm leading-relaxed">
                 Structured, online Islamic education for the modern family.
-              </p>
-            </div>
-            <div>
-              <p className="mb-2 text-sm font-semibold">
-                <Link href="/lullaby-fresh" className="underline">
-                  Lullaby Fresh
-                </Link>
-              </p>
-              <p className="mb-2 text-sm leading-relaxed">
-                The pre-toss diaper neutralizer spray. Stop the smell before it starts.
               </p>
             </div>
             <div>
@@ -120,17 +96,7 @@ const Profile = () => {
                 </Link>
               </p>
               <p className="mb-2 text-sm leading-relaxed">
-                Investing in early-stage AI companies in SF and NYC.
-              </p>
-            </div>
-            <div>
-              <p className="mb-2 text-sm font-semibold">
-                <Link href="/apartments" className="underline">
-                  City Apartment Directory
-                </Link>
-              </p>
-              <p className="mb-2 text-sm leading-relaxed">
-                The only list of new move-in specials in your city.
+                Investing in early-stage AI companies .
               </p>
             </div>
           </div>
@@ -160,25 +126,6 @@ const Profile = () => {
             <p>
               <a href="mailto:Mubarak014@gmail.com" className="underline">Email</a>
             </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-  */
-
-  // Temporary minimal page - will restore later
-  return (
-    <div className="bg-white text-black min-h-screen">
-      <div className="max-w-xl mx-auto px-6 py-6">
-        <div className="flex items-center justify-center min-h-screen">
-          <div className="text-center">
-            <h1 className="text-xl font-bold mb-8">
-              Mubarak Muse
-            </h1>
-            <Link href="/islamic-studies" className="text-lg underline">
-              Online Islamic Studies
-            </Link>
           </div>
         </div>
       </div>
