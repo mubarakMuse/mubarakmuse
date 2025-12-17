@@ -58,6 +58,16 @@ const Profile = () => {
             </div>
             <div>
               <p className="mb-2 text-sm font-semibold">
+                <Link href="/brighter-tunnel" className="underline">
+                  BrighterTunnel - Technical Screening Service
+                </Link>
+              </p>
+              <p className="mb-2 text-sm leading-relaxed">
+                First round technical screening interviews as a service. We screen candidates so you only interview the top 20% who can actually code.
+              </p>
+            </div>
+            <div>
+              <p className="mb-2 text-sm font-semibold">
                 <Link href="/consulting" className="underline">
                   AI & Software Consulting
                 </Link>
