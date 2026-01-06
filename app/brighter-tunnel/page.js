@@ -85,6 +85,18 @@ const BrighterTunnel = () => {
         </div>
 
         <div className="mb-6">
+          <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+            <iframe
+              src="https://www.loom.com/embed/6efae528343742f4a900a2c11cc60c50"
+              frameBorder="0"
+              allowFullScreen
+              className="absolute top-0 left-0 w-full h-full"
+              style={{ borderRadius: '8px' }}
+            />
+          </div>
+        </div>
+
+        <div className="mb-6">
           <Image
             src={interviewImage}
             alt="BrighterTunnel interview dashboard"
