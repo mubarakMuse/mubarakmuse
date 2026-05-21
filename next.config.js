@@ -52,6 +52,16 @@ const nextConfig = {
         destination: "https://goldyphone.com",
         permanent: true,
       },
+      {
+        source: "/brighter-tunnel",
+        destination: "/technical-interviews",
+        permanent: true,
+      },
+      {
+        source: "/brighter-tunnel/:path*",
+        destination: "/technical-interviews",
+        permanent: true,
+      },
     ];
   },
   async rewrites() {
