@@ -1,84 +1,57 @@
-# mubarakmuse.com
+# Hi, I'm Mubarak Muse 👋
 
-Personal site for [Mubarak Muse](https://mubarakmuse.com) — software engineer, entrepreneur, and builder.
+**Backend-leaning full-stack engineer** with 8 years of experience building production
+systems across **healthcare, logistics, and AI-native products**.
 
-Built with [Next.js](https://nextjs.org) (App Router), React, and Tailwind CSS. Deployed on [Vercel](https://vercel.com).
+I started my career in healthcare at **Collective Health** (a TPA serving Uber, Pinterest,
+and eBay), spent time at **Amazon** building event-driven systems on AWS, and now build
+AI-native products zero-to-one at **Brighter Tunnel**. I care about shipping systems that
+are reliable, tested, and maintainable — and I build with agentic coding tools every day.
 
-## Pages
+---
 
-| Route | Description |
-|-------|-------------|
-| `/` | Home — about, portfolio of small bets, links |
-| `/resume` | Resume |
-| `/software-engineers` | Recruiting on Paraform + free mock interviews |
-| `/technical-interviews` | First-round technical screening (individual B2B side service) |
-| `/blog` | Blog posts (add entries in `app/blog/posts.js`) |
+### 🔧 Tech I work with
 
-### Redirects
+**Languages:** Python · Java · TypeScript · Node.js · Go
+**Backend:** Spring Boot · FastAPI · Express · Microservices · REST & GraphQL APIs
+**Cloud & Infra:** AWS (Lambda, Step Functions, SQS, EventBridge, EC2, S3) · Docker · Kubernetes · CI/CD
+**Data:** PostgreSQL · DynamoDB · Redis · Supabase
+**AI:** LLM pipelines · RAG · Agentic workflows · Anthropic & OpenAI APIs · Claude Code / Cursor
 
-| From | To |
-|------|-----|
-| `/brighter-tunnel` | `/technical-interviews` |
-| `/supakid` | [supakidapp.com](https://supakidapp.com) |
-| `/goldy` | [goldyphone.com](https://goldyphone.com) |
+---
 
-### Home page
+### 🏥 What I focus on
 
-**Portfolio of small bets** (alternating dark gray / white cards):
+Building at the intersection of **healthcare data and AI** — turning messy clinical and
+operational data into reliable, structured systems. I have deep domain experience in
+TPA and benefits workflows: CPT/ICD codes, claims processing, prior authorization, and
+provider data.
 
-- [BrighterTunnel](https://brightertunnel.com) — AI service company
-- Technical interview services → `/technical-interviews`
-- Recruiting on Paraform → `/software-engineers`
-- [GoldyPhone](https://goldyphone.com)
-- [SupaKid](https://supakidapp.com)
+---
 
-**Links:** Blog, Resume, LinkedIn, Twitter, GitHub, Email
+### 🚀 Selected work
 
-## Local development
+**🎧 Opus Eternal** — AI audio-to-book pipeline
+Multi-stage LLM orchestration (Python, Whisper, Claude) that turns hours of raw audio
+into fully edited book drafts.
 
-```bash
-npm install
-npm run dev
-```
+**📚 AI-Native LMS** — Learning management platform
+Multi-tenant system for a healthcare education client (Next.js, Node, Supabase, OpenAI)
+managing classes, teachers, and students.
 
-Open [http://localhost:3000](http://localhost:3000).
+**🚚 Event-Driven Freight Rerouting** *(@ Amazon)*
+Disaster-response system on AWS Step Functions + Lambda + SQS that reroutes freight in
+real time, with automated reliability testing.
 
-```bash
-npm run build   # production build (+ sitemap via postbuild)
-npm run start   # run production server locally
-npm run lint    # ESLint
-```
+**⚡ EV Fleet Management Platform**
+Real-time charger tracking and operations dashboard (Node.js, React, PostgreSQL, AWS).
 
-## Project structure
+---
 
-```
-app/
-  page.js                 # Home
-  picofme.png             # Profile photo (also used for favicon/icons)
-  resume/
-  software-engineers/     # Paraform recruiting
-  technical-interviews/   # Interview screening service
-  blog/
-    page.js
-    posts.js              # Blog post list — edit to add posts
-components/               # Shared UI (ShipFast template leftovers)
-libs/seo.js               # SEO metadata helpers
-config.js                 # App name, domain, theme
-next.config.js            # Redirects, image domains
-```
+### 📫 Let's connect
 
-## Configuration
+[LinkedIn](https://www.linkedin.com/in/mubarak-muse) · Mubarak014@gmail.com
 
-- **Site metadata & domain:** `config.js`
-- **Per-page SEO:** `getSEOTags()` in each `page.js` and `libs/seo.js`
-- **Redirects:** `next.config.js`
-- **Blog posts:** `app/blog/posts.js`
-- **Favicon / OG images:** `app/favicon.ico`, `app/icon.png`, `app/apple-icon.png`, `app/opengraph-image.png` (generated from `picofme.png`)
+---
 
-## Environment
-
-Optional env vars (Stripe, Supabase, Mailgun, etc.) only matter if you enable those ShipFast features. The public marketing pages run without them.
-
-## License
-
-Private — personal site.
+<sub>Backend + AI engineer · healthcare · ex-Collective Health, Amazon · University of Minnesota CS</sub>
