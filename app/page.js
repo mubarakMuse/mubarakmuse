@@ -1,212 +1,363 @@
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
-import { getSEOTags } from "@/libs/seo";
-import picOfMe from "./picofme.png";
+import React from "react"
+import Link from "next/link"
+import Image from "next/image"
+import { getSEOTags } from "@/libs/seo"
+import { renderPersonSchema, renderProfilePageSchema } from "@/components/PersonSchema"
+import {
+  profile,
+  experience,
+  skills,
+  projects,
+  companyColors,
+  education,
+  additional,
+} from "@/data/resume"
+import picOfMe from "./picofme.png"
 
 export const metadata = getSEOTags({
-  title: "Mubarak Muse",
+  title: "Mubarak Muse — Lead Software Engineer | Healthcare AI, AWS, Full-Stack",
   description:
-    "Software engineer (formerly at Amazon and Collective Health) and entrepreneur. Building products and helping startups. Based in Minneapolis, Minnesota and San Francisco, California.",
+    "Lead Software Engineer with 8 years at Brighter Tunnel, Amazon, and Collective Health. Expert in Python, Java, TypeScript, AWS microservices, healthcare data (CPT/ICD, prior auth), and AI-native products. Minneapolis — open to SF & NYC.",
   keywords: [
     "Mubarak Muse",
-    "entrepreneur",
-    "software engineer",
-    "Amazon",
+    "lead software engineer",
+    "senior software engineer",
+    "healthcare software engineer",
+    "healthcare AI",
+    "prior authorization",
+    "CPT ICD-10",
+    "AWS microservices",
+    "distributed systems",
+    "FastAPI",
+    "Spring Boot",
+    "Python engineer",
+    "TypeScript engineer",
+    "full-stack engineer",
+    "Brighter Tunnel",
+    "Amazon software engineer",
     "Collective Health",
-    "startup founder",
-    "technical recruiting",
-    "Minneapolis",
-    "San Francisco",
-    "portfolio",
-    "small bets",
+    "LLM pipelines",
+    "agentic AI",
+    "LangChain",
+    "GraphQL API",
+    "PostgreSQL",
+    "Kubernetes",
+    "Terraform",
+    "Minneapolis software engineer",
+    "San Francisco software engineer",
+    "New York software engineer",
+    "healthcare data",
+    "benefit plans",
+    "microservices",
+    "software engineer resume",
+    "software engineer portfolio",
   ],
   canonicalUrlRelative: "/",
   openGraph: {
-    title: "Mubarak Muse - Entrepreneur & Software Engineer",
+    title: "Mubarak Muse — Lead Software Engineer",
     description:
-      "Software engineer and entrepreneur building products and helping startups.",
+      "8 years building production systems in healthcare, logistics, and AI. Microservices, AWS, and full-stack product engineering.",
     url: "/",
   },
-});
+})
 
-const portfolio = [
+const contactLinks = [
   {
-    title: "BrighterTunnel",
-    href: "https://brightertunnel.com",
+    label: "Email",
+    href: `mailto:${profile.email}`,
     external: true,
-    description: "AI service company — helping companies do more with AI.",
   },
-  {
-    title: "Technical interview services",
-    href: "/technical-interviews",
-    external: false,
-    description: "First-round technical screens for hiring teams.",
-  },
-  {
-    title: "Recruiting on Paraform",
-    href: "/software-engineers",
-    external: false,
-    description: "Helping engineers land roles at high-growth startups.",
-  },
-  {
-    title: "GoldyPhone",
-    href: "https://goldyphone.com",
-    external: true,
-    description: "International calling from your browser.",
-  },
-  {
-    title: "SupaKid",
-    href: "https://supakidapp.com",
-    external: true,
-    description: "A safer YouTube Kids alternative.",
-  },
-];
-
-const links = [
-  { label: "Blog", href: "/blog", external: false },
-  { label: "Resume", href: "/resume", external: false },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/mubarak-muse/",
+    href: profile.linkedin,
     external: true,
   },
-  { label: "Twitter", href: "https://twitter.com/mubarakmuse_", external: true },
-  { label: "GitHub", href: "https://github.com/mubarakmuse", external: true },
-  { label: "Email", href: "mailto:Mubarak014@gmail.com", external: false },
-];
+  {
+    label: "GitHub",
+    href: profile.github,
+    external: true,
+  },
+  {
+    label: "Resume PDF",
+    href: "/Mubarak_Muse_Resume.pdf",
+    external: true,
+  },
+  {
+    label: "Full resume",
+    href: "/resume",
+    external: false,
+  },
+]
 
-function EntryLink({ href, external, children, onDarkCard = false }) {
-  const className = onDarkCard
-    ? "font-medium text-gray-100 underline decoration-gray-400 underline-offset-2 transition-colors hover:decoration-white"
-    : "font-medium text-gray-900 underline decoration-gray-300 underline-offset-2 transition-colors hover:decoration-gray-900";
-
-  if (external) {
-    return (
-      <a href={href} target="_blank" rel="noopener noreferrer" className={className}>
-        {children}
-      </a>
-    );
-  }
-
+function ExternalLink({ href, children, className = "" }) {
   if (href.startsWith("mailto:")) {
     return (
       <a href={href} className={className}>
         {children}
       </a>
-    );
+    )
   }
 
-  if (href.startsWith("/")) {
+  if (href.startsWith("/") && !href.endsWith(".pdf")) {
     return (
       <Link href={href} className={className}>
         {children}
       </Link>
-    );
+    )
   }
 
   return (
-    <a href={href} className={className}>
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={className}
+    >
       {children}
     </a>
-  );
+  )
 }
 
-function Section({ title, children }) {
+function SkillGroup({ label, items }) {
   return (
-    <section className="mb-12">
-      <h2 className="mb-3 text-lg font-bold text-gray-900">{title}</h2>
-      {children}
-    </section>
-  );
+    <div>
+      <h3 className="mb-2.5 text-xs font-semibold uppercase tracking-wider text-slate-500">
+        {label}
+      </h3>
+      <ul className="flex flex-wrap gap-2">
+        {items.map((item) => (
+          <li
+            key={item}
+            className="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-sm text-slate-700"
+          >
+            {item}
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
 }
 
-function EntryCard({ title, href, external, description, fadeIndex = 0 }) {
-  const onDarkCard = fadeIndex % 2 === 0;
-
+function ExperienceCard({ role }) {
   return (
-    <article
-      className={`rounded-lg border px-4 py-3.5 transition-shadow hover:shadow-md ${
-        onDarkCard
-          ? "border-gray-600 bg-gray-700"
-          : "border-gray-200 bg-white"
-      }`}
-    >
-      <h3 className="text-sm font-semibold">
-        <EntryLink href={href} external={external} onDarkCard={onDarkCard}>
-          {title}
-          {external && (
-            <span
-              className={`ml-1 text-[10px] font-normal ${onDarkCard ? "opacity-60" : "opacity-50"}`}
-              aria-hidden
-            >
-              ↗
+    <article className="relative border-l-2 border-slate-200 pl-6 pb-10 last:pb-0">
+      <span
+        className="absolute -left-[9px] top-1 h-4 w-4 rounded-full border-2 border-white bg-indigo-500 ring-2 ring-indigo-100"
+        aria-hidden
+      />
+      <header>
+        <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
+          <h3 className="text-lg font-semibold text-slate-900">{role.company}</h3>
+          {role.isVolunteer && (
+            <span className="rounded-full bg-rose-100 px-2 py-0.5 text-xs font-semibold text-rose-700">
+              Volunteer
             </span>
           )}
-        </EntryLink>
-      </h3>
-      {description && (
-        <p
-          className={`mt-1.5 text-sm leading-relaxed ${
-            onDarkCard ? "text-gray-300" : "text-gray-500"
-          }`}
-        >
-          {description}
+          <span className="text-slate-400" aria-hidden>
+            ·
+          </span>
+          <p className="font-medium text-indigo-600">{role.title}</p>
+        </div>
+        <p className="mt-0.5 text-sm text-slate-500">
+          {role.location} · {role.dates}
         </p>
-      )}
+        {role.summary && (
+          <p className="mt-2 text-sm leading-relaxed text-slate-600">
+            {role.summary}
+          </p>
+        )}
+      </header>
     </article>
-  );
+  )
 }
 
-const Profile = () => {
+function ProjectCard({ project }) {
+  const companyTagClass =
+    companyColors[project.company] ?? "bg-slate-100 text-slate-800"
+
+  const stackItems = project.stack ? project.stack.split(", ") : []
+
   return (
-    <div className="min-h-screen bg-white text-gray-900">
-      <div className="mx-auto max-w-lg px-6 py-12 sm:py-16">
-        <header className="mb-12 flex items-center gap-4">
-          <Image
-            src={picOfMe}
-            alt="Mubarak Muse"
-            width={72}
-            height={72}
-            className="rounded-full object-cover ring-2 ring-gray-100"
-            unoptimized
-          />
-          <div>
-            <h1 className="text-2xl font-bold tracking-tight">Mubarak Muse</h1>
-          </div>
-        </header>
+    <article className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
+      <span
+        className={`inline-block rounded-full px-2.5 py-0.5 text-xs font-semibold ${companyTagClass}`}
+      >
+        {project.company}
+      </span>
+      <h3 className="mt-3 text-base font-semibold text-slate-900">
+        {project.name}
+      </h3>
+      <p className="mt-2 text-sm leading-relaxed text-slate-600">
+        {project.summary}
+      </p>
+      {stackItems.length > 0 && (
+        <ul className="mt-3 flex flex-wrap gap-1.5">
+          {stackItems.map((item) => (
+            <li
+              key={item}
+              className="rounded-md bg-slate-50 px-2 py-0.5 text-xs font-medium text-slate-600 ring-1 ring-slate-200"
+            >
+              {item}
+            </li>
+          ))}
+        </ul>
+      )}
+    </article>
+  )
+}
 
-        <Section title="About">
-          <p className="text-sm leading-relaxed text-gray-700">
-            Software engineer (formerly at Amazon and Collective Health) and
-            entrepreneur. Building products and helping startups.
-          </p>
-        </Section>
+const Home = () => {
+  return (
+    <>
+      {renderPersonSchema()}
+      {renderProfilePageSchema()}
 
-        <Section title="Portfolio of Small Bets">
-          <ul className="space-y-3">
-            {portfolio.map((item, index) => (
-              <li key={item.title}>
-                <EntryCard {...item} fadeIndex={index} />
-              </li>
-            ))}
-          </ul>
-        </Section>
+      <div className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-white text-slate-900">
+        <div className="mx-auto max-w-3xl px-6 py-12 sm:py-20">
+          {/* Hero */}
+          <header className="mb-14">
+            <div className="flex flex-col gap-6 sm:flex-row sm:items-start">
+              <Image
+                src={picOfMe}
+                alt={`${profile.name} — ${profile.title}`}
+                width={96}
+                height={96}
+                className="h-24 w-24 shrink-0 rounded-2xl object-cover ring-4 ring-white shadow-md"
+                priority
+                unoptimized
+              />
+              <div className="flex-1">
+                <p className="mb-1 text-sm font-medium uppercase tracking-wider text-indigo-600">
+                  {profile.title}
+                </p>
+                <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+                  {profile.name}
+                </h1>
+                <p className="mt-2 text-slate-600">
+                  {profile.location} · {profile.openTo}
+                </p>
+                <p className="mt-1 text-sm text-slate-500">
+                  <a
+                    href={`tel:${profile.phone.replace(/-/g, "")}`}
+                    className="hover:text-indigo-600"
+                  >
+                    {profile.phone}
+                  </a>
+                  {" · "}
+                  <a
+                    href={`mailto:${profile.email}`}
+                    className="hover:text-indigo-600"
+                  >
+                    {profile.email}
+                  </a>
+                </p>
+              </div>
+            </div>
 
-        <Section title="Links">
-          <ul className="flex flex-wrap gap-x-4 gap-y-2 text-sm">
-            {links.map((link) => (
-              <li key={link.label}>
-                <EntryLink href={link.href} external={link.external}>
+            <p className="mt-8 text-base leading-relaxed text-slate-700">
+              {profile.summary}
+            </p>
+
+            <nav
+              className="mt-6 flex flex-wrap gap-2"
+              aria-label="Contact and profile links"
+            >
+              {contactLinks.map((link) => (
+                <ExternalLink
+                  key={link.label}
+                  href={link.href}
+                  className="inline-flex items-center rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow-sm transition-colors hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-700"
+                >
                   {link.label}
-                </EntryLink>
-              </li>
-            ))}
-          </ul>
-        </Section>
-      </div>
-    </div>
-  );
-};
+                </ExternalLink>
+              ))}
+            </nav>
+          </header>
 
-export default Profile;
+          {/* Experience */}
+          <section className="mb-14" aria-labelledby="experience-heading">
+            <h2
+              id="experience-heading"
+              className="mb-8 text-sm font-bold uppercase tracking-widest text-slate-400"
+            >
+              Experience
+            </h2>
+            <div>
+              {experience.map((role) => (
+                <ExperienceCard key={role.company} role={role} />
+              ))}
+            </div>
+          </section>
+
+          {/* Tech Stack */}
+          <section className="mb-14" aria-labelledby="skills-heading">
+            <h2
+              id="skills-heading"
+              className="mb-8 text-sm font-bold uppercase tracking-widest text-slate-400"
+            >
+              Tech Stack
+            </h2>
+            <div className="space-y-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+              <SkillGroup label="Languages" items={skills.languages} />
+              <SkillGroup label="Backend & Data" items={skills.backend} />
+              <SkillGroup label="Cloud & DevOps" items={skills.cloud} />
+              <SkillGroup label="AI" items={skills.ai} />
+            </div>
+          </section>
+
+          {/* Projects */}
+          <section className="mb-14" aria-labelledby="projects-heading">
+            <h2
+              id="projects-heading"
+              className="mb-8 text-sm font-bold uppercase tracking-widest text-slate-400"
+            >
+              Projects
+            </h2>
+            <ul className="space-y-4">
+              {projects.map((project) => (
+                <li key={project.slug}>
+                  <ProjectCard project={project} />
+                </li>
+              ))}
+            </ul>
+          </section>
+
+          {/* Education & Additional */}
+          <section className="mb-14 grid gap-8 sm:grid-cols-2" aria-labelledby="education-heading">
+            <div>
+              <h2
+                id="education-heading"
+                className="mb-4 text-sm font-bold uppercase tracking-widest text-slate-400"
+              >
+                Education
+              </h2>
+              <p className="font-semibold text-slate-900">{education.school}</p>
+              <p className="text-sm text-slate-600">{education.degree}</p>
+            </div>
+            <div>
+              <h2 className="mb-4 text-sm font-bold uppercase tracking-widest text-slate-400">
+                Additional
+              </h2>
+              <ul className="space-y-2 text-sm text-slate-600">
+                <li>
+                  <span className="font-medium text-slate-800">Languages: </span>
+                  {additional.languages.join(" · ")}
+                </li>
+                <li>
+                  <span className="font-medium text-slate-800">Interests: </span>
+                  {additional.interests}
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <footer className="border-t border-slate-200 pt-8 text-center text-sm text-slate-400">
+            <p>© {new Date().getFullYear()} {profile.name}</p>
+          </footer>
+        </div>
+      </div>
+    </>
+  )
+}
+
+export default Home
