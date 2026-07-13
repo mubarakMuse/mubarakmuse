@@ -3,6 +3,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { getSEOTags } from "@/libs/seo"
 import { renderPersonSchema, renderProfilePageSchema } from "@/components/PersonSchema"
+import ToptalBadge from "@/components/ToptalBadge"
 import {
   profile,
   experience,
@@ -216,41 +217,46 @@ const Home = () => {
         <div className="mx-auto max-w-3xl px-6 py-12 sm:py-20">
           {/* Hero */}
           <header className="mb-14">
-            <div className="flex flex-col gap-6 sm:flex-row sm:items-start">
-              <Image
-                src={picOfMe}
-                alt={`${profile.name} — ${profile.title}`}
-                width={96}
-                height={96}
-                className="h-24 w-24 shrink-0 rounded-2xl object-cover ring-4 ring-white shadow-md"
-                priority
-                unoptimized
-              />
-              <div className="flex-1">
-                <p className="mb-1 text-sm font-medium uppercase tracking-wider text-indigo-600">
-                  {profile.title}
-                </p>
-                <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-                  {profile.name}
-                </h1>
-                <p className="mt-2 text-slate-600">
-                  {profile.location} · {profile.openTo}
-                </p>
-                <p className="mt-1 text-sm text-slate-500">
-                  <a
-                    href={`tel:${profile.phone.replace(/-/g, "")}`}
-                    className="hover:text-indigo-600"
-                  >
-                    {profile.phone}
-                  </a>
-                  {" · "}
-                  <a
-                    href={`mailto:${profile.email}`}
-                    className="hover:text-indigo-600"
-                  >
-                    {profile.email}
-                  </a>
-                </p>
+            <div className="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
+              <div className="flex flex-col gap-6 sm:flex-row sm:items-start">
+                <Image
+                  src={picOfMe}
+                  alt={`${profile.name} — ${profile.title}`}
+                  width={96}
+                  height={96}
+                  className="h-24 w-24 shrink-0 rounded-2xl object-cover ring-4 ring-white shadow-md"
+                  priority
+                  unoptimized
+                />
+                <div className="flex-1">
+                  <p className="mb-1 text-sm font-medium uppercase tracking-wider text-indigo-600">
+                    {profile.title}
+                  </p>
+                  <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+                    {profile.name}
+                  </h1>
+                  <p className="mt-2 text-slate-600">
+                    {profile.location} · {profile.openTo}
+                  </p>
+                  <p className="mt-1 text-sm text-slate-500">
+                    <a
+                      href={`tel:${profile.phone.replace(/-/g, "")}`}
+                      className="hover:text-indigo-600"
+                    >
+                      {profile.phone}
+                    </a>
+                    {" · "}
+                    <a
+                      href={`mailto:${profile.email}`}
+                      className="hover:text-indigo-600"
+                    >
+                      {profile.email}
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-center sm:justify-end">
+                <ToptalBadge />
               </div>
             </div>
 
