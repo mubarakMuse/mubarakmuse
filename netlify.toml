@@ -1,8 +1,0 @@
-[build]
-  command = "npm run build"
-  publish = ".next"
-
-[build.environment]
-  NODE_VERSION = "20"
-  NPM_FLAGS = "--legacy-peer-deps"
-  NPM_CONFIG_LEGACY_PEER_DEPS = "true"
